@@ -12,9 +12,9 @@ services:
       - USER=odoo
       - PASSWORD=odoo
     volumes:
-      - odoo-web-data:/var/lib/odoo
       - ./config:/etc/odoo
       - ./addons:/mnt/extra-addons
+    restart: always             # run as a service
   mydb:
     image: postgres:15
     user: root
@@ -24,7 +24,6 @@ services:
       - POSTGRES_USER=odoo
     volumes:
       - odoo-db-data:/var/lib/postgresql/data
-
+    restart: always             # run as a service
 volumes:
-  odoo-web-data:
   odoo-db-data:
