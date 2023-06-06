@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <menuitem id="restaurant_menu_root" name="Restaurant" sequence="10"/>
+    <menuitem id="restaurant_sub_menu" name="Restaurant" parent="restaurant.restaurant_menu_root" sequence="1"/>
+
+    <menuitem id="restaurant_sub_menu_all_sub_menu" name="All" parent="restaurant.restaurant_sub_menu" sequence="1" action="restaurant.restaurant_main_actions"/>
+    <menuitem id="restaurant_sub_menu_male" name="Male" parent="restaurant.restaurant_sub_menu" sequence="2" action="restaurant.restaurant_staff_male_actions_data" />
+    <menuitem id="restaurant_sub_menu_female" name="Female" parent="restaurant.restaurant_sub_menu" sequence="3" action="restaurant.restaurant_staff_female_actions_data"/>
+</odoo>

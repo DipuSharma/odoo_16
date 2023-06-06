@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+                <template id="rest_staff_qweb_report_template">
+                    <t t-call="web.html_container">
+                        <t t-foreach="docs" t-as="o">
+                            <t t-call="web.external_layout">
+                                <div class="page">
+                                    <h2>Sample Report</h2>
+                                    <p><span t-field="o.name"/></p>
+                                    <p><span t-field="o.age"/></p>
+                                    <p><span t-field="o.mobile"/></p>
+                                    <p><span t-field="o.gender"/></p>
+                                    <p><span t-field="o.country_id.name"/></p>
+                                    <p><span t-field="o.country_id.code"/></p>
+                                    <t t-foreach="o.staff_line_ids" t-as="sl">
+                                        <span t-field="sl.name"/> and Product is <span t-field="sl.product_id.name"/>
+                                    </t>
+                                </div>
+                            </t>
+                        </t>
+                    </t>
+                </template>
+                <template id="product_barcode_qweb_report_template">
+                    <t t-call="web.html_container">
+                        <t t-foreach="docs" t-as="o">
+                            <t t-call="web.external_layout">
+                                <div class="page">
+                                    <h2>Sample Report</h2>
+                                    <p><span t-field="o.name"/></p>
+                                    <p><span t-field="o.barcode"/></p>
+<!--                                    <p><span t-field="o.mobile"/></p>-->
+<!--                                    <p><span t-field="o.gender"/></p>-->
+<!--                                    <p><span t-field="o.country_id.name"/></p>-->
+<!--                                    <p><span t-field="o.country_id.code"/></p>-->
+<!--                                    <t t-foreach="o.staff_line_ids" t-as="sl">-->
+<!--                                        <span t-field="sl.name"/> and Product is <span t-field="sl.product_id.name"/>-->
+<!--                                    </t>-->
+                                </div>
+                            </t>
+                        </t>
+                    </t>
+                </template>
+
+        <template id="rest_staff_qweb_text_zpl_report_template">
+            <t t-foreach="docs" t-as="o">
+                ^XA^CFD
+                ^POI
+                ^LH330,10
+                ^FO50,50
+                ^FD<t t-esc="o.name"/>^FS
+                ^FO50,75
+                ^FD<t t-esc="o.age"/>^FS
+                ^XZ
+            </t>
+        </template>
+    </data>
+
+    <report id="rest_staff_pdf_report_id" model="rest.staff" report_type="qweb-pdf" string="Print Staff Data(PDF)"
+            name="restaurant.rest_staff_qweb_report_template" file="restaurant.rest_staff_qweb_report_template"/>
+    <report id="rest_staff_zpl_report_id" model="rest.staff" report_type="qweb-text" string="Print Staff Data(ZPL)"
+            name="restaurant.rest_staff_qweb_text_zpl_report_template" file="restaurant.rest_staff_qweb_text_zpl_report_template"/>
+    <report id="product_report_id_pdf" model="product.template" report_type="qweb-pdf" string="Product Label(PDF)"
+            name="restaurant.product_barcode_qweb_report_template" file="restaurant.product_barcode_qweb_report_template"/>
+</odoo>
