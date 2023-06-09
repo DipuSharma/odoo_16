@@ -1,0 +1,371 @@
+<?xml version="1.0"?>
+<openerp>
+    <data noupdate="1">
+
+
+        <record id="vendores_1" model="sku.vendores">
+            <field name="name">ALI GADIAKA</field>
+        </record>
+
+        <record id="vendores_2" model="sku.vendores">
+            <field name="name">AMAZON</field>
+            <field name="sku" eval="141"/>
+        </record>
+
+        <record id="vendores_3" model="sku.vendores">
+            <field name="name">AMERIHERB</field>
+            <field name="sku" eval="125"/>
+        </record>
+
+        <record id="vendores_4" model="sku.vendores">
+            <field name="name">AMPAK</field>
+            <field name="sku" eval="143"/>
+        </record>
+
+        <record id="vendores_5" model="sku.vendores">
+            <field name="name">BRAMBLEBERRY</field>
+            <field name="sku" eval="126"/>
+        </record>
+
+        <record id="vendores_6" model="sku.vendores">
+            <field name="name">BULK APOTHECARY</field>
+            <field name="sku" eval="103"/>
+        </record>
+
+        <record id="vendores_7" model="sku.vendores">
+            <field name="name">BULK NATURALS</field>
+            <field name="sku" eval="137"/>
+        </record>
+
+        <record id="vendores_8" model="sku.vendores">
+            <field name="name">CAKE SUPPLIES ON SALE</field>
+            <field name="sku" eval="129"/>
+        </record>
+
+        <record id="vendores_9" model="sku.vendores">
+            <field name="name">CAMDEN GRAY</field>
+            <field name="sku" eval="142"/>
+        </record>
+
+        <record id="vendores_10" model="sku.vendores">
+            <field name="name">CANDLE MAKERS STORE</field>
+            <field name="sku" eval="121"/>
+        </record>
+
+        <record id="vendores_11" model="sku.vendores">
+            <field name="name">7CIENCE</field>
+            <field name="sku" eval="107"/>
+        </record>
+
+        <record id="vendores_12" model="sku.vendores">
+            <field name="name">CANDLEWIC</field>
+            <field name="sku" eval="117"/>
+        </record>
+
+        <record id="vendores_13" model="sku.vendores">
+            <field name="name">CRYSTAL STONE ART</field>
+            <field name="sku" eval="515"/>
+        </record>
+
+        <record id="vendores_14" model="sku.vendores">
+            <field name="name">DBR EXPORTS INDIA</field>
+            <field name="sku" eval="101"/>
+        </record>
+
+        <record id="vendores_15" model="sku.vendores">
+            <field name="name">DONGHAI COUNTY DIANYUE JEWELRY CO., LTD.</field>
+            <field name="sku" eval="500"/>
+        </record>
+
+        <record id="vendores_16" model="sku.vendores">
+            <field name="name">EDEN BOTANICALS</field>
+            <field name="sku" eval="109"/>
+        </record>
+
+        <record id="vendores_17" model="sku.vendores">
+            <field name="name">EPIC HERBS</field>
+            <field name="sku" eval="140"/>
+        </record>
+
+        <record id="vendores_18" model="sku.vendores">
+            <field name="name">ESSENTIAL NATURAL OILS</field>
+            <field name="sku" eval="106"/>
+        </record>
+
+        <record id="vendores_19" model="sku.vendores">
+            <field name="name">ESSENTIAL OILS</field>
+            <field name="sku" eval="127"/>
+        </record>
+
+        <record id="vendores_20" model="sku.vendores">
+            <field name="name">ESSENTIAL WHOLESALE AND LABS</field>
+            <field name="sku" eval="111"/>
+        </record>
+
+        <record id="vendores_21" model="sku.vendores">
+            <field name="name">ETSY</field>
+            <field name="sku" eval="139"/>
+        </record>
+
+        <record id="vendores_22" model="sku.vendores">
+            <field name="name">FLORAL ESSENTIAL OILS</field>
+            <field name="sku" eval="131"/>
+        </record>
+
+        <record id="vendores_23" model="sku.vendores">
+            <field name="name">FLORIHANA</field>
+            <field name="sku" eval="135"/>
+        </record>
+
+        <record id="vendores_24" model="sku.vendores">
+            <field name="name">FORTUNE AGATE</field>
+            <field name="sku" eval="517"/>
+        </record>
+
+        <record id="vendores_25" model="sku.vendores">
+            <field name="name">GEM PLAZA JEWELLERY MFG. Co. PVT. LTD.</field>
+        </record>
+
+        <record id="vendores_26" model="sku.vendores">
+            <field name="name">GREAT AMERICAN SPICE CO.</field>
+            <field name="sku" eval="124"/>
+        </record>
+
+        <record id="vendores_27" model="sku.vendores">
+            <field name="name">GUANGZHOU YUEXIU DISTRIC JIANGSHI GLASS PRODUCTS B. DEPARTMENT</field>
+            <field name="sku" eval="519"/>
+        </record>
+
+        <record id="vendores_28" model="sku.vendores">
+            <field name="name">INKASMINE S.A.C</field>
+            <field name="sku" eval="512"/>
+        </record>
+
+        <record id="vendores_29" model="sku.vendores">
+            <field name="name">IRFAN AGATE / TAIBA EXPORTS</field>
+            <field name="sku" eval="516"/>
+        </record>
+
+        <record id="vendores_30" model="sku.vendores">
+            <field name="name">JEWELS &amp; GEMS GALLERY</field>
+            <field name="sku" eval="518"/>
+        </record>
+
+        <record id="vendores_31" model="sku.vendores">
+            <field name="name">JIANGSU JIEJING CRYSTAL INDUSTRY DEVELOPMENT CO., LTD.</field>
+            <field name="sku" eval="514"/>
+        </record>
+
+        <record id="vendores_32" model="sku.vendores">
+            <field name="name">JUST SCENT</field>
+            <field name="sku" eval="119"/>
+        </record>
+
+        <record id="vendores_33" model="sku.vendores">
+            <field name="name">LIBERTY NATURAL PRODUCS</field>
+            <field name="sku" eval="128"/>
+        </record>
+
+        <record id="vendores_34" model="sku.vendores">
+            <field name="name">LONE STAR CANDLE SUPPLY</field>
+            <field name="sku" eval="112"/>
+        </record>
+
+        <record id="vendores_35" model="sku.vendores">
+            <field name="name">MIRACLE BOTANICALS</field>
+            <field name="sku" eval="133"/>
+        </record>
+
+        <record id="vendores_36" model="sku.vendores">
+            <field name="name">MOUNTAIN ROSE INC</field>
+            <field name="sku" eval="123"/>
+        </record>
+
+        <record id="vendores_37" model="sku.vendores">
+            <field name="name">NATURE IN BOTTLE</field>
+            <field name="sku" eval="110"/>
+        </record>
+
+        <record id="vendores_38" model="sku.vendores">
+            <field name="name">NATURE'S GARDEN</field>
+            <field name="sku" eval="108"/>
+        </record>
+
+        <record id="vendores_39" model="sku.vendores">
+            <field name="name">NATURE'S OIL</field>
+            <field name="sku" eval="118"/>
+        </record>
+
+        <record id="vendores_40" model="sku.vendores">
+            <field name="name">NEMAT</field>
+            <field name="sku" eval="134"/>
+        </record>
+
+        <record id="vendores_41" model="sku.vendores">
+            <field name="name">NEW DIRECTIONS AROMATICS</field>
+            <field name="sku" eval="102"/>
+        </record>
+
+        <record id="vendores_42" model="sku.vendores">
+            <field name="name">NUTIVA</field>
+            <field name="sku" eval="132"/>
+        </record>
+
+        <record id="vendores_43" model="sku.vendores">
+            <field name="name">OM IMPORTS</field>
+            <field name="sku" eval="136"/>
+        </record>
+
+        <record id="vendores_44" model="sku.vendores">
+            <field name="name">PAK TRIBAL GEMS AND MINERALS</field>
+            <field name="sku" eval="525"/>
+        </record>
+
+        <record id="vendores_45" model="sku.vendores">
+            <field name="name">PERFUMER'S APPRENTICE</field>
+            <field name="sku" eval="115"/>
+        </record>
+
+        <record id="vendores_46" model="sku.vendores">
+            <field name="name">RUSTIC ESCENTUALS</field>
+            <field name="sku" eval="113"/>
+        </record>
+
+        <record id="vendores_47" model="sku.vendores">
+            <field name="name">SALT WORKS</field>
+            <field name="sku" eval="120"/>
+        </record>
+
+        <record id="vendores_48" model="sku.vendores">
+            <field name="name">SAN FRANCISCO SALT CO.</field>
+            <field name="sku" eval="130"/>
+        </record>
+
+        <record id="vendores_49" model="sku.vendores">
+            <field name="name">SAVE ON SCENTS</field>
+            <field name="sku" eval="116"/>
+        </record>
+
+        <record id="vendores_50" model="sku.vendores">
+            <field name="name">SEEMA INTERNATIONAL</field>
+            <field name="sku" eval="100"/>
+        </record>
+
+        <record id="vendores_51" model="sku.vendores">
+            <field name="name">STAR CHILD</field>
+            <field name="sku" eval="138"/>
+        </record>
+
+        <record id="vendores_52" model="sku.vendores">
+            <field name="name">STARBORN CREATIONS INC.</field>
+            <field name="sku" eval="511"/>
+        </record>
+
+        <record id="vendores_53" model="sku.vendores">
+            <field name="name">THE FLAMING CANDLE</field>
+            <field name="sku" eval="114"/>
+        </record>
+
+        <record id="vendores_54" model="sku.vendores">
+            <field name="name">TOPSTONES</field>
+            <field name="sku" eval="510"/>
+        </record>
+
+        <record id="vendores_55" model="sku.vendores">
+            <field name="name">TRINITY</field>
+            <field name="sku" eval="122"/>
+        </record>
+
+        <record id="vendores_56" model="sku.vendores">
+            <field name="name">WELLINGTON</field>
+            <field name="sku" eval="105"/>
+        </record>
+
+        <record id="vendores_57" model="sku.vendores">
+            <field name="name">WHOLESALE BOTANICS</field>
+            <field name="sku" eval="127"/>
+        </record>
+
+        <record id="vendores_58" model="sku.vendores">
+            <field name="name">WHOLESALE SUPPLIES PLUS (CRAFTERS CHOICE) AKA WSP</field>
+            <field name="sku" eval="104"/>
+        </record>
+
+        <record id="vendores_59" model="sku.vendores">
+            <field name="name">WILLIAM'S GEMS</field>
+            <field name="sku" eval="513"/>
+        </record>
+
+        <record id="vendores_60" model="sku.vendores">
+            <field name="name">YIWU CITY DUBO HARDWARE FACTORY</field>
+            <field name="sku" eval="520"/>
+        </record>
+
+        <record id="vendores_61" model="sku.vendores">
+            <field name="name">BRAVO INTERNATIONAL</field>
+            <field name="sku" eval="529"/>
+        </record>
+
+        <record id="vendores_62" model="sku.vendores">
+            <field name="name">ARSAA GEMS &amp; MINERALS</field>
+            <field name="sku" eval="530"/>
+        </record>
+
+        <record id="vendores_63" model="sku.vendores">
+            <field name="name">MG CRYSTALS</field>
+            <field name="sku" eval="531"/>
+        </record>
+
+        <record id="vendores_64" model="sku.vendores">
+            <field name="name">DONGYANG FINAL GEM INDUSTRIAL &amp; TRADE CO., LTD</field>
+            <field name="sku" eval="532"/>
+        </record>
+
+        <record id="vendores_65" model="sku.vendores">
+            <field name="name">YIWU JINGTAO CRYSTAL CO., LTD.</field>
+            <field name="sku" eval="533"/>
+        </record>
+
+        <record id="vendores_66" model="sku.vendores">
+            <field name="name">YIWU XIFENG JEWELRY CO., LTD.</field>
+            <field name="sku" eval="534"/>
+        </record>
+
+        <record id="vendores_67" model="sku.vendores">
+            <field name="name">FOSHAN JIERUIMEI MAKEUP CO.,LTD</field>
+            <field name="sku" eval="535"/>
+        </record>
+
+        <record id="vendores_68" model="sku.vendores">
+            <field name="name">CRYSTAL EXPORT</field>
+            <field name="sku" eval="536"/>
+        </record>
+
+        <record id="vendores_69" model="sku.vendores">
+            <field name="name">DEHUA BYRON ART CO., LTD.</field>
+            <field name="sku" eval="537"/>
+        </record>
+
+        <record id="vendores_70" model="sku.vendores">
+            <field name="name">MOHAN GEMS</field>
+            <field name="sku" eval="538"/>
+        </record>
+
+        <record id="vendores_71" model="sku.vendores">
+            <field name="name">SANCHI AND FILIAP DESIGNS</field>
+            <field name="sku" eval="539"/>
+        </record>
+
+        <record id="vendores_72" model="sku.vendores">
+            <field name="name">MAGICAL DELIGHTS</field>
+            <field name="sku" eval="540"/>
+        </record>
+
+        <record id="vendores_73" model="sku.vendores">
+            <field name="name">GUANGZHOU XINGYI GLASS PRODUCTS CO., LTD</field>
+            <field name="sku" eval="541"/>
+        </record>
+
+
+    </data>
+</openerp>

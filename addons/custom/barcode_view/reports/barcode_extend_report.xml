@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <template id="barcode_view_qweb_report_template">
+            <t t-foreach="docs" t-as="o">
+                ^XA
+                <t t-if="o.barcode">
+                    <t t-set="barcode_length" t-value="((len(o.barcode) * 11) + 13) * 2"/>
+                    <t t-set="pos_offset" t-value="round(840 - barcode_length) / 2" />
+                    ^FO0,50
+                    ^CF0,50,60
+                    ^FO200,30^FD"<t t-esc="o.name" />"^FS
+                    ^FO<t t-esc="pos_offset"/>,90^BY3
+                    ^BCN,130,N,N,N,A
+                    ^FD<t t-esc="o.barcode"/>^FS
+                    ^FO0,240
+                    ^FB1200,2,0,C^A0N,50,40^FD<t t-esc="o.barcode"/>^FS
+                    ^FO0,325
+                    ^FO900,280^BQN,2,6^FD<t t-esc="o.barcode"/> <t t-esc="o.producturl(o.id)"><t t-if="url"><t t-esc="url"/></t></t>^FS
+                </t>
+                ^XZ
+            </t>
+        </template>
+
+        <template id="barcode_view_product_pickling_qweb_report_template">
+            <t t-foreach="docs" t-as="o">
+                ^XA
+                <t t-if="o.location_id.complete_name">
+                    <t t-set="barcode_length" t-value="((len(o.location_id.complete_name) * 11) + 26) * 2"/>
+                    <t t-set="pos_offset" t-value="round(840 - barcode_length) / 2" />
+                    ^FO<t t-esc="pos_offset"/>,90^BY3
+                    ^BCN,130,N,N,N,A,40,50
+                    ^FD <t t-esc="o.location_id.complete_name"/> ^FS
+                    ^FO0,325
+                    ^FO950,300^BQN,2,6^FD <t t-esc="o.location_id.complete_name"/>  <t t-esc="o.stocklocationurl(o.location_id.id)"><t t-if="url"><t t-esc="url"/></t></t> ^FS
+                    ^FO0,250
+                    ^FB1200,2,0,C^A0N,70,60^FD<t t-esc="o.location_id.complete_name"/>^FS
+                </t>
+                ^XZ
+            </t>
+        </template>
+    </data>
+    <report id="barcode_view_report_id"
+            model="product.template"
+            report_type="qweb-text"
+            string="SG Product Barcode (ZPL)"
+            name="sg_barcode_view.barcode_view_qweb_report_template"
+            file="barcode_view.barcode_view_qweb_report_template"
+    />
+    <report id="barcode_view_picking_report_id"
+            model="stock.picking"
+            report_type="qweb-text"
+            string="SG Barcode Location Report (ZPL)"
+            name="sg_barcode_view.barcode_view_product_pickling_qweb_report_template"
+            file="barcode_view.barcode_view_product_pickling_qweb_report_template"/>
+</odoo>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="logistic_service_earth" model="logistic.service">
+            <field name="name">EARTH</field>
+        </record>
+        <record id="logistic_service_dhl" model="logistic.service">
+            <field name="name">DHL</field>
+        </record>
+        <record id="logistic_service_as" model="logistic.service">
+            <field name="name">Aimpacific Services</field>
+        </record>
+        <record id="logistic_service_av" model="logistic.service">
+            <field name="name">Arranged by Vendor</field>
+        </record>
+        <record id="logistic_service_kn" model="logistic.service">
+            <field name="name">Kuehne+Nagel</field>
+        </record>
+        <record id="logistic_service_wli" model="logistic.service">
+            <field name="name">Windys Logistics INC</field>
+        </record>
+        <record id="logistic_service_ups" model="logistic.service">
+            <field name="name">UPS</field>
+        </record>
+        <record id="logistic_service_ta" model="logistic.service">
+            <field name="name">Turkish Airlines</field>
+        </record>
+        <record id="logistic_service_sh" model="logistic.service">
+            <field name="name">Shipper Handling</field>
+        </record>
+        <record id="logistic_service_se" model="logistic.service">
+            <field name="name">SF Express</field>
+        </record>
+        <record id="logistic_service_rc" model="logistic.service">
+            <field name="name">R&amp;L Carriers</field>
+        </record>
+        <record id="logistic_service_of" model="logistic.service">
+            <field name="name">Ocean FRT</field>
+        </record>
+        <record id="logistic_service_mt" model="logistic.service">
+            <field name="name">Matson</field>
+        </record>
+        <record id="logistic_service_msk" model="logistic.service">
+            <field name="name">Maersk</field>
+        </record>
+        <record id="logistic_service_lcsa" model="logistic.service">
+            <field name="name">Lan Cargo S.A.</field>
+        </record>
+        <record id="logistic_service_fdx" model="logistic.service">
+            <field name="name">FEDEX</field>
+        </record>
+        <record id="logistic_service_clrl" model="logistic.service">
+            <field name="name">CLR Logistics</field>
+        </record>
+        <record id="logistic_service_asec" model="logistic.service">
+            <field name="name">Arranged by SGI - Earth is Clearing</field>
+        </record>
+        <record id="logistic_service_cw" model="logistic.service">
+            <field name="name">Cargo World</field>
+        </record>
+        <record id="logistic_service_cas" model="logistic.service">
+            <field name="name">Customer Arranged Shipping</field>
+        </record>
+        <record id="logistic_service_af" model="logistic.service">
+            <field name="name">Air Freight</field>
+        </record>
+        <record id="logistic_service_qns" model="logistic.service">
+            <field name="name">Quick N Saf</field>
+        </record>
+    </data>
+</odoo>

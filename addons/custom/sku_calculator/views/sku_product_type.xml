@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="sku_types_tree_id" model="ir.ui.view">
+        <field name="name">sku.types.tree.id</field>
+        <field name="model">sku.types</field>
+        <field name="arch" type="xml">
+            <tree string="Product Type">
+                <field name="name" string="Name"/>
+                <field name="sku" string="Sku Code"/>
+                <field name="variable" string="Variable"/>
+                <field name="category_id" string="Category_id" />
+            </tree>
+        </field>
+    </record>
+    <record id="sku_form" model="ir.ui.view">
+        <field name="name">sku.types.form</field>
+        <field name="model">sku.types</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name" string="Name"/>
+                            <field name="sku" string="Sku Code"/>
+                        </group>
+                        <group>
+                            <field name="variable" string="Variable"/>
+                            <field name="category_id" string="Category_id"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="sku_actions_types" model="ir.actions.act_window">
+        <field name="name">Type</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">sku.types</field>
+        <field name="view_mode">tree,kanban,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                create your sku!
+            </p>
+        </field>
+    </record>
+
+    <menuitem action="sku_actions_types" id="menu_action_sku_types_form" parent="sg_sku_calculator.sku_calculator_purchase_menu_root" sequence="2"/>
+    <menuitem action="sku_actions_types" id="menu_action_stock_sku_types_form" parent="sg_sku_calculator.sku_calculator_stock_menu_root" sequence="2"/>
+</odoo>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="product_qr_code">
+           <field name="name">api.key.res.config.settings</field>
+           <field name="model">res.config.settings</field>
+           <field name="type">form</field>
+           <field name="inherit_id" ref="base.res_config_settings_view_form"/>
+           <field name="arch" type="xml">
+               <xpath expr="//div[@id='iap_portal']" position="after">
+                   <div>
+                       <h2>Cuttpy Api Key</h2>
+                       <div class="row mt16 o_settings_container" name="users_setting_container">
+                            <div class="col-12 col-lg-6 o_setting_box" id="bitly_api_key">
+                                <div class="o_setting_right_pane">
+                                    <label for="api_key"  class="o_light_label"/>-
+                                    <field name="api_key" modifiers="{}"/>
+                                </div>
+                            </div>
+                       </div>
+                   </div>
+               </xpath>
+           </field>
+         </record>
+    </data>
+</odoo>

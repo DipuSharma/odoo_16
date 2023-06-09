@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<!--    Sku Category View-->
+    <record id="shipment_type_tree" model="ir.ui.view">
+        <field name="name">logistic.service.tree</field>
+        <field name="model">logistic.service</field>
+        <field name="arch" type="xml">
+            <tree string="Shipment">
+                <field name="name"/>
+            </tree>
+        </field>
+    </record>
+    <record id="shipment_type_form" model="ir.ui.view">
+        <field name="name">logistic.service.form</field>
+        <field name="model">logistic.service</field>
+        <field name="arch" type="xml">
+            <form string="Shipment Type Form">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <record id="logistic_service_actions" model="ir.actions.act_window">
+        <field name="name">Shipment</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">logistic.service</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                create your sku!
+            </p>
+        </field>
+    </record>
+
+<!--     <menuitem id="shipping_tracking_id" name="Shipment Tracking" parent="purchase.menu_purchase_root" sequence="99" groups="purchase.group_purchase_manager">-->
+<!--        <menuitem id="shipment_view.xml" name="Shipment" action="sg_shipment_tracking.shipment_tracking_actions" sequence="99"/>-->
+<!--        <menuitem id="shipping_tracking" name="Logistic Service" action="sg_shipment_tracking.logistic_service_actions" sequence="1"/>-->
+<!--    </menuitem>-->
+
+</odoo>

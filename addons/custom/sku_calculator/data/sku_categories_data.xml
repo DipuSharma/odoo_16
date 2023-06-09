@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<odoo>
+    <data noupdate="1">
+
+        <record id="category_1" model="sku.categories">
+            <field name="name">APPAREL</field>
+            <field name="sku">APPR</field>
+        </record>
+
+        <record id="category_2" model="sku.categories">
+            <field name="name">ACCESSORIES</field>
+            <field name="sku">ACCS</field>
+        </record>
+
+        <record id="category_3" model="sku.categories">
+            <field name="name">BATCH</field>
+            <field name="sku">BTCH</field>
+        </record>
+
+        <record id="category_4" model="sku.categories">
+            <field name="name">BATH &amp; BODY</field>
+            <field name="sku">BTHB</field>
+        </record>
+
+        <record id="category_5" model="sku.categories">
+            <field name="name">BEEBOP</field>
+            <field name="sku">BBOP</field>
+        </record>
+
+        <record id="category_6" model="sku.categories">
+            <field name="name">BODY ART</field>
+            <field name="sku">BART</field>
+        </record>
+
+        <record id="category_7" model="sku.categories">
+            <field name="name">CANDLES</field>
+            <field name="sku">CNDL</field>
+        </record>
+
+        <record id="category_8" model="sku.categories">
+            <field name="name">CARVING</field>
+            <field name="sku">CARV</field>
+        </record>
+
+        <record id="category_9" model="sku.categories">
+            <field name="name">CLOTHING</field>
+            <field name="sku">CLTH</field>
+        </record>
+
+        <record id="10" model="sku.categories">
+            <field name="name">GEMSTONE SALE</field>
+            <field name="sku">GSS</field>
+        </record>
+
+        <record id="category_11" model="sku.categories">
+            <field name="name">GIFT WITH PURCHASE</field>
+            <field name="sku">GWP</field>
+        </record>
+
+        <record id="category_12" model="sku.categories">
+            <field name="name">GEMSTONES</field>
+            <field name="sku">GMS</field>
+        </record>
+
+        <record id="category_13" model="sku.categories">
+            <field name="name">HOME DECOR</field>
+            <field name="sku">HME</field>
+        </record>
+
+        <record id="category_14" model="sku.categories">
+            <field name="name">INCENSE</field>
+            <field name="sku">INS</field>
+        </record>
+
+        <record id="category_15" model="sku.categories">
+            <field name="name">JEWELRY</field>
+            <field name="sku">JEWL</field>
+        </record>
+
+        <record id="category_16" model="sku.categories">
+            <field name="name">KIT MISCELLANEOUS</field>
+            <field name="sku">KITMS</field>
+        </record>
+
+        <record id="category_17" model="sku.categories">
+            <field name="name">MEDIA</field>
+            <field name="sku">MEDA</field>
+        </record>
+
+        <record id="category_18" model="sku.categories">
+            <field name="name">MIST</field>
+            <field name="sku">MST</field>
+        </record>
+
+        <record id="category_19" model="sku.categories">
+            <field name="name">NATURAL STONES</field>
+            <field name="sku">NAT </field>
+        </record>
+
+        <record id="category_20" model="sku.categories">
+            <field name="name">OFFICE SUPPLIES</field>
+            <field name="sku">OFFS</field>
+        </record>
+
+        <record id="category_21" model="sku.categories">
+            <field name="name">PACKAGING</field>
+            <field name="sku">PKG</field>
+        </record>
+
+        <record id="category_22" model="sku.categories">
+            <field name="name">PERFUMERY</field>
+            <field name="sku">PERF</field>
+        </record>
+
+        <record id="category_23" model="sku.categories">
+            <field name="name">POLISHED</field>
+            <field name="sku">POLS</field>
+        </record>
+
+        <record id="category_24" model="sku.categories">
+            <field name="name">RAW MATERIAL</field>
+            <field name="sku">RAWM</field>
+        </record>
+
+        <record id="category_25" model="sku.categories">
+            <field name="name">SET (AKA Kits)</field>
+            <field name="sku">SET</field>
+        </record>
+
+        <record id="category_26" model="sku.categories">
+            <field name="name">SPECIALTY TOOLS</field>
+            <field name="sku">STLS</field>
+        </record>
+
+        <record id="category_27" model="sku.categories">
+            <field name="name">TUMBLED STONES</field>
+            <field name="sku">TUM</field>
+        </record>
+
+        <record id="category_28" model="sku.categories">
+            <field name="name">WAREHOUSE</field>
+            <field name="sku">WHS</field>
+        </record>
+
+    </data>
+</odoo>

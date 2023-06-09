@@ -1,0 +1,1077 @@
+<?xml version="1.0"?>
+<openerp>
+    <data noupdate="1">
+
+
+<record id="volumes_1" model="sku.volumes">
+    <field name="name">ADJUSTABLE SIZE</field>
+    <field name="sku">ADJST</field>
+</record>
+
+<record id="volumes_2" model="sku.volumes">
+    <field name="name">SIZE 5</field>
+    <field name="sku" eval="5"/>
+</record>
+
+<record id="volumes_3" model="sku.volumes">
+    <field name="name">SIZE 5.5</field>
+    <field name="sku" eval="5.5"/>
+</record>
+
+<record id="volumes_4" model="sku.volumes">
+    <field name="name">SIZE 6</field>
+    <field name="sku" eval="6"/>
+</record>
+
+<record id="volumes_5" model="sku.volumes">
+    <field name="name">SIZE 6.5</field>
+    <field name="sku" eval="6.5"/>
+</record>
+
+<record id="volumes_6" model="sku.volumes">
+    <field name="name">SIZE 7</field>
+    <field name="sku" eval="7"/>
+</record>
+
+<record id="volumes_7" model="sku.volumes">
+    <field name="name">SIZE 7.2</field>
+    <field name="sku" eval="7.2"/>
+</record>
+
+<record id="volumes_8" model="sku.volumes">
+    <field name="name">SIZE 7.5</field>
+    <field name="sku" eval="7.5"/>
+</record>
+
+<record id="volumes_9" model="sku.volumes">
+    <field name="name">SIZE 8</field>
+    <field name="sku" eval="8"/>
+</record>
+
+<record id="volumes_10" model="sku.volumes">
+    <field name="name">SIZE 8.5</field>
+    <field name="sku" eval="8.5"/>
+</record>
+
+<record id="volumes_11" model="sku.volumes">
+    <field name="name">SIZE 9</field>
+    <field name="sku" eval="9"/>
+</record>
+
+<record id="volumes_12" model="sku.volumes">
+    <field name="name">SIZE 9.25</field>
+    <field name="sku" eval="9.25"/>
+</record>
+
+<record id="volumes_13" model="sku.volumes">
+    <field name="name">SIZE 9.5</field>
+    <field name="sku" eval="9.5"/>
+</record>
+
+<record id="volumes_14" model="sku.volumes">
+    <field name="name">SIZE 10</field>
+    <field name="sku" eval="10"/>
+</record>
+
+<record id="volumes_15" model="sku.volumes">
+    <field name="name">SIZE 8ft</field>
+    <field name="sku">8ft</field>
+</record>
+
+<record id="volumes_16" model="sku.volumes">
+    <field name="name">SIZE 0.25"</field>
+    <field name="sku" eval="0.25"/>
+</record>
+
+<record id="volumes_17" model="sku.volumes">
+    <field name="name">SIZE 0.5"</field>
+    <field name="sku" eval="0.5"/>
+</record>
+
+<record id="volumes_18" model="sku.volumes">
+    <field name="name">SIZE 0.75"</field>
+    <field name="sku" eval="0.75"/>
+</record>
+
+<record id="volumes_19" model="sku.volumes">
+    <field name="name">SIZE 1"</field>
+    <field name="sku" eval="1"/>
+</record>
+
+<record id="volumes_20" model="sku.volumes">
+    <field name="name">SIZE 1.25"</field>
+    <field name="sku" eval="1.25"/>
+</record>
+
+<record id="volumes_21" model="sku.volumes">
+    <field name="name">SIZE 1.5"</field>
+    <field name="sku" eval="1.5"/>
+</record>
+
+<record id="volumes_22" model="sku.volumes">
+    <field name="name">SIZE 1.75"</field>
+    <field name="sku" eval="1.75"/>
+</record>
+
+<record id="volumes_23" model="sku.volumes">
+    <field name="name">SIZE 1.8"</field>
+    <field name="sku" eval="1.8"/>
+</record>
+
+<record id="volumes_24" model="sku.volumes">
+    <field name="name">SIZE 2"</field>
+    <field name="sku" eval="2"/>
+</record>
+
+<record id="volumes_25" model="sku.volumes">
+    <field name="name">SIZE 2.3"</field>
+    <field name="sku" eval="2.3"/>
+</record>
+
+<record id="volumes_26" model="sku.volumes">
+    <field name="name">SIZE 2.5"</field>
+    <field name="sku" eval="2.5"/>
+</record>
+
+<record id="volumes_27" model="sku.volumes">
+    <field name="name">SIZE 2.75"</field>
+    <field name="sku" eval="2.75"/>
+</record>
+
+<record id="volumes_28" model="sku.volumes">
+    <field name="name">SIZE 3"</field>
+    <field name="sku" eval="3"/>
+</record>
+
+<record id="volumes_29" model="sku.volumes">
+    <field name="name">SIZE 3.5"</field>
+    <field name="sku" eval="3.5"/>
+</record>
+
+<record id="volumes_30" model="sku.volumes">
+    <field name="name">SIZE 4"</field>
+    <field name="sku" eval="4"/>
+</record>
+
+<record id="volumes_31" model="sku.volumes">
+    <field name="name">SIZE 4.5"</field>
+    <field name="sku" eval="4.5"/>
+</record>
+
+<record id="volumes_32" model="sku.volumes">
+    <field name="name">SIZE 5"</field>
+    <field name="sku" eval="5"/>
+</record>
+
+<record id="volumes_33" model="sku.volumes">
+    <field name="name">SIZE 5.25"</field>
+    <field name="sku" eval="5.25"/>
+</record>
+
+<record id="volumes_34" model="sku.volumes">
+    <field name="name">SIZE 5.5"</field>
+    <field name="sku" eval="5.5"/>
+</record>
+
+<record id="volumes_35" model="sku.volumes">
+    <field name="name">SIZE 6"</field>
+    <field name="sku" eval="6"/>
+</record>
+
+<record id="volumes_36" model="sku.volumes">
+    <field name="name">SIZE 6.5"</field>
+    <field name="sku" eval="6.5"/>
+</record>
+
+<record id="volumes_37" model="sku.volumes">
+    <field name="name">SIZE 7"</field>
+    <field name="sku" eval="7"/>
+</record>
+
+<record id="volumes_38" model="sku.volumes">
+    <field name="name">SIZE 7.5"</field>
+    <field name="sku" eval="7.5"/>
+</record>
+
+<record id="volumes_39" model="sku.volumes">
+    <field name="name">SIZE 8"</field>
+    <field name="sku" eval="8"/>
+</record>
+
+<record id="volumes_40" model="sku.volumes">
+    <field name="name">SIZE 8.5"</field>
+    <field name="sku" eval="8.5"/>
+</record>
+
+<record id="volumes_41" model="sku.volumes">
+    <field name="name">SIZE 9"</field>
+    <field name="sku" eval="9"/>
+</record>
+
+<record id="volumes_42" model="sku.volumes">
+    <field name="name">SIZE 9.5"</field>
+    <field name="sku" eval="9.5"/>
+</record>
+
+<record id="volumes_43" model="sku.volumes">
+    <field name="name">SIZE 10"</field>
+    <field name="sku" eval="10"/>
+</record>
+
+<record id="volumes_44" model="sku.volumes">
+    <field name="name">SIZE 10.5"</field>
+    <field name="sku" eval="10.5"/>
+</record>
+
+<record id="volumes_45" model="sku.volumes">
+    <field name="name">SIZE 11"</field>
+    <field name="sku" eval="11"/>
+</record>
+
+<record id="volumes_46" model="sku.volumes">
+    <field name="name">SIZE 11.5"</field>
+    <field name="sku" eval="11.5"/>
+</record>
+
+<record id="volumes_47" model="sku.volumes">
+    <field name="name">SIZE 12"</field>
+    <field name="sku" eval="12"/>
+</record>
+
+<record id="volumes_48" model="sku.volumes">
+    <field name="name">SIZE 16"</field>
+    <field name="sku" eval="16"/>
+</record>
+
+<record id="volumes_49" model="sku.volumes">
+    <field name="name">SIZE 18"</field>
+    <field name="sku" eval="18"/>
+</record>
+
+<record id="volumes_50" model="sku.volumes">
+    <field name="name">SIZE 24"</field>
+    <field name="sku" eval="24"/>
+</record>
+
+<record id="volumes_51" model="sku.volumes">
+    <field name="name">SIZE 25"</field>
+    <field name="sku" eval="25"/>
+</record>
+
+<record id="volumes_52" model="sku.volumes">
+    <field name="name">SIZE RANGE 0.25-0.5"</field>
+    <field name="sku">0.25-0.5</field>
+</record>
+
+<record id="volumes_53" model="sku.volumes">
+    <field name="name">SIZE RANGE 0.25-0.75"</field>
+    <field name="sku">0.25-0.75</field>
+</record>
+
+<record id="volumes_54" model="sku.volumes">
+    <field name="name">SIZE RANGE 0.5-1"</field>
+    <field name="sku">0.5-1</field>
+</record>
+
+<record id="volumes_55" model="sku.volumes">
+    <field name="name">SIZE RANGE 0.5-1.5"</field>
+    <field name="sku">0.5-1.5</field>
+</record>
+
+<record id="volumes_56" model="sku.volumes">
+    <field name="name">SIZE RANGE 0.75-1"</field>
+    <field name="sku">0.75-1</field>
+</record>
+
+<record id="volumes_57" model="sku.volumes">
+    <field name="name">SIZE RANGE 1-1.5"</field>
+    <field name="sku">1-1.5</field>
+</record>
+
+<record id="volumes_58" model="sku.volumes">
+    <field name="name">SIZE RANGE 1-1.75"</field>
+    <field name="sku">1-1.75</field>
+</record>
+
+<record id="volumes_59" model="sku.volumes">
+    <field name="name">SIZE RANGE 1.5-2"</field>
+    <field name="sku">1.5-2</field>
+</record>
+
+<record id="volumes_60" model="sku.volumes">
+    <field name="name">SIZE RANGE 1.5-2.5"</field>
+    <field name="sku">1.5-2.5</field>
+</record>
+
+<record id="volumes_61" model="sku.volumes">
+    <field name="name">SIZE RANGE 1.75-2.5"</field>
+    <field name="sku">1.75-2.5</field>
+</record>
+
+<record id="volumes_62" model="sku.volumes">
+    <field name="name">SIZE RANGE 1.75-2"</field>
+    <field name="sku">1.75-2</field>
+</record>
+
+<record id="volumes_63" model="sku.volumes">
+    <field name="name">SIZE RANGE 1.5-3.5"</field>
+    <field name="sku">1.5-3.5</field>
+</record>
+
+<record id="volumes_64" model="sku.volumes">
+    <field name="name">SIZE RANGE 1-2"</field>
+    <field name="sku">1-2</field>
+</record>
+
+<record id="volumes_65" model="sku.volumes">
+    <field name="name">SIZE RANGE 1-3"</field>
+    <field name="sku">1-3</field>
+</record>
+
+<record id="volumes_66" model="sku.volumes">
+    <field name="name">SIZE RANGE 2-2.5"</field>
+    <field name="sku">2-2.5</field>
+</record>
+
+<record id="volumes_67" model="sku.volumes">
+    <field name="name">SIZE RANGE 2-3.5"</field>
+    <field name="sku">2-3.5</field>
+</record>
+
+<record id="volumes_68" model="sku.volumes">
+    <field name="name">SIZE RANGE 2.5-3"</field>
+    <field name="sku">2.5-3</field>
+</record>
+
+<record id="volumes_69" model="sku.volumes">
+    <field name="name">SIZE RANGE 2.5-3.5"</field>
+    <field name="sku">2.5-3.5</field>
+</record>
+
+<record id="volumes_70" model="sku.volumes">
+    <field name="name">SIZE RANGE 2.5-4.5"</field>
+    <field name="sku">2.5-4.5</field>
+</record>
+
+<record id="volumes_71" model="sku.volumes">
+    <field name="name">SIZE RANGE 2.5-5"</field>
+    <field name="sku">2.5-5</field>
+</record>
+
+<record id="volumes_72" model="sku.volumes">
+    <field name="name">SIZE RANGE 2.75-3"</field>
+    <field name="sku">2.75-3</field>
+</record>
+
+<record id="volumes_73" model="sku.volumes">
+    <field name="name">SIZE RANGE 2-3"</field>
+    <field name="sku">2-3</field>
+</record>
+
+<record id="volumes_74" model="sku.volumes">
+    <field name="name">SIZE RANGE 2-4"</field>
+    <field name="sku">2-4</field>
+</record>
+
+<record id="volumes_75" model="sku.volumes">
+    <field name="name">SIZE RANGE 2-4.5"</field>
+    <field name="sku">2-4.5</field>
+</record>
+
+<record id="volumes_76" model="sku.volumes">
+    <field name="name">SIZE RANGE 2-5"</field>
+    <field name="sku">2-5</field>
+</record>
+
+<record id="volumes_77" model="sku.volumes">
+    <field name="name">SIZE RANGE 3-3.5"</field>
+    <field name="sku">3-3.5</field>
+</record>
+
+<record id="volumes_78" model="sku.volumes">
+    <field name="name">SIZE RANGE 3.5-4"</field>
+    <field name="sku">3.5-4</field>
+</record>
+
+<record id="volumes_79" model="sku.volumes">
+    <field name="name">SIZE RANGE 3-4"</field>
+    <field name="sku">3-4</field>
+</record>
+
+<record id="volumes_80" model="sku.volumes">
+    <field name="name">SIZE RANGE 3-4.5"</field>
+    <field name="sku">3-4.5</field>
+</record>
+
+<record id="volumes_81" model="sku.volumes">
+    <field name="name">SIZE RANGE 3-5"</field>
+    <field name="sku">3-5</field>
+</record>
+
+<record id="volumes_82" model="sku.volumes">
+    <field name="name">SIZE RANGE 3-6"</field>
+    <field name="sku">3-6</field>
+</record>
+
+<record id="volumes_83" model="sku.volumes">
+    <field name="name">SIZE RANGE 4-4.5"</field>
+    <field name="sku">4-4.5</field>
+</record>
+
+<record id="volumes_84" model="sku.volumes">
+    <field name="name">SIZE RANGE 4-5"</field>
+    <field name="sku">4-5</field>
+</record>
+
+<record id="volumes_85" model="sku.volumes">
+    <field name="name">SIZE RANGE 4-6"</field>
+    <field name="sku">4-6</field>
+</record>
+
+<record id="volumes_86" model="sku.volumes">
+    <field name="name">SIZE RANGE 4.5-5"</field>
+    <field name="sku">4.5-5</field>
+</record>
+
+<record id="volumes_87" model="sku.volumes">
+    <field name="name">SIZE RANGE 5-5.5"</field>
+    <field name="sku">5-5.5</field>
+</record>
+
+<record id="volumes_88" model="sku.volumes">
+    <field name="name">SIZE RANGE 5-6"</field>
+    <field name="sku">5-6</field>
+</record>
+
+<record id="volumes_89" model="sku.volumes">
+    <field name="name">SIZE RANGE 5-8"</field>
+    <field name="sku">5-8</field>
+</record>
+
+<record id="volumes_90" model="sku.volumes">
+    <field name="name">SIZE RANGE 6-8"</field>
+    <field name="sku">6-8</field>
+</record>
+
+<record id="volumes_91" model="sku.volumes">
+    <field name="name">SIZE RANGE 7-8"</field>
+    <field name="sku">7-8</field>
+</record>
+
+<record id="volumes_92" model="sku.volumes">
+    <field name="name">SIZE RANGE 8-9"</field>
+    <field name="sku">8-9</field>
+</record>
+
+<record id="volumes_93" model="sku.volumes">
+    <field name="name">SIZE RANGE 20-25"</field>
+    <field name="sku">20-25</field>
+</record>
+
+<record id="volumes_94" model="sku.volumes">
+    <field name="name">SIZE RANGE 25-30"</field>
+    <field name="sku">25-30</field>
+</record>
+
+<record id="volumes_95" model="sku.volumes">
+    <field name="name">PART SET</field>
+    <field name="sku">PART</field>
+</record>
+
+<record id="volumes_96" model="sku.volumes">
+    <field name="name">--------</field>
+</record>
+
+<record id="volumes_97" model="sku.volumes">
+    <field name="name">MINI</field>
+    <field name="sku">MIN</field>
+</record>
+
+<record id="volumes_98" model="sku.volumes">
+    <field name="name">X SMALL</field>
+    <field name="sku">XS</field>
+</record>
+
+<record id="volumes_99" model="sku.volumes">
+    <field name="name">SMALL</field>
+    <field name="sku">SM</field>
+</record>
+
+<record id="volumes_100" model="sku.volumes">
+    <field name="name">MEDIUM</field>
+    <field name="sku">MD</field>
+</record>
+
+<record id="volumes_101" model="sku.volumes">
+    <field name="name">LARGE</field>
+    <field name="sku">LG</field>
+</record>
+
+<record id="volumes_102" model="sku.volumes">
+    <field name="name">X LARGE</field>
+    <field name="sku">XL</field>
+</record>
+
+<record id="volumes_103" model="sku.volumes">
+    <field name="name">XX LARGE</field>
+    <field name="sku">XXL</field>
+</record>
+
+<record id="volumes_104" model="sku.volumes">
+    <field name="name">XXX LARGE</field>
+    <field name="sku">3XL</field>
+</record>
+
+<record id="volumes_105" model="sku.volumes">
+    <field name="name">JUMBO</field>
+    <field name="sku">JUMB</field>
+</record>
+
+<record id="volumes_106" model="sku.volumes">
+    <field name="name">4 MILLIMETERS</field>
+    <field name="sku">4MM</field>
+</record>
+
+<record id="volumes_107" model="sku.volumes">
+    <field name="name">6 MILLIMETERS</field>
+    <field name="sku">6MM</field>
+</record>
+
+<record id="volumes_108" model="sku.volumes">
+    <field name="name">8 MILLIMETERS</field>
+    <field name="sku">8MM</field>
+</record>
+
+<record id="volumes_109" model="sku.volumes">
+    <field name="name">10 MILLIMETERS</field>
+    <field name="sku">10MM</field>
+</record>
+
+<record id="volumes_110" model="sku.volumes">
+    <field name="name">12 MILLIMETERS</field>
+    <field name="sku">12MM</field>
+</record>
+
+<record id="volumes_111" model="sku.volumes">
+    <field name="name">18 MILLIMETERS</field>
+    <field name="sku">18MM</field>
+</record>
+
+<record id="volumes_112" model="sku.volumes">
+    <field name="name">DRAM</field>
+    <field name="sku">DRM</field>
+</record>
+
+<record id="volumes_113" model="sku.volumes">
+    <field name="name">1 MILLILITRE</field>
+    <field name="sku">1ML</field>
+</record>
+
+<record id="volumes_114" model="sku.volumes">
+    <field name="name">3 MILLILITRES</field>
+    <field name="sku">3ML</field>
+</record>
+
+<record id="volumes_115" model="sku.volumes">
+    <field name="name">5 MILLILITRES</field>
+    <field name="sku">5ML</field>
+</record>
+
+<record id="volumes_116" model="sku.volumes">
+    <field name="name">6 MILLILITRES</field>
+    <field name="sku">6ML</field>
+</record>
+
+<record id="volumes_117" model="sku.volumes">
+    <field name="name">9 MILLILITRES</field>
+    <field name="sku">9ML</field>
+</record>
+
+<record id="volumes_118" model="sku.volumes">
+    <field name="name">10 MILLILITRES</field>
+    <field name="sku">10ML</field>
+</record>
+
+<record id="volumes_119" model="sku.volumes">
+    <field name="name">15 MILLILITRES</field>
+    <field name="sku">15ML</field>
+</record>
+
+<record id="volumes_120" model="sku.volumes">
+    <field name="name">17 MILLILITRES</field>
+    <field name="sku">17ML</field>
+</record>
+
+<record id="volumes_121" model="sku.volumes">
+    <field name="name">20 MILLILITRES</field>
+    <field name="sku">20ML</field>
+</record>
+
+<record id="volumes_122" model="sku.volumes">
+    <field name="name">25 MILLILITRES</field>
+    <field name="sku">25ML</field>
+</record>
+
+<record id="volumes_123" model="sku.volumes">
+    <field name="name">30 MILLILITRES</field>
+    <field name="sku">30ML</field>
+</record>
+
+<record id="volumes_124" model="sku.volumes">
+    <field name="name">40 MILLILITRES</field>
+    <field name="sku">40ML</field>
+</record>
+
+<record id="volumes_125" model="sku.volumes">
+    <field name="name">80 MILLILITRES</field>
+    <field name="sku">80ML</field>
+</record>
+
+<record id="volumes_126" model="sku.volumes">
+    <field name="name">470 MILLILITRES</field>
+    <field name="sku">470ML</field>
+</record>
+
+<record id="volumes_127" model="sku.volumes">
+    <field name="name">1 GM</field>
+    <field name="sku">1G</field>
+</record>
+
+<record id="volumes_128" model="sku.volumes">
+    <field name="name">2 GM</field>
+    <field name="sku">2G</field>
+</record>
+
+<record id="volumes_129" model="sku.volumes">
+    <field name="name">3 GM</field>
+    <field name="sku">3G</field>
+</record>
+
+<record id="volumes_130" model="sku.volumes">
+    <field name="name">500 GM</field>
+    <field name="sku">500G</field>
+</record>
+
+<record id="volumes_131" model="sku.volumes">
+    <field name="name">1 GALLON</field>
+    <field name="sku">1GL</field>
+</record>
+
+<record id="volumes_132" model="sku.volumes">
+    <field name="name">5 GALLON</field>
+    <field name="sku">5GL</field>
+</record>
+
+<record id="volumes_133" model="sku.volumes">
+    <field name="name">9 GALLON</field>
+    <field name="sku">9GL</field>
+</record>
+
+<record id="volumes_134" model="sku.volumes">
+    <field name="name">10 GALLON</field>
+    <field name="sku">10GL</field>
+</record>
+
+<record id="volumes_135" model="sku.volumes">
+    <field name="name">20 GALLON</field>
+    <field name="sku">20GL</field>
+</record>
+
+<record id="volumes_136" model="sku.volumes">
+    <field name="name">DRUM</field>
+    <field name="sku">55GL</field>
+</record>
+
+<record id="volumes_137" model="sku.volumes">
+    <field name="name">5 QRT</field>
+    <field name="sku">5Q</field>
+</record>
+
+<record id="volumes_138" model="sku.volumes">
+    <field name="name">30 QRT</field>
+    <field name="sku">30Q</field>
+</record>
+
+<record id="volumes_139" model="sku.volumes">
+    <field name="name">1 OZ</field>
+    <field name="sku">1OZ</field>
+</record>
+
+<record id="volumes_140" model="sku.volumes">
+    <field name="name">2 OZ</field>
+    <field name="sku">2OZ</field>
+</record>
+
+<record id="volumes_141" model="sku.volumes">
+    <field name="name">2.3 OZ</field>
+    <field name="sku">2.3OZ</field>
+</record>
+
+<record id="volumes_142" model="sku.volumes">
+    <field name="name">3 OZ</field>
+    <field name="sku">3OZ</field>
+</record>
+
+<record id="volumes_143" model="sku.volumes">
+    <field name="name">4 OZ</field>
+    <field name="sku">4OZ</field>
+</record>
+
+<record id="volumes_144" model="sku.volumes">
+    <field name="name">5 OZ</field>
+    <field name="sku">5OZ</field>
+</record>
+
+<record id="volumes_145" model="sku.volumes">
+    <field name="name">6 OZ</field>
+    <field name="sku">6OZ</field>
+</record>
+
+<record id="volumes_146" model="sku.volumes">
+    <field name="name">7 OZ</field>
+    <field name="sku">7OZ</field>
+</record>
+
+<record id="volumes_147" model="sku.volumes">
+    <field name="name">8 OZ</field>
+    <field name="sku">8OZ</field>
+</record>
+
+<record id="volumes_148" model="sku.volumes">
+    <field name="name">10 OZ</field>
+    <field name="sku">10OZ</field>
+</record>
+
+<record id="volumes_149" model="sku.volumes">
+    <field name="name">11 OZ</field>
+    <field name="sku">11OZ</field>
+</record>
+
+<record id="volumes_150" model="sku.volumes">
+    <field name="name">16 OZ</field>
+    <field name="sku">16OZ</field>
+</record>
+
+<record id="volumes_151" model="sku.volumes">
+    <field name="name">3.4 OZ</field>
+    <field name="sku">3.4OZ</field>
+</record>
+
+<record id="volumes_152" model="sku.volumes">
+    <field name="name">TUNUNG FORK NOTE C</field>
+    <field name="sku">C</field>
+</record>
+
+<record id="volumes_153" model="sku.volumes">
+    <field name="name">TUNUNG FORK NOTE D</field>
+    <field name="sku">D</field>
+</record>
+
+<record id="volumes_154" model="sku.volumes">
+    <field name="name">TUNUNG FORK NOTE E</field>
+    <field name="sku">E</field>
+</record>
+
+<record id="volumes_155" model="sku.volumes">
+    <field name="name">TUNUNG FORK NOTE F</field>
+    <field name="sku">F</field>
+</record>
+
+<record id="volumes_156" model="sku.volumes">
+    <field name="name">1 PIECE</field>
+    <field name="sku">1PC</field>
+</record>
+
+<record id="volumes_157" model="sku.volumes">
+    <field name="name">5 PIECES</field>
+    <field name="sku">5PC</field>
+</record>
+
+<record id="volumes_158" model="sku.volumes">
+    <field name="name">10 PIECES</field>
+    <field name="sku">10PC</field>
+</record>
+
+<record id="volumes_159" model="sku.volumes">
+    <field name="name">20 PIECES</field>
+    <field name="sku">20PC</field>
+</record>
+
+<record id="volumes_160" model="sku.volumes">
+    <field name="name">100 PIECES</field>
+    <field name="sku">100PC</field>
+</record>
+
+<record id="volumes_161" model="sku.volumes">
+    <field name="name">10Ib SLAB</field>
+    <field name="sku">10Ib</field>
+</record>
+
+<record id="volumes_162" model="sku.volumes">
+    <field name="name">60Ib CASE</field>
+    <field name="sku">60Ib</field>
+</record>
+
+<record id="volumes_163" model="sku.volumes">
+    <field name="name">1.5"X2"</field>
+    <field name="sku">1.5X2</field>
+</record>
+
+<record id="volumes_164" model="sku.volumes">
+    <field name="name">2X3"</field>
+    <field name="sku">2X3</field>
+</record>
+
+<record id="volumes_165" model="sku.volumes">
+    <field name="name">2X12"</field>
+    <field name="sku">2X12</field>
+</record>
+
+<record id="volumes_166" model="sku.volumes">
+    <field name="name">2.5"X8.25"</field>
+    <field name="sku">2.5X8.25</field>
+</record>
+
+<record id="volumes_167" model="sku.volumes">
+    <field name="name">3"X4"</field>
+    <field name="sku">3X4</field>
+</record>
+
+<record id="volumes_168" model="sku.volumes">
+    <field name="name">3 1/16 X 2 1/8</field>
+    <field name="sku">3.06X2.12</field>
+</record>
+
+<record id="volumes_169" model="sku.volumes">
+    <field name="name">3 1/8 X2X5 1/8</field>
+    <field name="sku">3X2X5</field>
+</record>
+
+<record id="volumes_170" model="sku.volumes">
+    <field name="name">3.5X5"</field>
+    <field name="sku">3.5X5</field>
+</record>
+
+<record id="volumes_171" model="sku.volumes">
+    <field name="name">4X6</field>
+    <field name="sku">4X6</field>
+</record>
+
+<record id="volumes_172" model="sku.volumes">
+    <field name="name">5"X7"</field>
+    <field name="sku">5X7</field>
+</record>
+
+<record id="volumes_173" model="sku.volumes">
+    <field name="name">9"X2"</field>
+    <field name="sku">9X2</field>
+</record>
+
+<record id="volumes_174" model="sku.volumes">
+    <field name="name">7x4x5</field>
+    <field name="sku">7X4X5</field>
+</record>
+
+<record id="volumes_175" model="sku.volumes">
+    <field name="name">8"X6"</field>
+    <field name="sku">8X6</field>
+</record>
+
+<record id="volumes_176" model="sku.volumes">
+    <field name="name">5.25X 7.125"</field>
+    <field name="sku">5X7</field>
+</record>
+
+<record id="volumes_177" model="sku.volumes">
+    <field name="name">5.8"X8.3"</field>
+    <field name="sku">5.8X8.3</field>
+</record>
+
+<record id="volumes_178" model="sku.volumes">
+    <field name="name">6"X9"</field>
+    <field name="sku">6X9</field>
+</record>
+
+<record id="volumes_179" model="sku.volumes">
+    <field name="name">6X12"</field>
+    <field name="sku">6X12</field>
+</record>
+
+<record id="volumes_180" model="sku.volumes">
+    <field name="name">9X5.5X12"</field>
+    <field name="sku">9X5.5X12</field>
+</record>
+
+<record id="volumes_181" model="sku.volumes">
+    <field name="name">11X7</field>
+    <field name="sku">11X7</field>
+</record>
+
+<record id="volumes_182" model="sku.volumes">
+    <field name="name">12X12"</field>
+    <field name="sku">12X12</field>
+</record>
+
+<record id="volumes_183" model="sku.volumes">
+    <field name="name">20X15X7"</field>
+    <field name="sku">20X15X7</field>
+</record>
+
+<record id="volumes_184" model="sku.volumes">
+    <field name="name">36"X24"X32"</field>
+    <field name="sku">36X24X32</field>
+</record>
+
+<record id="volumes_185" model="sku.volumes">
+    <field name="name">1/4</field>
+    <field name="sku">1/4</field>
+</record>
+
+<record id="volumes_186" model="sku.volumes">
+    <field name="name">3/8</field>
+    <field name="sku">3/8</field>
+</record>
+
+<record id="volumes_187" model="sku.volumes">
+    <field name="name">28X25MM</field>
+    <field name="sku">28X25</field>
+</record>
+
+<record id="volumes_188" model="sku.volumes">
+    <field name="name">51X89MM</field>
+    <field name="sku">51X89</field>
+</record>
+
+<record id="volumes_189" model="sku.volumes">
+    <field name="name">66X28MM</field>
+    <field name="sku">66X28</field>
+</record>
+
+<record id="volumes_190" model="sku.volumes">
+    <field name="name">75X28MM</field>
+    <field name="sku">75X28</field>
+</record>
+
+<record id="volumes_191" model="sku.volumes">
+    <field name="name">100X28MM</field>
+    <field name="sku">100X28</field>
+</record>
+
+<record id="volumes_192" model="sku.volumes">
+    <field name="name">LABEL - 2"X4"</field>
+    <field name="sku">2X4</field>
+</record>
+
+<record id="volumes_193" model="sku.volumes">
+    <field name="name">PAPER - LETTER</field>
+    <field name="sku">8.5X11</field>
+</record>
+
+<record id="volumes_194" model="sku.volumes">
+    <field name="name">PAPER - LEGAL</field>
+    <field name="sku">8.5X11.75</field>
+</record>
+
+<record id="volumes_195" model="sku.volumes">
+    <field name="name">AIR FILTER 20X30X1</field>
+    <field name="sku">20X30X1</field>
+</record>
+
+<record id="volumes_196" model="sku.volumes">
+    <field name="name">6 SIDED</field>
+    <field name="sku">6SD</field>
+</record>
+
+<record id="volumes_197" model="sku.volumes">
+    <field name="name">6 PACK</field>
+    <field name="sku">6PK</field>
+</record>
+
+<record id="volumes_198" model="sku.volumes">
+    <field name="name">3 PACK</field>
+    <field name="sku">3PK</field>
+</record>
+
+<record id="volumes_199" model="sku.volumes">
+    <field name="name">36 Inches</field>
+    <field name="sku">36IN</field>
+</record>
+
+<record id="volumes_200" model="sku.volumes">
+    <field name="name">DRAM, 1/2</field>
+    <field name="sku">1/2DRM</field>
+</record>
+
+<record id="volumes_201" model="sku.volumes">
+    <field name="name">DRAM 1/3</field>
+    <field name="sku">1/3DRM</field>
+</record>
+
+<record id="volumes_202" model="sku.volumes">
+    <field name="name">180 GRADE</field>
+    <field name="sku">180G</field>
+</record>
+
+<record id="volumes_203" model="sku.volumes">
+    <field name="name">8 X 4-1/4 X 5-1/2</field>
+    <field name="sku">8X4X5</field>
+</record>
+
+<record id="volumes_204" model="sku.volumes">
+    <field name="name">#1</field>
+    <field name="sku">#1</field>
+</record>
+
+<record id="volumes_205" model="sku.volumes">
+    <field name="name">#2</field>
+    <field name="sku">#2</field>
+</record>
+
+<record id="volumes_206" model="sku.volumes">
+    <field name="name">#3</field>
+    <field name="sku">#3</field>
+</record>
+
+<record id="volumes_207" model="sku.volumes">
+    <field name="name">#4</field>
+    <field name="sku">#4</field>
+</record>
+
+<record id="volumes_208" model="sku.volumes">
+    <field name="name">#5</field>
+    <field name="sku">#5</field>
+</record>
+
+<record id="volumes_209" model="sku.volumes">
+    <field name="name">#6</field>
+    <field name="sku">#6</field>
+</record>
+
+<record id="volumes_210" model="sku.volumes">
+    <field name="name">#7</field>
+    <field name="sku">#7</field>
+</record>
+
+<record id="volumes_211" model="sku.volumes">
+    <field name="name">#8</field>
+    <field name="sku">#8</field>
+</record>
+
+<record id="volumes_212" model="sku.volumes">
+    <field name="name">#9</field>
+    <field name="sku">#9</field>
+</record>
+
+<record id="volumes_213" model="sku.volumes">
+    <field name="name">#10</field>
+    <field name="sku">#10</field>
+</record>
+
+<record id="volumes_214" model="sku.volumes">
+    <field name="name" eval="2022"/>
+    <field name="sku" eval="2022"/>
+</record>
+
+
+    </data>
+</openerp>

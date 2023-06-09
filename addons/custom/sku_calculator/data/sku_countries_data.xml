@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<openerp>
+    <data noupdate="1">
+
+        <record id="country_1" model="sku.countries">
+            <field name="name">AFGHANISTAN</field>
+            <field name="sku">01</field>
+        </record>
+
+        <record id="country_2" model="sku.countries">
+            <field name="name">AFRICA</field>
+            <field name="sku">02</field>
+        </record>
+
+        <record id="country_3" model="sku.countries">
+            <field name="name">ARGENTINA</field>
+            <field name="sku">03</field>
+        </record>
+
+        <record id="country_4" model="sku.countries">
+            <field name="name">AUSTRALIA</field>
+            <field name="sku">04</field>
+        </record>
+
+        <record id="country_5" model="sku.countries">
+            <field name="name">BALI</field>
+            <field name="sku">05</field>
+        </record>
+
+        <record id="country_6" model="sku.countries">
+            <field name="name">BRAZIL</field>
+            <field name="sku">06</field>
+        </record>
+
+        <record id="country_7" model="sku.countries">
+            <field name="name">CANADA</field>
+            <field name="sku">07</field>
+        </record>
+
+        <record id="country_8" model="sku.countries">
+            <field name="name">CHILI</field>
+            <field name="sku">08</field>
+        </record>
+
+        <record id="country_9" model="sku.countries">
+            <field name="name">CHINA</field>
+            <field name="sku">09</field>
+        </record>
+
+        <record id="country_10" model="sku.countries">
+            <field name="name">COLOMBIA</field>
+            <field name="sku">10</field>
+        </record>
+
+        <record id="country_11" model="sku.countries">
+            <field name="name">CZECH REPUBLIC</field>
+            <field name="sku">11</field>
+        </record>
+
+        <record id="country_12" model="sku.countries">
+            <field name="name">DOMINICAN REPUBLIC</field>
+            <field name="sku">12</field>
+        </record>
+
+        <record id="country_13" model="sku.countries">
+            <field name="name">EGYPT</field>
+            <field name="sku">13</field>
+        </record>
+
+        <record id="country_14" model="sku.countries">
+            <field name="name">GREENLAND</field>
+            <field name="sku">14</field>
+        </record>
+
+        <record id="country_15" model="sku.countries">
+            <field name="name">ICELAND</field>
+            <field name="sku">15</field>
+        </record>
+
+        <record id="country_16" model="sku.countries">
+            <field name="name">INDIA</field>
+            <field name="sku">16</field>
+        </record>
+
+        <record id="country_17" model="sku.countries">
+            <field name="name">INDONESIA</field>
+            <field name="sku">17</field>
+        </record>
+
+        <record id="country_18" model="sku.countries">
+            <field name="name">JAPAN</field>
+            <field name="sku">18</field>
+        </record>
+
+        <record id="country_19" model="sku.countries">
+            <field name="name">MADAGASCAR</field>
+            <field name="sku">19</field>
+        </record>
+
+        <record id="country_20" model="sku.countries">
+            <field name="name">MEXICO</field>
+            <field name="sku">20</field>
+        </record>
+
+        <record id="country_21" model="sku.countries">
+            <field name="name">MOROCCO</field>
+            <field name="sku">21</field>
+        </record>
+
+        <record id="country_22" model="sku.countries">
+            <field name="name">NORWAY</field>
+            <field name="sku">22</field>
+        </record>
+
+        <record id="country_23" model="sku.countries">
+            <field name="name">PAKISTAN</field>
+            <field name="sku">23</field>
+        </record>
+
+        <record id="country_24" model="sku.countries">
+            <field name="name">PERU</field>
+            <field name="sku">24</field>
+        </record>
+
+        <record id="country_25" model="sku.countries">
+            <field name="name">RUSSIA</field>
+            <field name="sku">25</field>
+        </record>
+
+        <record id="country_26" model="sku.countries">
+            <field name="name">SOUTH AFRICA</field>
+            <field name="sku">26</field>
+        </record>
+
+        <record id="country_27" model="sku.countries">
+            <field name="name">SPAIN</field>
+            <field name="sku">27</field>
+        </record>
+
+        <record id="country_28" model="sku.countries">
+            <field name="name">TANZANIA</field>
+            <field name="sku">28</field>
+        </record>
+
+        <record id="country_29" model="sku.countries">
+            <field name="name">TASMANIA</field>
+            <field name="sku">29</field>
+        </record>
+
+        <record id="country_30" model="sku.countries">
+            <field name="name">TURKEY</field>
+            <field name="sku">30</field>
+        </record>
+
+        <record id="country_31" model="sku.countries">
+            <field name="name">USA</field>
+            <field name="sku">31</field>
+        </record>
+
+        <record id="country_32" model="sku.countries">
+            <field name="name">Bhutan</field>
+            <field name="sku">32</field>
+        </record>
+
+    </data>
+</openerp>

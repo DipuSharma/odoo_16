@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="sku_shapes_tree_id" model="ir.ui.view">
+        <field name="name">sku.shapes.tree.id</field>
+        <field name="model">sku.shapes</field>
+        <field name="arch" type="xml">
+            <tree string="Shape Color">
+                <field name="name"/>
+                <field name="sku" string="Sku Code"/>
+            </tree>
+        </field>
+    </record>
+    <record id="sku_form" model="ir.ui.view">
+        <field name="name">sku.shapes.form</field>
+        <field name="model">sku.shapes</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name"/>
+                        </group>
+                        <group>
+                            <field name="sku"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="sku_actions_shapes" model="ir.actions.act_window">
+        <field name="name">Shape</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">sku.shapes</field>
+        <field name="view_mode">tree,kanban,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                create your Shape!
+            </p>
+        </field>
+    </record>
+
+    <menuitem action="sku_actions_shapes" id="menu_action_sku_type_form" parent="sg_sku_calculator.sku_calculator_purchase_menu_root" sequence="3"/>
+    <menuitem action="sku_actions_shapes" id="menu_action_stock_sku_type_form" parent="sg_sku_calculator.sku_calculator_stock_menu_root" sequence="3"/>
+
+</odoo>

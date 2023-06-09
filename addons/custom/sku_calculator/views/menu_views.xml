@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <menuitem id="sku_calculator_purchase_menu_root"  name="Sku Calculator" parent="purchase.menu_purchase_config" sequence="10"/>
+    <menuitem id="sku_calculator_stock_menu_root" name="Sku Calculator" parent="stock.menu_stock_config_settings" sequence="12" />
+</odoo>

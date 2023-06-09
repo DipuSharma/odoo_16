@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<!--    Sku Category View-->
+    <record id="shipment_type_tree" model="ir.ui.view">
+        <field name="name">shipment.type.tree</field>
+        <field name="model">shipment.type</field>
+        <field name="arch" type="xml">
+            <tree string="Shipment">
+                <field name="name"/>
+            </tree>
+        </field>
+    </record>
+    <record id="shipment_type_form" model="ir.ui.view">
+        <field name="name">shipment.type.form</field>
+        <field name="model">shipment.type</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <record id="shipment_type_actions" model="ir.actions.act_window">
+        <field name="name">Shipment</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">shipment.type</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                create your sku!
+            </p>
+        </field>
+    </record>
+
+</odoo>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="sku_countries_tree_id" model="ir.ui.view">
+        <field name="name">sku.countries.tree.id</field>
+        <field name="model">sku.countries</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name" string="Name"/>
+                <field name="sku" string="Sku code"/>
+            </tree>
+        </field>
+    </record>
+    <record id="sku_form" model="ir.ui.view">
+        <field name="name">sku.countries.form</field>
+        <field name="model">sku.countries</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name"/>
+                        </group>
+                        <group>
+                            <field name="sku"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <record id="sku_actions_country" model="ir.actions.act_window">
+        <field name="name">Country</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">sku.countries</field>
+        <field name="view_mode">tree,kanban,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                create your country!
+            </p>
+        </field>
+    </record>
+
+    <menuitem action="sku_actions_country" id="menu_action_sku_country_form" parent="sg_sku_calculator.sku_calculator_purchase_menu_root" sequence="7"/>
+    <menuitem action="sku_actions_country" id="menu_action_stock_sku_country_form" parent="sg_sku_calculator.sku_calculator_stock_menu_root" sequence="7"/>
+</odoo>

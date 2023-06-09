@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <data>
+        <record id="bin_replanishmennt_view" model="ir.ui.view">
+            <field name="name">bin.replanishmennt.view</field>
+            <field name="model">product.template</field>
+            <field name="inherit_id" ref="product.product_template_only_form_view"/>
+            <field name="arch" type="xml">
+                <xpath expr="//notebook" position="inside">
+                    <page string="Bin Replashiment" >
+                        <sheet>
+                            <group>
+                                <group>
+                                    <field name="thresh_quantity" />
+                                    <field name="bin_replenishment"/>
+                                    <!--<field name="exclude_rules"/>-->
+                                </group>
+                                <group>
+                                    <field name="check_qty" class="product-templet-bin-replenish" invisible="1"/>
+                                </group>
+                            </group>
+                        </sheet>
+                    </page>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="product_product_bin_replenishment_view" model="ir.ui.view">
+            <field name="name">product.product.bin.replenishment.view</field>
+            <field name="model">product.product</field>
+            <field name="inherit_id" ref="product.product_normal_form_view"/>
+            <field name="arch" type="xml">
+                <xpath expr="//notebook" position="inside">
+                    <page string="Bin Replashiment" >
+                        <sheet>
+                            <group>
+                                <group>
+                                    <field name="thresh_quantity" />
+                                    <field name="bin_replenishment"/>
+<!--                                    <field name="exclude_rules"/>-->
+                                </group>
+                                <group>
+                                    <field name="check_qty" class="product-templet-bin-replenish" invisible="1"/>
+                                </group>
+                            </group>
+                        </sheet>
+                    </page>
+                </xpath>
+            </field>
+        </record>
+
+
+        <record id="location_bin_replenishment_view" model="ir.ui.view">
+            <field name="name">stock.location.bin.replenishment.view.form</field>
+            <field name="model">stock.location</field>
+            <field name="inherit_id" ref="stock.view_location_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//sheet" position="inside">
+                    <notebook>
+                         <page string="Bin Replenishment">
+                             <sheet>
+                                <group>
+                                    <group>
+                                        <field name="thresh_quantity" />
+                                        <field name="bin_replenishment"/>
+                                        <field name="exclude_rules"/>
+                                    </group>
+                                </group>
+                            </sheet>
+                         </page>
+                    </notebook>
+                </xpath>
+            </field>
+        </record>
+        <record id="location_schedule_activity_bin_replenishment_view" model="ir.ui.view">
+            <field name="name">stock.location.bin.replenishment.view.form.schedule.activity</field>
+            <field name="model">stock.location</field>
+            <field name="inherit_id" ref="stock.view_location_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//sheet" position="after">
+                    <div class="oe_chatter">
+                        <field name="message_follower_ids" widget="mail_followers" />
+                        <field name="activity_ids" widget="mail_activity" />
+                        <field name="message_ids" widget="mail_thread" />
+                    </div>
+                </xpath>
+            </field>
+        </record>
+        <!--       Search View Extended Under Stock Quantity -->
+        <record id="bin_replanishmennt_stock_quant_search_view" model="ir.ui.view">
+            <field name="name">bin.replanishmennt.stock.quant.search.view</field>
+            <field name="model">stock.quant</field>
+            <field name="inherit_id" ref="stock.view_stock_quant_tree_inventory_editable"/>
+            <field name="arch" type="xml">
+                <field name="user_id" position="after">
+                    <field name="stock_quantity_check" invisible="True"/>
+                </field>
+            </field>
+        </record>
+    </data>
+</odoo>

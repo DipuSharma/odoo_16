@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <data>
+        <record id="sku_calculator_product_form_view" model="ir.ui.view">
+            <field name="name">sku.calculator.product.form.view</field>
+            <field name="model">product.template</field>
+            <field name="inherit_id" ref="product.product_template_only_form_view"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='default_code']" position="after">
+<!--                    <widget name="new_button" />-->
+                </xpath>
+                <xpath expr="//notebook" position="inside">
+                    <page string="Sku Calculator" name="Sku" id="sku_form_view_button" class="sku_calculator">
+                        <filed name="arch" type="xml">
+                            <sheet>
+                                <group>
+                                    <group>
+                                        <field name="productcategorysku_id" />
+                                        <field name="producttypesku_id" />
+                                        <field name="shapesku1_id" id="shapesku1_id" />
+                                        <field name="sbondedsku_id" id="sbondedsku_id" />
+                                        <field name="shapesku2_id" id="shapesku2_id" />
+                                        <field name="vendorsku_id" id="vendorsku_id" />
+                                        <field name="volumesku_id" id="volumesku_id" />
+                                        <field name="countrysku_id" id="countrysku_id"/>
+                                    </group>
+                                    <group>
+                                        <field name="sku_code" id="sku_code"  widget="CopyClipboardChar"/>
+                                    </group>
+                                </group>
+                            </sheet>
+                        </filed>
+                    </page>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="sku_calculator_product_view" model="ir.ui.view">
+            <field name="name">sku.calculator.product.view</field>
+            <field name="model">product.product</field>
+            <field name="inherit_id" ref="product.product_normal_form_view"/>
+            <field name="arch" type="xml">
+<!--                <xpath expr="//field[@name='default_code']" position="after"><widget name="open_sku_calculator_tab"/></xpath>-->
+                <xpath expr="//notebook" position="inside">
+                    <page string="Sku Calculator" name="Sku" id="sku_form_view_button" class="oe_edit_only">
+                        <filed name="arch" type="xml">
+                            <sheet>
+                                <group>
+                                    <group name="group_general" modifiers="{}">
+                                        <field name="productcategorysku_id" class="oe_edit_only"/>
+                                        <field name="producttypesku_id" class="oe_edit_only"/>
+                                        <field name="shapesku1_id" id="shapesku1_id" class="oe_edit_only"/>
+                                        <field name="sbondedsku_id" id="sbondedsku_id" class="oe_edit_only"/>
+                                        <field name="shapesku2_id" id="shapesku2_id" class="oe_edit_only"/>
+                                        <field name="vendorsku_id" id="vendorsku_id" class="oe_edit_only"/>
+                                        <field name="volumesku_id" id="volumesku_id" class="oe_edit_only"/>
+                                        <field name="countrysku_id" id="countrysku_id" class="oe_edit_only"/>
+                                    </group>
+                                    <group name="group_general" modifiers="{}">
+                                        <field name="sku_code" id="sku_code" class="oe_edit_only"/>
+                                    </group>
+<!--                                    <button onClick="copyToClipboard('input[name=sku_code]')" id="copy_sku_code" icon="fa-clone" class="oe_edit_only"/>-->
+                                </group>
+                            </sheet>
+                        </filed>
+                    </page>
+                </xpath>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="product_qr_code">
+           <field name="name">product.template.qr.code</field>
+           <field name="model">product.template</field>
+           <field name="type">form</field>
+           <field name="inherit_id" ref="product.product_template_only_form_view"/>
+           <field name="arch" type="xml">
+               <field name="uom_po_id" position="after">
+                   <field name="qr_code" widget='image' class="oe_avatar"/>
+               </field>
+           </field>
+         </record>
+    </data>
+</odoo>

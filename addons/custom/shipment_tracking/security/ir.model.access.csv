@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+"access_logistic_service","access.logistic.service","model_logistic_service",base.group_user,1,1,1,1
+"access_shipment_type","access.shipment.type","model_shipment_type",base.group_user,1,1,1,1
+"access_shipment_track","access.shipment.track","model_shipment_track",base.group_user,1,1,1,1
+"access_shipment_track_line","access.shipment.track.line","model_shipment_track_line",base.group_user,1,1,1,1
+"access_shipment_fetch_line","access.shipment.fetch.line","model_shipment_fetch_line",base.group_user,1,1,1,1

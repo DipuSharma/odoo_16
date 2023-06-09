@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <record id="shipment_tracking_tree_id" model="ir.ui.view">
+        <field name="name">shipment.tracking.tree.id</field>
+        <field name="model">shipment.track</field>
+        <field name="arch" type="xml">
+            <tree string="Shipment Tracking">
+                <field name="name" string="Shipment_ID"/>
+                <field name="shipment_type_id" string="Type of Shipment"/>
+                <field name="depart_date"/>
+                <field string="PO#" name="shipment_line_id"  />
+                <field name="eta"/>
+                <field name="internal_eta" string="SG ETA"/>
+                <field name="logistic_service"/>
+                <field name="tracking_number"/>
+                <field name="cargo_spaces"/>
+                <field name="state" string="Status" optional="show" widget="badge" decoration-success="state == 'receive'" decoration-warning="state == 'in_process'" decoration-info="state == 'draft'" on_change="1" modifiers="{&quot;readonly&quot;: true}"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="shipment_search_view" model="ir.ui.view">
+            <field name="name">shipment.tracking.search</field>
+            <field name="model">shipment.track</field>
+            <field name="arch" type="xml">
+                <search string="Staff Search">
+                    <field string="PO#" name="shipment_line_id" filter_domain="[('shipment_line_id.po_id', 'ilike', self)]" />
+                    <field string="SKU" name="shipment_line_id" filter_domain="[('shipment_line_id.purchase_line_id', 'ilike', self)]" />
+                    <field name="name"/>
+                    <field name="logistic_service"/>
+                    <field name="tracking_number"/>
+                    <field name="shipment_type_id"/>
+                    <field name="cargo_spaces"/>
+                    <field name="depart_date"/>
+                    <field name="eta"/>
+                    <field name="internal_eta"/>
+                    <field name="state"/>
+                    <filter string="Draft" name="state" domain="[('state', '=', 'draft')]"/>
+                    <filter string="In Process" name="state" domain="[('state', '=', 'in_process')]"/>
+                    <filter string="Shipment Received" name="state" domain="[('state', '=', 'receive')]"/>
+                    <filter string="Cancel" name="state" domain="[('state', '=', 'cancel')]"/>
+                    <group string="Group By">
+                        <filter name="state" string="Status" context="{'group_by':'state'}" />
+                        <filter name="shipment_type_id" string="Type of Shipment" context="{'group_by':'shipment_type_id'}" />
+                        <filter name="logistic_service" string="Logistic Service" context="{'group_by':'logistic_service'}" />
+                    </group>
+                </search>
+            </field>
+    </record>
+
+    <record id="shipment_tracking_form_view" model="ir.ui.view">
+        <field name="name">shipment.tracking.form.view</field>
+        <field name="model">shipment.track</field>
+        <field name="arch" type="xml">
+            <form string="Shipment Form">
+                <header>
+                    <button name="confirm_tracking" string="CONFIRM TRACKING" type="object" class="oe_highlight" attrs="{'invisible':['|','|',('state', '=', 'receive'),('state', '=', 'in_process'), ('state', '=', 'cancel')]}"/>
+                    <button name="received" string="SHIPMENT RECEIVED" type="object" class="oe_highlight" attrs="{'invisible':['|','|', ('state', '=', 'receive'), ('state', '=', 'cancel'), ('state', '=', 'draft')]}"/>
+                    <button name="do_cancel" string="CANCEL" type="object" class="oe_highlight" attrs="{'invisible':[('state', '=', 'cancel')]}"/>
+                    <button name="set_draft" string="SET TO DRAFT" type="object" class="oe_highlight" data-hotkey="x" attrs="{'invisible':['|',('state', '=', 'receive'),('state', '=', 'draft')]}"/>
+                    <field name="state" widget="statusbar" statusbar_visible="draft,in_process,receive"/>
+                </header>
+                <sheet>
+                    <div class="oe_title">
+                        <label for="name" string="Shipment Tracking"/>
+                        <h1 style="margin-top:25px;">
+                            <div class="d-flex">
+                                <field name="priority" widget="priority" class="mr-3"/>
+                                <field class="o_text_overflow" name="name"/>
+                            </div>
+                        </h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="logistic_service" required="True"/>
+                            <field name="tracking_number"/>
+                            <field name="shipment_type_id" required="True"/>
+                            <field name="cargo_spaces"/>
+                            <field name="sg_track_location"/>
+                            <button name="action_url" type="object"  title="External_link" class="fa fa-external-link o_external_button" id="shipment_tracking"/>
+                        </group>
+
+                        <group>
+                            <field name="depart_date" required="True"/>
+                            <field name="eta" />
+                            <field name="internal_eta" string="SG ETA"/>
+                            <field name="product_manager"/>
+                            <field name="vendor_id"/>
+                            <field name="vendor_cantact"/>
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Related Purchase Orders">
+                            <field name="shipment_line_id" mode="tree, form" colspan="4" nolabel="1" widget="one2many">
+                                <tree string="Purchase Orders" editable="bottom">
+                                    <control>
+                                        <create string="Add PO Item"/>
+                                    </control>
+                                    <field name="po_id" />
+                                    <field name="state" />
+                                    <field name="purchase_line_id"/>
+                                    <field name="quantity"/>
+                                </tree>
+                            </field>
+                        </page>
+                    </notebook>
+                </sheet>
+                 <div class="oe_chatter">
+                     <field name="message_follower_ids" widget="mail_followers" />
+                     <field name="activity_ids" widget="mail_activity" />
+                     <field name="message_ids" widget="mail_thread" />
+                 </div>
+            </form>
+        </field>
+    </record>
+
+    <record id="shipment_line_search_view" model="ir.ui.view">
+        <field name="name">shipment.line.search</field>
+        <field name="model">shipment.track.line</field>
+        <field name="arch" type="xml">
+            <search string="Line  Search">
+                <field string="PO#" name="po_id" filter_domain="[('po_id', 'ilike', self)]" />
+                <field string="SKU" name="purchase_line_id" filter_domain="[('purchase_line_id', 'ilike', self)]" />
+            </search>
+        </field>
+    </record>
+
+    <record id="shipment_tracking_tree_actions" model="ir.actions.act_window">
+        <field name="name">Shipment Tracking</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">shipment.track</field>
+        <field name="view_mode">tree,kanban,graph,form,activity</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Create your shipment tracking!
+            </p>
+        </field>
+    </record>
+
+    <record id="shipment_tracking_form_actions" model="ir.actions.act_window">
+        <field name="name">Shipment Tracking</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">shipment.track</field>
+        <field name="view_mode">form</field>
+    </record>
+
+    <!--  All Actions   -->
+    <record id="shipment_tracking_actions" model="ir.actions.act_window">
+        <field name="name">Shipment Tracking</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">shipment.track</field>
+        <field name="view_mode">tree,kanban,graph,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Create your shipment tracking!
+            </p>
+        </field>
+    </record>
+</odoo>
+

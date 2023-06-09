@@ -1,0 +1,2715 @@
+<?xml version="1.0"?>
+<odoo>
+        <data noupdate="1">
+
+            <record id="bonded_1" model="sku.bondedes">
+                <field name="name">ACTINOLITE</field>
+                <field name="sku">ACT</field>
+            </record>
+
+            <record id="bonded_2" model="sku.bondedes">
+                <field name="name">AEGIRINE</field>
+                <field name="sku">AEG</field>
+            </record>
+
+            <record id="bonded_3" model="sku.bondedes">
+                <field name="name">AGATE</field>
+                <field name="sku">AGT</field>
+            </record>
+
+            <record id="bonded_4" model="sku.bondedes">
+                <field name="name">AGATE, BAMBOO LEAF</field>
+                <field name="sku">AGT</field>
+                <field name="variable">BMLF</field>
+            </record>
+
+            <record id="bonded_5" model="sku.bondedes">
+                <field name="name">AGATE, BLUE</field>
+                <field name="sku">AGT</field>
+                <field name="variable">BLU</field>
+            </record>
+
+            <record id="bonded_6" model="sku.bondedes">
+                <field name="name">AGATE, BLUE LACE</field>
+                <field name="sku">AGT</field>
+                <field name="variable">BLCE</field>
+            </record>
+
+            <record id="bonded_7" model="sku.bondedes">
+                <field name="name">AGATE, CHEETAH</field>
+                <field name="sku">AGT</field>
+                <field name="variable">CTA</field>
+            </record>
+
+            <record id="bonded_8" model="sku.bondedes">
+                <field name="name">AGATE, CHERRY BLOSSOM</field>
+                <field name="sku">AGT</field>
+                <field name="variable">CHYBLM</field>
+            </record>
+
+            <record id="bonded_9" model="sku.bondedes">
+                <field name="name">AGATE, CRAZY LACE</field>
+                <field name="sku">AGT</field>
+                <field name="variable">CRZLCE</field>
+            </record>
+
+            <record id="bonded_10" model="sku.bondedes">
+                <field name="name">AGATE, DENDRITIC</field>
+                <field name="sku">AGT</field>
+                <field name="variable">DEND</field>
+            </record>
+
+            <record id="bonded_11" model="sku.bondedes">
+                <field name="name">AGATE, FANCY</field>
+                <field name="sku">AGT</field>
+                <field name="variable">FNCY</field>
+            </record>
+
+            <record id="bonded_12" model="sku.bondedes">
+                <field name="name">AGATE, FIRE</field>
+                <field name="sku">AGT</field>
+                <field name="variable">FRE</field>
+            </record>
+
+            <record id="bonded_13" model="sku.bondedes">
+                <field name="name">AGATE, FLOWER </field>
+                <field name="sku">AGT</field>
+                <field name="variable">FLW</field>
+            </record>
+
+            <record id="bonded_14" model="sku.bondedes">
+                <field name="name">AGATE, IRIS</field>
+                <field name="sku">AGT</field>
+                <field name="variable">IRS</field>
+            </record>
+
+            <record id="bonded_15" model="sku.bondedes">
+                <field name="name">AGATE, LAGUNA</field>
+                <field name="sku">AGT</field>
+                <field name="variable">LAG</field>
+            </record>
+
+            <record id="bonded_16" model="sku.bondedes">
+                <field name="name">AGATE, MOOKAITE</field>
+                <field name="sku">AGT</field>
+                <field name="variable">MOK</field>
+            </record>
+
+            <record id="bonded_17" model="sku.bondedes">
+                <field name="name">AGATE, MOSS</field>
+                <field name="sku">AGT</field>
+                <field name="variable">MSS</field>
+            </record>
+
+            <record id="bonded_18" model="sku.bondedes">
+                <field name="name">AGATE, PATAGONIAN</field>
+                <field name="sku">AGT</field>
+                <field name="variable">PAT</field>
+            </record>
+
+            <record id="bonded_19" model="sku.bondedes">
+                <field name="name">AGATE, PINK</field>
+                <field name="sku">AGT</field>
+                <field name="variable">PNK</field>
+            </record>
+
+            <record id="bonded_20" model="sku.bondedes">
+                <field name="name">AGATE, PINK MOSS</field>
+                <field name="sku">AGT</field>
+                <field name="variable">PNKMS</field>
+            </record>
+
+            <record id="bonded_21" model="sku.bondedes">
+                <field name="name">AGATE, SEIBER</field>
+                <field name="sku">AGT</field>
+                <field name="variable">SBR</field>
+            </record>
+
+            <record id="bonded_22" model="sku.bondedes">
+                <field name="name">AGATE, TREE </field>
+                <field name="sku">AGT</field>
+                <field name="variable">TRE</field>
+            </record>
+
+            <record id="bonded_23" model="sku.bondedes">
+                <field name="name">AGATE, TURITELLA</field>
+                <field name="sku">AGT</field>
+                <field name="variable">TRTLA</field>
+            </record>
+
+            <record id="bonded_24" model="sku.bondedes">
+                <field name="name">AGATE, VIOLET FLAME</field>
+                <field name="sku">AGT</field>
+                <field name="variable">VLTFLM</field>
+            </record>
+
+            <record id="bonded_25" model="sku.bondedes">
+                <field name="name">AGATE, WHITE</field>
+                <field name="sku">AGT</field>
+                <field name="variable">WHT</field>
+            </record>
+
+            <record id="bonded_26" model="sku.bondedes">
+                <field name="name">AGATIZED CORAL</field>
+                <field name="sku">CRL</field>
+                <field name="variable">AGTZ</field>
+            </record>
+
+            <record id="bonded_27" model="sku.bondedes">
+                <field name="name">AMAZONITE</field>
+                <field name="sku">AMZ</field>
+            </record>
+
+            <record id="bonded_28" model="sku.bondedes">
+                <field name="name">AMAZONITE, BLUE</field>
+                <field name="sku">AMZ</field>
+                <field name="variable">BLU</field>
+            </record>
+
+            <record id="bonded_29" model="sku.bondedes">
+                <field name="name">AMAZONITE, GREEN</field>
+                <field name="sku">AMZ</field>
+                <field name="variable">GRN</field>
+            </record>
+
+            <record id="bonded_30" model="sku.bondedes">
+                <field name="name">AMAZONITE, YELLOW</field>
+                <field name="sku">AMZ</field>
+                <field name="variable">YLW</field>
+            </record>
+
+            <record id="bonded_31" model="sku.bondedes">
+                <field name="name">AMBER</field>
+                <field name="sku">AMB</field>
+            </record>
+
+            <record id="bonded_32" model="sku.bondedes">
+                <field name="name">AMETHYST</field>
+                <field name="sku">AMT</field>
+            </record>
+
+            <record id="bonded_33" model="sku.bondedes">
+                <field name="name">AMETHYST, BANDED</field>
+                <field name="sku">AMT</field>
+                <field name="variable">BNDD</field>
+            </record>
+
+            <record id="bonded_34" model="sku.bondedes">
+                <field name="name">AMETHYST, CHEVRON</field>
+                <field name="sku">AMT</field>
+                <field name="variable">CHV</field>
+            </record>
+
+            <record id="bonded_35" model="sku.bondedes">
+                <field name="name">AMETHYST, DREAM</field>
+                <field name="sku">AMT</field>
+                <field name="variable">DRM</field>
+            </record>
+
+            <record id="bonded_36" model="sku.bondedes">
+                <field name="name">AMETHYST, GREEN (PRASIOLITE)</field>
+                <field name="sku">AMT</field>
+                <field name="variable">GRN</field>
+            </record>
+
+            <record id="bonded_37" model="sku.bondedes">
+                <field name="name">AMETHYST, PINK</field>
+                <field name="sku">AMT</field>
+                <field name="variable">PNK</field>
+            </record>
+
+            <record id="bonded_38" model="sku.bondedes">
+                <field name="name">AMETHYST, PURPLE RAIN</field>
+                <field name="sku">AMT</field>
+                <field name="variable">PRP</field>
+            </record>
+
+            <record id="bonded_39" model="sku.bondedes">
+                <field name="name">AMETHYST, SHANGAAN</field>
+                <field name="sku">AMT</field>
+                <field name="variable">SHN</field>
+            </record>
+
+            <record id="bonded_40" model="sku.bondedes">
+                <field name="name">AMETHYST, VERA CRUZ </field>
+                <field name="sku">AMT</field>
+                <field name="variable">VERCRZ</field>
+            </record>
+
+            <record id="bonded_41" model="sku.bondedes">
+                <field name="name">AMETHYST, ZEBRA</field>
+                <field name="sku">AMT</field>
+                <field name="variable">ZBR</field>
+            </record>
+
+            <record id="bonded_42" model="sku.bondedes">
+                <field name="name">AMMONITE </field>
+                <field name="sku">AMM</field>
+            </record>
+
+            <record id="bonded_43" model="sku.bondedes">
+                <field name="name">AMORINITE</field>
+                <field name="sku">AMRNT</field>
+            </record>
+
+            <record id="bonded_44" model="sku.bondedes">
+                <field name="name">ANCESTRALITE</field>
+                <field name="sku">ANS</field>
+            </record>
+
+            <record id="bonded_45" model="sku.bondedes">
+                <field name="name">ANGEL</field>
+                <field name="sku">ANG</field>
+            </record>
+
+            <record id="bonded_46" model="sku.bondedes">
+                <field name="name">ANGEL AURA</field>
+                <field name="sku">ANG</field>
+                <field name="variable">AUR</field>
+            </record>
+
+            <record id="bonded_47" model="sku.bondedes">
+                <field name="name">ANGELITE</field>
+                <field name="sku">ANGL</field>
+            </record>
+
+            <record id="bonded_48" model="sku.bondedes">
+                <field name="name">ANHYDRITE, PURPLE</field>
+                <field name="sku">ANH</field>
+                <field name="variable">PUR</field>
+            </record>
+
+            <record id="bonded_49" model="sku.bondedes">
+                <field name="name">ANTHOPHYLLITE WITH BIOTITE</field>
+                <field name="sku">ATHPLT</field>
+                <field name="variable">BITE</field>
+            </record>
+
+            <record id="bonded_50" model="sku.bondedes">
+                <field name="name">APATITE</field>
+                <field name="sku">APA</field>
+            </record>
+
+            <record id="bonded_51" model="sku.bondedes">
+                <field name="name">APATITE, BLUE</field>
+                <field name="sku">APA</field>
+                <field name="variable">BLU</field>
+            </record>
+
+            <record id="bonded_52" model="sku.bondedes">
+                <field name="name">APATITE, GREEN</field>
+                <field name="sku">APA</field>
+                <field name="variable">GRN</field>
+            </record>
+
+            <record id="bonded_53" model="sku.bondedes">
+                <field name="name">APATITE, YELLOW</field>
+                <field name="sku">APA</field>
+                <field name="variable">YLO</field>
+            </record>
+
+            <record id="bonded_54" model="sku.bondedes">
+                <field name="name">APOPHYLLITE</field>
+                <field name="sku">APO</field>
+            </record>
+
+            <record id="bonded_55" model="sku.bondedes">
+                <field name="name">AQUAMARINE</field>
+                <field name="sku">AQA</field>
+            </record>
+
+            <record id="bonded_56" model="sku.bondedes">
+                <field name="name">ARAGONITE, BLUE</field>
+                <field name="sku">ARG</field>
+                <field name="variable">BLU</field>
+            </record>
+
+            <record id="bonded_57" model="sku.bondedes">
+                <field name="name">ARAGONITE, BROWN</field>
+                <field name="sku">ARG</field>
+                <field name="variable">BRN</field>
+            </record>
+
+            <record id="bonded_58" model="sku.bondedes">
+                <field name="name">ARAGONITE, PINK</field>
+                <field name="sku">ARG</field>
+                <field name="variable">PNK</field>
+            </record>
+
+            <record id="bonded_59" model="sku.bondedes">
+                <field name="name">ARAGONITE, WHITE</field>
+                <field name="sku">ARG</field>
+                <field name="variable">WHT</field>
+            </record>
+
+            <record id="bonded_60" model="sku.bondedes">
+                <field name="name">ARFVEDSONITE</field>
+                <field name="sku">ARF</field>
+            </record>
+
+            <record id="bonded_61" model="sku.bondedes">
+                <field name="name">ASSORTMENT</field>
+                <field name="sku">ASST</field>
+            </record>
+
+            <record id="bonded_62" model="sku.bondedes">
+                <field name="name">ATLANTISITE (SERPENTINE AND STICHTITE)</field>
+                <field name="sku">ATL</field>
+            </record>
+
+            <record id="bonded_63" model="sku.bondedes">
+                <field name="name">AURA, SODALITE</field>
+                <field name="sku">AUR</field>
+                <field name="variable">SDLT</field>
+            </record>
+
+            <record id="bonded_64" model="sku.bondedes">
+                <field name="name">AURALITE</field>
+                <field name="sku">AUR</field>
+            </record>
+
+            <record id="bonded_65" model="sku.bondedes">
+                <field name="name">AVENTURINE, BLUE</field>
+                <field name="sku">AVN</field>
+            </record>
+
+            <record id="bonded_66" model="sku.bondedes">
+                <field name="name">AVENTURINE, GOLDEN</field>
+                <field name="sku">AVN</field>
+                <field name="variable">GLDN</field>
+            </record>
+
+            <record id="bonded_67" model="sku.bondedes">
+                <field name="name">AVENTURINE, GREEN</field>
+                <field name="sku">AVN</field>
+                <field name="variable">GRN</field>
+            </record>
+
+            <record id="bonded_68" model="sku.bondedes">
+                <field name="name">AVENTURINE, GREEN/QUARTZ</field>
+                <field name="sku">AVN</field>
+                <field name="variable">GRNQTZ</field>
+            </record>
+
+            <record id="bonded_69" model="sku.bondedes">
+                <field name="name">AVENTURINE, GREY</field>
+                <field name="sku">AVN</field>
+                <field name="variable">GRY</field>
+            </record>
+
+            <record id="bonded_70" model="sku.bondedes">
+                <field name="name">AVENTURINE, HIMALAYAN RED GOLD</field>
+                <field name="sku">AVN</field>
+                <field name="variable">HMRG</field>
+            </record>
+
+            <record id="bonded_71" model="sku.bondedes">
+                <field name="name">AVENTURINE, ORANGE</field>
+                <field name="sku">AVN</field>
+                <field name="variable">ORG</field>
+            </record>
+
+            <record id="bonded_72" model="sku.bondedes">
+                <field name="name">AVENTURINE, PEACH</field>
+                <field name="sku">AVN</field>
+                <field name="variable">PCH</field>
+            </record>
+
+            <record id="bonded_73" model="sku.bondedes">
+                <field name="name">AVENTURINE, RASPBERRY</field>
+                <field name="sku">AVN</field>
+                <field name="variable">RASPB</field>
+            </record>
+
+            <record id="bonded_74" model="sku.bondedes">
+                <field name="name">AVENTURINE, RASPBERRY</field>
+                <field name="sku">AVE</field>
+            </record>
+
+            <record id="bonded_75" model="sku.bondedes">
+                <field name="name">AVENTURINE, RED</field>
+                <field name="sku">AVN</field>
+                <field name="variable">RED</field>
+            </record>
+
+            <record id="bonded_76" model="sku.bondedes">
+                <field name="name">AVENTURINE, SILVER</field>
+                <field name="sku">AVN</field>
+                <field name="variable">SILV</field>
+            </record>
+
+            <record id="bonded_77" model="sku.bondedes">
+                <field name="name">AVENTURINE, YELLOW</field>
+                <field name="sku">AVN</field>
+                <field name="variable">YLW</field>
+            </record>
+
+            <record id="bonded_78" model="sku.bondedes">
+                <field name="name">AXINITE</field>
+                <field name="sku">AXN</field>
+            </record>
+
+            <record id="bonded_79" model="sku.bondedes">
+                <field name="name">AZEZTULITE</field>
+                <field name="sku">AZE</field>
+            </record>
+
+            <record id="bonded_80" model="sku.bondedes">
+                <field name="name">AZURITE</field>
+                <field name="sku">AZU</field>
+            </record>
+
+            <record id="bonded_81" model="sku.bondedes">
+                <field name="name">AZURITE, LAVENDER</field>
+                <field name="sku">AZU</field>
+                <field name="variable">LAV</field>
+            </record>
+
+            <record id="bonded_82" model="sku.bondedes">
+                <field name="name">BARITE</field>
+                <field name="sku">BAR</field>
+            </record>
+
+            <record id="bonded_83" model="sku.bondedes">
+                <field name="name">BERYL </field>
+                <field name="sku">BRYL</field>
+            </record>
+
+            <record id="bonded_84" model="sku.bondedes">
+                <field name="name">BETA, BLACK</field>
+                <field name="sku">BET</field>
+                <field name="variable">BLK</field>
+            </record>
+
+            <record id="bonded_85" model="sku.bondedes">
+                <field name="name">BIRD STONE</field>
+                <field name="sku">BRDSTN</field>
+            </record>
+
+            <record id="bonded_86" model="sku.bondedes">
+                <field name="name">BLOODSTONE</field>
+                <field name="sku">BLD</field>
+            </record>
+
+            <record id="bonded_87" model="sku.bondedes">
+                <field name="name">BLOODSTONE, AFRICAN</field>
+                <field name="sku">BLD</field>
+                <field name="variable">AFR</field>
+            </record>
+
+            <record id="bonded_88" model="sku.bondedes">
+                <field name="name">BLOODSTONE, B</field>
+                <field name="sku">BLD</field>
+                <field name="variable">B</field>
+            </record>
+
+            <record id="bonded_89" model="sku.bondedes">
+                <field name="name">BRONZITE</field>
+                <field name="sku">BRZ</field>
+            </record>
+
+            <record id="bonded_90" model="sku.bondedes">
+                <field name="name">BRONZITE</field>
+                <field name="sku">BRZT</field>
+            </record>
+
+            <record id="bonded_91" model="sku.bondedes">
+                <field name="name">BROOKITE</field>
+                <field name="sku">BRK</field>
+            </record>
+
+            <record id="bonded_92" model="sku.bondedes">
+                <field name="name">CABACHON</field>
+                <field name="sku">CAB</field>
+            </record>
+
+            <record id="bonded_93" model="sku.bondedes">
+                <field name="name">CACOXENITE, BLACK</field>
+                <field name="sku">CAX</field>
+                <field name="variable">BLK</field>
+            </record>
+
+            <record id="bonded_94" model="sku.bondedes">
+                <field name="name">CALCITE</field>
+                <field name="sku">CAL</field>
+            </record>
+
+            <record id="bonded_95" model="sku.bondedes">
+                <field name="name">CALCITE, AMBER</field>
+                <field name="sku">CAL</field>
+                <field name="variable">AMB</field>
+            </record>
+
+            <record id="bonded_96" model="sku.bondedes">
+                <field name="name">CALCITE, AMBER OPTICAL</field>
+                <field name="sku">CAL</field>
+                <field name="variable">AMBOPT</field>
+            </record>
+
+            <record id="bonded_97" model="sku.bondedes">
+                <field name="name">CALCITE, ARGENTIAN BLUE</field>
+                <field name="sku">CAL</field>
+                <field name="variable">AGBLU</field>
+            </record>
+
+            <record id="bonded_98" model="sku.bondedes">
+                <field name="name">CALCITE, BLUE</field>
+                <field name="sku">CAL</field>
+                <field name="variable">BLU</field>
+            </record>
+
+            <record id="bonded_99" model="sku.bondedes">
+                <field name="name">CALCITE, CITRINE</field>
+                <field name="sku">CAL</field>
+                <field name="variable">CIT</field>
+            </record>
+
+            <record id="bonded_100" model="sku.bondedes">
+                <field name="name">CALCITE, COBALTO</field>
+                <field name="sku">CAL</field>
+                <field name="variable">COB</field>
+            </record>
+
+            <record id="bonded_101" model="sku.bondedes">
+                <field name="name">CALCITE, HONEY</field>
+                <field name="sku">CAL</field>
+                <field name="variable">HON</field>
+            </record>
+
+            <record id="bonded_102" model="sku.bondedes">
+                <field name="name">CALCITE, ICE CUBE</field>
+                <field name="sku">CAL</field>
+                <field name="variable">ICE</field>
+            </record>
+
+            <record id="bonded_103" model="sku.bondedes">
+                <field name="name">CALCITE, LEMURIAN BLUE</field>
+                <field name="sku">CAL</field>
+                <field name="variable">LEMBLU</field>
+            </record>
+
+            <record id="bonded_104" model="sku.bondedes">
+                <field name="name">CALCITE, MANGANO </field>
+                <field name="sku">CAL</field>
+                <field name="variable">MNG</field>
+            </record>
+
+            <record id="bonded_105" model="sku.bondedes">
+                <field name="name">CALCITE, OPTICAL</field>
+                <field name="sku">CAL</field>
+                <field name="variable">OPT</field>
+            </record>
+
+            <record id="bonded_106" model="sku.bondedes">
+                <field name="name">CALCITE, ORANGE</field>
+                <field name="sku">CAL</field>
+                <field name="variable">ORN</field>
+            </record>
+
+            <record id="bonded_107" model="sku.bondedes">
+                <field name="name">CALCITE, ORCHID</field>
+                <field name="sku">CAL</field>
+                <field name="variable">ORCH</field>
+            </record>
+
+            <record id="bonded_108" model="sku.bondedes">
+                <field name="name">CALCITE, PAKISTANI PINK</field>
+                <field name="sku">CAL</field>
+                <field name="variable">PKSPNK</field>
+            </record>
+
+            <record id="bonded_109" model="sku.bondedes">
+                <field name="name">CALCITE, PINK</field>
+                <field name="sku">CAL</field>
+                <field name="variable">PNK</field>
+            </record>
+
+            <record id="bonded_110" model="sku.bondedes">
+                <field name="name">CANCRONITE</field>
+                <field name="sku">CNR</field>
+            </record>
+
+            <record id="bonded_111" model="sku.bondedes">
+                <field name="name">CARNELIAN </field>
+                <field name="sku">CRN</field>
+            </record>
+
+            <record id="bonded_112" model="sku.bondedes">
+                <field name="name">CARNELIAN, BOTS. </field>
+                <field name="sku">CRN</field>
+                <field name="variable">BOTS</field>
+            </record>
+
+            <record id="bonded_113" model="sku.bondedes">
+                <field name="name">CAT'S EYE</field>
+                <field name="sku">CTS</field>
+                <field name="variable">EYE</field>
+            </record>
+
+            <record id="bonded_114" model="sku.bondedes">
+                <field name="name">CAT'S EYE CHRYSOBERYL</field>
+                <field name="sku">CRY</field>
+                <field name="variable">CTS</field>
+            </record>
+
+            <record id="bonded_115" model="sku.bondedes">
+                <field name="name">CAVANSITE</field>
+                <field name="sku">CAVN</field>
+            </record>
+
+            <record id="bonded_116" model="sku.bondedes">
+                <field name="name">CELESTITE</field>
+                <field name="sku">CLE</field>
+            </record>
+
+            <record id="bonded_117" model="sku.bondedes">
+                <field name="name">CERULTIE</field>
+                <field name="sku">CER</field>
+            </record>
+
+            <record id="bonded_118" model="sku.bondedes">
+                <field name="name">CHALCEDONY</field>
+                <field name="sku">CHAL</field>
+            </record>
+
+            <record id="bonded_119" model="sku.bondedes">
+                <field name="name">CHALCEDONY, GRAPE</field>
+                <field name="sku">CHAL</field>
+                <field name="variable">GRP</field>
+            </record>
+
+            <record id="bonded_120" model="sku.bondedes">
+                <field name="name">CHAROITE</field>
+                <field name="sku">CHR</field>
+            </record>
+
+            <record id="bonded_121" model="sku.bondedes">
+                <field name="name">CHIASTOLITE</field>
+                <field name="sku">CHI</field>
+            </record>
+
+            <record id="bonded_122" model="sku.bondedes">
+                <field name="name">CHRYSANTHEMUM</field>
+                <field name="sku">CHRYS</field>
+            </record>
+
+            <record id="bonded_123" model="sku.bondedes">
+                <field name="name">CHRYSOBERYL/CHRYSOLITE</field>
+                <field name="sku">CRY</field>
+            </record>
+
+            <record id="bonded_124" model="sku.bondedes">
+                <field name="name">CHRYSOCOLLA</field>
+                <field name="sku">CRS</field>
+            </record>
+
+            <record id="bonded_125" model="sku.bondedes">
+                <field name="name">CHRYSOCOLLA, B</field>
+                <field name="sku">CRS</field>
+            </record>
+
+            <record id="bonded_126" model="sku.bondedes">
+                <field name="name">CHRYSOCOLLA, C</field>
+                <field name="sku">CRS</field>
+                <field name="variable">C</field>
+            </record>
+
+            <record id="bonded_127" model="sku.bondedes">
+                <field name="name">CHRYSOPRASE</field>
+                <field name="sku">CRSP</field>
+            </record>
+
+            <record id="bonded_128" model="sku.bondedes">
+                <field name="name">CHRYSOPRASE,CHINA</field>
+                <field name="sku">CRSP</field>
+                <field name="variable">CHN</field>
+            </record>
+
+            <record id="bonded_129" model="sku.bondedes">
+                <field name="name">CIDERITE</field>
+                <field name="sku">CIDR</field>
+            </record>
+
+            <record id="bonded_130" model="sku.bondedes">
+                <field name="name">CIDERITE, YUKON</field>
+                <field name="sku">CIDR</field>
+                <field name="variable">YUK</field>
+            </record>
+
+            <record id="bonded_131" model="sku.bondedes">
+                <field name="name">CITRINE</field>
+                <field name="sku">CIT</field>
+            </record>
+
+            <record id="bonded_132" model="sku.bondedes">
+                <field name="name">CITRINE, AFRICAN</field>
+                <field name="sku">CIT</field>
+                <field name="variable">AFR</field>
+            </record>
+
+            <record id="bonded_133" model="sku.bondedes">
+                <field name="name">CITRINE, B</field>
+                <field name="sku">CIT</field>
+                <field name="variable">B</field>
+            </record>
+
+            <record id="bonded_134" model="sku.bondedes">
+                <field name="name">CITRINE, COGNAC</field>
+                <field name="sku">CIT</field>
+                <field name="variable">COG</field>
+            </record>
+
+            <record id="bonded_135" model="sku.bondedes">
+                <field name="name">CITRINE, HYDRO</field>
+                <field name="sku">CIT</field>
+                <field name="variable">HYD</field>
+            </record>
+
+            <record id="bonded_136" model="sku.bondedes">
+                <field name="name">CITRINE, INDIAN</field>
+                <field name="sku">CIT</field>
+                <field name="variable">IND</field>
+            </record>
+
+            <record id="bonded_137" model="sku.bondedes">
+                <field name="name">CITRINE, LEMURIAN</field>
+                <field name="sku">CIT</field>
+                <field name="variable">LEM</field>
+            </record>
+
+            <record id="bonded_138" model="sku.bondedes">
+                <field name="name">CITRINE, SMOKY</field>
+                <field name="sku">CIT</field>
+                <field name="variable">SMK</field>
+            </record>
+
+            <record id="bonded_139" model="sku.bondedes">
+                <field name="name">CITRINE, ZEBRA</field>
+                <field name="sku">CIT</field>
+                <field name="variable">ZEB</field>
+            </record>
+
+            <record id="bonded_140" model="sku.bondedes">
+                <field name="name">CLINOHUMITE</field>
+                <field name="sku">CLNO</field>
+            </record>
+
+            <record id="bonded_141" model="sku.bondedes">
+                <field name="name">COPPER</field>
+                <field name="sku">COPR</field>
+            </record>
+
+            <record id="bonded_142" model="sku.bondedes">
+                <field name="name">CORAL, RED</field>
+                <field name="sku">CRL</field>
+                <field name="variable">RDD</field>
+            </record>
+
+            <record id="bonded_143" model="sku.bondedes">
+                <field name="name">CRADLE OF HUMANKIND</field>
+                <field name="sku">COHK</field>
+            </record>
+
+            <record id="bonded_144" model="sku.bondedes">
+                <field name="name">CRYSTAL</field>
+                <field name="sku">CRYS</field>
+            </record>
+
+            <record id="bonded_145" model="sku.bondedes">
+                <field name="name">CUPRITE</field>
+                <field name="sku">CUP</field>
+            </record>
+
+            <record id="bonded_146" model="sku.bondedes">
+                <field name="name">DALMATION</field>
+                <field name="sku">DAL</field>
+            </record>
+
+            <record id="bonded_147" model="sku.bondedes">
+                <field name="name">DANBURITE</field>
+                <field name="sku">DNB</field>
+            </record>
+
+            <record id="bonded_148" model="sku.bondedes">
+                <field name="name">DANBURITE, GOLD</field>
+                <field name="sku">DNB</field>
+                <field name="variable">GLD</field>
+            </record>
+
+            <record id="bonded_149" model="sku.bondedes">
+                <field name="name">DIAMOND</field>
+                <field name="sku">DMD</field>
+            </record>
+
+            <record id="bonded_150" model="sku.bondedes">
+                <field name="name">DIAMOND, HERKIMER</field>
+                <field name="sku">DMD</field>
+                <field name="variable">HRK</field>
+            </record>
+
+            <record id="bonded_151" model="sku.bondedes">
+                <field name="name">DIOPSIDE</field>
+                <field name="sku">DPS</field>
+            </record>
+
+            <record id="bonded_152" model="sku.bondedes">
+                <field name="name">DIOPTASE</field>
+                <field name="sku">DPT</field>
+            </record>
+
+            <record id="bonded_153" model="sku.bondedes">
+                <field name="name">DRAGONSTONE</field>
+                <field name="sku">DRG</field>
+            </record>
+
+            <record id="bonded_154" model="sku.bondedes">
+                <field name="name">DRAVITE</field>
+                <field name="sku">DRV</field>
+            </record>
+
+            <record id="bonded_155" model="sku.bondedes">
+                <field name="name">DUMORTIERITE</field>
+                <field name="sku">DUMT</field>
+            </record>
+
+            <record id="bonded_156" model="sku.bondedes">
+                <field name="name">EMERALD</field>
+                <field name="sku">EMRD</field>
+            </record>
+
+            <record id="bonded_157" model="sku.bondedes">
+                <field name="name">EPIDOTE</field>
+                <field name="sku">EPD</field>
+            </record>
+
+            <record id="bonded_158" model="sku.bondedes">
+                <field name="name">EUDIALYTE</field>
+                <field name="sku">EUD</field>
+            </record>
+
+            <record id="bonded_159" model="sku.bondedes">
+                <field name="name">FACETED STONE</field>
+                <field name="sku">FACTD</field>
+                <field name="variable">STNE</field>
+            </record>
+
+            <record id="bonded_160" model="sku.bondedes">
+                <field name="name">FELDSPAR, SILVER</field>
+                <field name="sku">FELD</field>
+                <field name="variable">SLV</field>
+            </record>
+
+            <record id="bonded_161" model="sku.bondedes">
+                <field name="name">FLUORITE</field>
+                <field name="sku">FLU</field>
+            </record>
+
+            <record id="bonded_162" model="sku.bondedes">
+                <field name="name">FLUORITE, CHINA</field>
+                <field name="sku">FLU</field>
+                <field name="variable">CHN</field>
+            </record>
+
+            <record id="bonded_163" model="sku.bondedes">
+                <field name="name">FLUORITE, INDIGO</field>
+                <field name="sku">FLU</field>
+                <field name="variable">IND</field>
+            </record>
+
+            <record id="bonded_164" model="sku.bondedes">
+                <field name="name">FLUORITE, PINK</field>
+                <field name="sku">FLU</field>
+                <field name="variable">PNK</field>
+            </record>
+
+            <record id="bonded_165" model="sku.bondedes">
+                <field name="name">FLUORITE, PURPLE </field>
+                <field name="sku">FLU</field>
+                <field name="variable">PUR</field>
+            </record>
+
+            <record id="bonded_166" model="sku.bondedes">
+                <field name="name">FLUORITE, RAINBOW </field>
+                <field name="sku">FLU</field>
+                <field name="variable">RNB</field>
+            </record>
+
+            <record id="bonded_167" model="sku.bondedes">
+                <field name="name">FLUORITE, TEAL</field>
+                <field name="sku">FLU</field>
+                <field name="variable">TLE</field>
+            </record>
+
+            <record id="bonded_168" model="sku.bondedes">
+                <field name="name">FLUORITE, YELLOW </field>
+                <field name="sku">FLU</field>
+                <field name="variable">YLW</field>
+            </record>
+
+            <record id="bonded_169" model="sku.bondedes">
+                <field name="name">FOSSIL, CRINOID</field>
+                <field name="sku">FSL</field>
+                <field name="variable">CRI</field>
+            </record>
+
+            <record id="bonded_170" model="sku.bondedes">
+                <field name="name">FOSSIL, SEASHELL</field>
+                <field name="sku">FSL</field>
+                <field name="variable">SSHL</field>
+            </record>
+
+            <record id="bonded_171" model="sku.bondedes">
+                <field name="name">FUCHSITE</field>
+                <field name="sku">FUCTE</field>
+            </record>
+
+            <record id="bonded_172" model="sku.bondedes">
+                <field name="name">GALAXITE</field>
+                <field name="sku">GLX</field>
+            </record>
+
+            <record id="bonded_173" model="sku.bondedes">
+                <field name="name">GARNET</field>
+                <field name="sku">GARN</field>
+            </record>
+
+            <record id="bonded_174" model="sku.bondedes">
+                <field name="name">GARNET IN MATRIX</field>
+                <field name="sku">GARN</field>
+                <field name="variable">MTX</field>
+            </record>
+
+            <record id="bonded_175" model="sku.bondedes">
+                <field name="name">GARNET, ALMANDINE</field>
+                <field name="sku">GARN</field>
+                <field name="variable">ALM</field>
+            </record>
+
+            <record id="bonded_176" model="sku.bondedes">
+                <field name="name">GARNET, BLACK (ALSO CALLED MELANITE)</field>
+                <field name="sku">GARN</field>
+                <field name="variable">MEL</field>
+            </record>
+
+            <record id="bonded_177" model="sku.bondedes">
+                <field name="name">GARNET, CINNAMON (HESSONITE)</field>
+                <field name="sku">GARN</field>
+                <field name="variable">HES</field>
+            </record>
+
+            <record id="bonded_178" model="sku.bondedes">
+                <field name="name">GARNET, GREEN</field>
+                <field name="sku">GARN</field>
+                <field name="variable">GRN</field>
+            </record>
+
+            <record id="bonded_179" model="sku.bondedes">
+                <field name="name">GARNET, GREEN/ GROSSULARITE</field>
+                <field name="sku">GARN</field>
+                <field name="variable">GRS</field>
+            </record>
+
+            <record id="bonded_180" model="sku.bondedes">
+                <field name="name">GARNET, GREEN/ UVAROVITE</field>
+                <field name="sku">GARN</field>
+                <field name="variable">UVA</field>
+            </record>
+
+            <record id="bonded_181" model="sku.bondedes">
+                <field name="name">GARNET, ORANGE</field>
+                <field name="sku">GARN</field>
+                <field name="variable">ORG</field>
+            </record>
+
+            <record id="bonded_182" model="sku.bondedes">
+                <field name="name">GARNET, RUBELlITE</field>
+                <field name="sku">GARN</field>
+                <field name="variable">RUB</field>
+            </record>
+
+            <record id="bonded_183" model="sku.bondedes">
+                <field name="name">GARNIERITE</field>
+                <field name="sku">GAR</field>
+            </record>
+
+            <record id="bonded_184" model="sku.bondedes">
+                <field name="name">GENERATOR</field>
+                <field name="sku">GEN</field>
+            </record>
+
+            <record id="bonded_185" model="sku.bondedes">
+                <field name="name">GIRASOL</field>
+                <field name="sku">GIR</field>
+            </record>
+
+            <record id="bonded_186" model="sku.bondedes">
+                <field name="name">GLASS</field>
+                <field name="sku">GLSS</field>
+            </record>
+
+            <record id="bonded_187" model="sku.bondedes">
+                <field name="name">GOETHITE</field>
+                <field name="sku">GOE</field>
+            </record>
+
+            <record id="bonded_188" model="sku.bondedes">
+                <field name="name">GOLDSTONE, ORANGE</field>
+                <field name="sku">GLDST</field>
+                <field name="variable">ORN</field>
+            </record>
+
+            <record id="bonded_189" model="sku.bondedes">
+                <field name="name">GOSHENITE</field>
+                <field name="sku">GHS</field>
+            </record>
+
+            <record id="bonded_190" model="sku.bondedes">
+                <field name="name">GRANDIDIERITE</field>
+                <field name="sku">GRDRTE</field>
+            </record>
+
+            <record id="bonded_191" model="sku.bondedes">
+                <field name="name">GUA SHA</field>
+                <field name="sku">GUA</field>
+            </record>
+
+            <record id="bonded_192" model="sku.bondedes">
+                <field name="name">HEALERS GOLD</field>
+                <field name="sku">HEAL</field>
+                <field name="variable">GLDN</field>
+            </record>
+
+            <record id="bonded_193" model="sku.bondedes">
+                <field name="name">HEAMATOID</field>
+                <field name="sku">HMT</field>
+            </record>
+
+            <record id="bonded_194" model="sku.bondedes">
+                <field name="name">HELIODOR</field>
+                <field name="sku">HEL</field>
+            </record>
+
+            <record id="bonded_195" model="sku.bondedes">
+                <field name="name">HEMATITE</field>
+                <field name="sku">HEM</field>
+            </record>
+
+            <record id="bonded_196" model="sku.bondedes">
+                <field name="name">HEMATITE, MD</field>
+                <field name="sku">HEM</field>
+                <field name="variable">MD</field>
+            </record>
+
+            <record id="bonded_197" model="sku.bondedes">
+                <field name="name">HEMIMORPHITE</field>
+                <field name="sku">HEMI</field>
+            </record>
+
+            <record id="bonded_198" model="sku.bondedes">
+                <field name="name">HEMIMORPHITE, BLUE</field>
+                <field name="sku">HEMI</field>
+                <field name="variable">BLU</field>
+            </record>
+
+            <record id="bonded_199" model="sku.bondedes">
+                <field name="name">HERDERITE</field>
+                <field name="sku">HRD</field>
+            </record>
+
+            <record id="bonded_200" model="sku.bondedes">
+                <field name="name">HERKIMER</field>
+                <field name="sku">HER</field>
+            </record>
+
+            <record id="bonded_201" model="sku.bondedes">
+                <field name="name">HESSONITE, ORANGE</field>
+                <field name="sku">HES</field>
+                <field name="variable">ORG</field>
+            </record>
+
+            <record id="bonded_202" model="sku.bondedes">
+                <field name="name">HEULANDITE</field>
+                <field name="sku">HEU</field>
+            </record>
+
+            <record id="bonded_203" model="sku.bondedes">
+                <field name="name">HEULANDITE, GREEN</field>
+                <field name="sku">HEU</field>
+                <field name="variable">GRN</field>
+            </record>
+
+            <record id="bonded_204" model="sku.bondedes">
+                <field name="name">HIMALAYAN SALT</field>
+                <field name="sku">HYM</field>
+                <field name="variable">SLT</field>
+            </record>
+
+            <record id="bonded_205" model="sku.bondedes">
+                <field name="name">HOWLITE</field>
+                <field name="sku">HOW</field>
+            </record>
+
+            <record id="bonded_206" model="sku.bondedes">
+                <field name="name">HYALITE</field>
+                <field name="sku">HYA</field>
+            </record>
+
+            <record id="bonded_207" model="sku.bondedes">
+                <field name="name">HYPERSTHENE</field>
+                <field name="sku">HYP</field>
+            </record>
+
+            <record id="bonded_208" model="sku.bondedes">
+                <field name="name">IDOCRASE (VESUVIANITE) (VASONITE)</field>
+                <field name="sku">IDO</field>
+            </record>
+
+            <record id="bonded_209" model="sku.bondedes">
+                <field name="name">INFINITE</field>
+                <field name="sku" >INF</field>
+            </record>
+
+            <record id="bonded_210" model="sku.bondedes">
+                <field name="name">IOLITE (CORDIERITE)</field>
+                <field name="sku">ILI</field>
+            </record>
+
+            <record id="bonded_211" model="sku.bondedes">
+                <field name="name">JADE</field>
+                <field name="sku">JDE</field>
+            </record>
+
+            <record id="bonded_212" model="sku.bondedes">
+                <field name="name">JADE, AFRICAN</field>
+                <field name="sku">JDE</field>
+                <field name="variable">AFR</field>
+            </record>
+
+            <record id="bonded_213" model="sku.bondedes">
+                <field name="name">JADE, MARBLED</field>
+                <field name="sku">JDE</field>
+                <field name="variable">MARB</field>
+            </record>
+
+            <record id="bonded_214" model="sku.bondedes">
+                <field name="name">JADE, YELLOW</field>
+                <field name="sku">JDE</field>
+                <field name="variable">YLW</field>
+            </record>
+
+            <record id="bonded_215" model="sku.bondedes">
+                <field name="name">JASPER</field>
+                <field name="sku">JSP</field>
+            </record>
+
+            <record id="bonded_216" model="sku.bondedes">
+                <field name="name">JASPER, BLOODSTONE</field>
+                <field name="sku">JSP</field>
+                <field name="variable">BLD</field>
+            </record>
+
+            <record id="bonded_217" model="sku.bondedes">
+                <field name="name">JASPER, BRECCIATED</field>
+                <field name="sku">JSP</field>
+                <field name="variable">BRC</field>
+            </record>
+
+            <record id="bonded_218" model="sku.bondedes">
+                <field name="name">JASPER, BUMBLEBEE</field>
+                <field name="sku">JSP</field>
+                <field name="variable">BMB</field>
+            </record>
+
+            <record id="bonded_219" model="sku.bondedes">
+                <field name="name">JASPER, GREEN</field>
+                <field name="sku">JSP</field>
+                <field name="variable">GRN</field>
+            </record>
+
+            <record id="bonded_220" model="sku.bondedes">
+                <field name="name">JASPER, IBIS</field>
+                <field name="sku">JSP</field>
+                <field name="variable">IBS</field>
+            </record>
+
+            <record id="bonded_221" model="sku.bondedes">
+                <field name="name">JASPER, KAMBABA (CROCODILE JASPER)</field>
+                <field name="sku">JSP</field>
+                <field name="variable">KMB</field>
+            </record>
+
+            <record id="bonded_222" model="sku.bondedes">
+                <field name="name">JASPER, LEOPARDSKIN</field>
+                <field name="sku">JSP</field>
+                <field name="variable">LEO</field>
+            </record>
+
+            <record id="bonded_223" model="sku.bondedes">
+                <field name="name">JASPER, MOOKAITE</field>
+                <field name="sku">JSP</field>
+                <field name="variable">MOK</field>
+            </record>
+
+            <record id="bonded_224" model="sku.bondedes">
+                <field name="name">JASPER, NET</field>
+                <field name="sku">JSP</field>
+                <field name="variable">NET</field>
+            </record>
+
+            <record id="bonded_225" model="sku.bondedes">
+                <field name="name">JASPER, NOREENA</field>
+                <field name="sku">JSP</field>
+                <field name="variable">NOR</field>
+            </record>
+
+            <record id="bonded_226" model="sku.bondedes">
+                <field name="name">JASPER, OCEAN</field>
+                <field name="sku">JSP</field>
+                <field name="variable">OCN</field>
+            </record>
+
+            <record id="bonded_227" model="sku.bondedes">
+                <field name="name">JASPER, PICASSO</field>
+                <field name="sku">JSP</field>
+                <field name="variable">PIC</field>
+            </record>
+
+            <record id="bonded_228" model="sku.bondedes">
+                <field name="name">JASPER, PICTURE</field>
+                <field name="sku">JSP</field>
+                <field name="variable">PTR</field>
+            </record>
+
+            <record id="bonded_229" model="sku.bondedes">
+                <field name="name">JASPER, RAINBOW</field>
+                <field name="sku">JSP</field>
+                <field name="variable">RNBW</field>
+            </record>
+
+            <record id="bonded_230" model="sku.bondedes">
+                <field name="name">JASPER, RAINFOREST</field>
+                <field name="sku">JSP</field>
+                <field name="variable">RNF</field>
+            </record>
+
+            <record id="bonded_231" model="sku.bondedes">
+                <field name="name">JASPER, RED</field>
+                <field name="sku">JSP</field>
+                <field name="variable">RED</field>
+            </record>
+
+            <record id="bonded_232" model="sku.bondedes">
+                <field name="name">JASPER, RHYOLITE</field>
+                <field name="sku">JSP</field>
+                <field name="variable">RHY</field>
+            </record>
+
+            <record id="bonded_233" model="sku.bondedes">
+                <field name="name">JASPER, SANSKRIT</field>
+                <field name="sku">JSP</field>
+                <field name="variable">SNSK</field>
+            </record>
+
+            <record id="bonded_234" model="sku.bondedes">
+                <field name="name">JASPER, SARDONYX</field>
+                <field name="sku">JSP</field>
+                <field name="variable">SRD</field>
+            </record>
+
+            <record id="bonded_235" model="sku.bondedes">
+                <field name="name">JASPER, SILVERLEAF</field>
+                <field name="sku">JSP</field>
+                <field name="variable">SLV</field>
+            </record>
+
+            <record id="bonded_236" model="sku.bondedes">
+                <field name="name">JASPER, STAR</field>
+                <field name="sku">JSP</field>
+                <field name="variable">STR</field>
+            </record>
+
+            <record id="bonded_237" model="sku.bondedes">
+                <field name="name">JASPER, UNAKITE</field>
+                <field name="sku">JSP</field>
+                <field name="variable">UNK</field>
+            </record>
+
+            <record id="bonded_238" model="sku.bondedes">
+                <field name="name">JASPER, YELLOW</field>
+                <field name="sku">JSP</field>
+                <field name="variable">YLW</field>
+            </record>
+
+            <record id="bonded_239" model="sku.bondedes">
+                <field name="name">JASPER, ZEBRA</field>
+                <field name="sku">JSP</field>
+                <field name="variable">ZEB</field>
+            </record>
+
+            <record id="bonded_240" model="sku.bondedes">
+                <field name="name">JEREMEJEVITE</field>
+                <field name="sku">JRM</field>
+            </record>
+
+            <record id="bonded_241" model="sku.bondedes">
+                <field name="name">JET</field>
+                <field name="sku">JTT</field>
+            </record>
+
+            <record id="bonded_242" model="sku.bondedes">
+                <field name="name">KAMMERERITE</field>
+                <field name="sku">KAM</field>
+            </record>
+
+            <record id="bonded_243" model="sku.bondedes">
+                <field name="name">KUNZITE</field>
+                <field name="sku">KNZ</field>
+            </record>
+
+            <record id="bonded_244" model="sku.bondedes">
+                <field name="name">KUNZITE (ALSO CALLED HIDDENITE)</field>
+                <field name="sku">KNZ</field>
+                <field name="variable">GRN</field>
+            </record>
+
+            <record id="bonded_245" model="sku.bondedes">
+                <field name="name">KYANITE</field>
+                <field name="sku">KYN</field>
+            </record>
+
+            <record id="bonded_246" model="sku.bondedes">
+                <field name="name">KYANITE, BLACK</field>
+                <field name="sku">KYN</field>
+                <field name="variable">BLK</field>
+            </record>
+
+            <record id="bonded_247" model="sku.bondedes">
+                <field name="name">KYANITE, BLUE</field>
+                <field name="sku">KYN</field>
+                <field name="variable">BLU</field>
+            </record>
+
+            <record id="bonded_248" model="sku.bondedes">
+                <field name="name">KYANITE, GREEN </field>
+                <field name="sku">KYN</field>
+                <field name="variable">GRN</field>
+            </record>
+
+            <record id="bonded_249" model="sku.bondedes">
+                <field name="name">KYANITE, ORANGE</field>
+                <field name="sku">KYN</field>
+                <field name="variable">ORG</field>
+            </record>
+
+            <record id="bonded_250" model="sku.bondedes">
+                <field name="name">KYANITE, RUBY</field>
+                <field name="sku">KYN</field>
+                <field name="variable">RBY</field>
+            </record>
+
+            <record id="bonded_251" model="sku.bondedes">
+                <field name="name">LABRADORITE</field>
+                <field name="sku">LAB</field>
+            </record>
+
+            <record id="bonded_252" model="sku.bondedes">
+                <field name="name">LAMROPHYLLITE</field>
+                <field name="sku">LAM</field>
+            </record>
+
+            <record id="bonded_253" model="sku.bondedes">
+                <field name="name">LAPIS</field>
+                <field name="sku">LAP</field>
+            </record>
+
+            <record id="bonded_254" model="sku.bondedes">
+                <field name="name">LAPIS LAZULI</field>
+                <field name="sku">LAP</field>
+                <field name="variable">LAZ</field>
+            </record>
+
+            <record id="bonded_255" model="sku.bondedes">
+                <field name="name">LARIMAR</field>
+                <field name="sku">LAR</field>
+            </record>
+
+            <record id="bonded_256" model="sku.bondedes">
+                <field name="name">LARVIKITE</field>
+                <field name="sku">LRV</field>
+            </record>
+
+            <record id="bonded_257" model="sku.bondedes">
+                <field name="name">LAVA STONE</field>
+                <field name="sku">LAV</field>
+            </record>
+
+            <record id="bonded_258" model="sku.bondedes">
+                <field name="name">LAZURITE</field>
+                <field name="sku">LAZT</field>
+            </record>
+
+            <record id="bonded_259" model="sku.bondedes">
+                <field name="name">LEMURIAN ROOT CRYSTALS</field>
+                <field name="sku">LEM</field>
+                <field name="variable">RTCRYS</field>
+            </record>
+
+            <record id="bonded_260" model="sku.bondedes">
+                <field name="name">LEPIDOCROCITE</field>
+                <field name="sku">LPD</field>
+            </record>
+
+            <record id="bonded_261" model="sku.bondedes">
+                <field name="name">LEPIDOLITE </field>
+                <field name="sku">LEP</field>
+            </record>
+
+            <record id="bonded_262" model="sku.bondedes">
+                <field name="name">LEPIDOLITE, CHINA</field>
+                <field name="sku">LEP</field>
+                <field name="variable">CHN</field>
+            </record>
+
+            <record id="bonded_263" model="sku.bondedes">
+                <field name="name">LEPIDOLITE, MUSHROOM (BUBBLE)</field>
+                <field name="sku">LEP</field>
+                <field name="variable">MUS</field>
+            </record>
+
+            <record id="bonded_264" model="sku.bondedes">
+                <field name="name">LIBYAN DESERT GLASS</field>
+                <field name="sku">LBYN</field>
+                <field name="variable">GLSS</field>
+            </record>
+
+            <record id="bonded_265" model="sku.bondedes">
+                <field name="name">LIMONITE</field>
+                <field name="sku">LIM</field>
+            </record>
+
+            <record id="bonded_266" model="sku.bondedes">
+                <field name="name">LODESTONE</field>
+                <field name="sku">LOD</field>
+            </record>
+
+            <record id="bonded_267" model="sku.bondedes">
+                <field name="name">MAGNESITE, IVORY</field>
+                <field name="sku">MAG</field>
+                <field name="variable">IVY</field>
+            </record>
+
+            <record id="bonded_268" model="sku.bondedes">
+                <field name="name">MALACHITE</field>
+                <field name="sku">MAL</field>
+            </record>
+
+            <record id="bonded_269" model="sku.bondedes">
+                <field name="name">MALACHITE, STALAKTITE</field>
+                <field name="sku">MAL</field>
+                <field name="variable">STA</field>
+            </record>
+
+            <record id="bonded_270" model="sku.bondedes">
+                <field name="name">MALACUPRACOLLA</field>
+                <field name="sku">MCC</field>
+            </record>
+
+            <record id="bonded_271" model="sku.bondedes">
+                <field name="name">MANDALA</field>
+                <field name="sku">MNDL</field>
+            </record>
+
+            <record id="bonded_272" model="sku.bondedes">
+                <field name="name">MARBLED PICASSO</field>
+                <field name="sku">MRPC</field>
+            </record>
+
+            <record id="bonded_273" model="sku.bondedes">
+                <field name="name">MARCASITE</field>
+                <field name="sku">MCSTE</field>
+            </record>
+
+            <record id="bonded_274" model="sku.bondedes">
+                <field name="name">MERLINITE (CHALCEDONY</field>
+                <field name="sku"> INDIGO GABRO)</field>
+                <field name="variable">MRL</field>
+            </record>
+
+            <record id="bonded_275" model="sku.bondedes">
+                <field name="name">MICA</field>
+                <field name="sku">MIC</field>
+            </record>
+
+            <record id="bonded_276" model="sku.bondedes">
+                <field name="name">MIMETITE</field>
+                <field name="sku">MIM</field>
+            </record>
+
+            <record id="bonded_277" model="sku.bondedes">
+                <field name="name">MIXED STONES</field>
+                <field name="sku">MXS</field>
+            </record>
+
+            <record id="bonded_278" model="sku.bondedes">
+                <field name="name">MOLDAVITE</field>
+                <field name="sku">MLD</field>
+            </record>
+
+            <record id="bonded_279" model="sku.bondedes">
+                <field name="name">MONTEBRASITE</field>
+                <field name="sku">MNT</field>
+            </record>
+
+            <record id="bonded_280" model="sku.bondedes">
+                <field name="name">MOOKAITE</field>
+                <field name="sku">MOOK</field>
+            </record>
+
+            <record id="bonded_281" model="sku.bondedes">
+                <field name="name">MOONSTONE</field>
+                <field name="sku">MON</field>
+            </record>
+
+            <record id="bonded_282" model="sku.bondedes">
+                <field name="name">MOONSTONE, B</field>
+                <field name="sku">MON</field>
+                <field name="variable">B</field>
+            </record>
+
+            <record id="bonded_283" model="sku.bondedes">
+                <field name="name">MOONSTONE, PEACH</field>
+                <field name="sku">MON</field>
+                <field name="variable">PCH</field>
+            </record>
+
+            <record id="bonded_284" model="sku.bondedes">
+                <field name="name">MOONSTONE, RAINBOW</field>
+                <field name="sku">MON</field>
+                <field name="variable">RNB</field>
+            </record>
+
+            <record id="bonded_285" model="sku.bondedes">
+                <field name="name">MOONSTONE, SILVER FLASH</field>
+                <field name="sku">MON</field>
+                <field name="variable">SLV</field>
+            </record>
+
+            <record id="bonded_286" model="sku.bondedes">
+                <field name="name">MORGANITE</field>
+                <field name="sku">MRG</field>
+            </record>
+
+            <record id="bonded_287" model="sku.bondedes">
+                <field name="name">MOTHER OF PEARL</field>
+                <field name="sku">MOP</field>
+            </record>
+
+            <record id="bonded_288" model="sku.bondedes">
+                <field name="name">MTOROLITE</field>
+                <field name="sku">MTO</field>
+            </record>
+
+            <record id="bonded_289" model="sku.bondedes">
+                <field name="name">MUGGLESTONE</field>
+                <field name="sku">MGL</field>
+            </record>
+
+            <record id="bonded_290" model="sku.bondedes">
+                <field name="name">NATROLITE</field>
+                <field name="sku">NAT</field>
+            </record>
+
+            <record id="bonded_291" model="sku.bondedes">
+                <field name="name">NELLITE</field>
+                <field name="sku">NEL</field>
+            </record>
+
+            <record id="bonded_292" model="sku.bondedes">
+                <field name="name">NUUMMITE </field>
+                <field name="sku">NUM</field>
+            </record>
+
+            <record id="bonded_293" model="sku.bondedes">
+                <field name="name">OBSIDIAN</field>
+                <field name="sku">OBS</field>
+            </record>
+
+            <record id="bonded_294" model="sku.bondedes">
+                <field name="name">OBSIDIAN, BLACK</field>
+                <field name="sku">OBS</field>
+                <field name="variable">BLK</field>
+            </record>
+
+            <record id="bonded_295" model="sku.bondedes">
+                <field name="name">OBSIDIAN, BLUE</field>
+                <field name="sku">OBS</field>
+                <field name="variable">BLU</field>
+            </record>
+
+            <record id="bonded_296" model="sku.bondedes">
+                <field name="name">OBSIDIAN, GOLDEN SHEEN</field>
+                <field name="sku">OBS</field>
+                <field name="variable">GLD</field>
+            </record>
+
+            <record id="bonded_297" model="sku.bondedes">
+                <field name="name">OBSIDIAN, GREEN</field>
+                <field name="sku">OBS</field>
+                <field name="variable">GRN</field>
+            </record>
+
+            <record id="bonded_298" model="sku.bondedes">
+                <field name="name">OBSIDIAN, MAHOGANY</field>
+                <field name="sku">OBS</field>
+                <field name="variable">MHGY</field>
+            </record>
+
+            <record id="bonded_299" model="sku.bondedes">
+                <field name="name">OBSIDIAN, RAINBOW </field>
+                <field name="sku">OBS</field>
+                <field name="variable">RNB</field>
+            </record>
+
+            <record id="bonded_300" model="sku.bondedes">
+                <field name="name">OBSIDIAN, SILVER SHEEN </field>
+                <field name="sku">OBS</field>
+                <field name="variable">SLV</field>
+            </record>
+
+            <record id="bonded_301" model="sku.bondedes">
+                <field name="name">OBSIDIAN, SNOWFLAKE</field>
+                <field name="sku">OBS</field>
+                <field name="variable">SNWFLK</field>
+            </record>
+
+            <record id="bonded_302" model="sku.bondedes">
+                <field name="name">OBSIDIAN, SNOWFLAKE MD</field>
+                <field name="sku">OBS</field>
+                <field name="variable">SNWMD</field>
+            </record>
+
+            <record id="bonded_303" model="sku.bondedes">
+                <field name="name">OKENITE</field>
+                <field name="sku">OKE</field>
+            </record>
+
+            <record id="bonded_304" model="sku.bondedes">
+                <field name="name">ONYX</field>
+                <field name="sku">ONX</field>
+            </record>
+
+            <record id="bonded_305" model="sku.bondedes">
+                <field name="name">ONYX, AQUA</field>
+                <field name="sku">ONX</field>
+                <field name="variable">AQU</field>
+            </record>
+
+            <record id="bonded_306" model="sku.bondedes">
+                <field name="name">ONYX, AQUA AND ROSE</field>
+                <field name="sku">ONX</field>
+                <field name="variable">AQURSE</field>
+            </record>
+
+            <record id="bonded_307" model="sku.bondedes">
+                <field name="name">ONYX, BLUE (LEMURIAN BLUE ONYX)</field>
+                <field name="sku">ONX</field>
+                <field name="variable">LEMBLU</field>
+            </record>
+
+            <record id="bonded_308" model="sku.bondedes">
+                <field name="name">ONYX, BLUE AQUA</field>
+                <field name="sku">ONX</field>
+                <field name="variable">BLU</field>
+            </record>
+
+            <record id="bonded_309" model="sku.bondedes">
+                <field name="name">ONYX, GREEN/BLACK</field>
+                <field name="sku">ONX</field>
+                <field name="variable">GRNBLK</field>
+            </record>
+
+            <record id="bonded_310" model="sku.bondedes">
+                <field name="name">ONYX, ORANGE</field>
+                <field name="sku">ONX</field>
+                <field name="variable">ORG</field>
+            </record>
+
+            <record id="bonded_311" model="sku.bondedes">
+                <field name="name">ONYX, PINK BANDED</field>
+                <field name="sku">ONX</field>
+                <field name="variable">PNK</field>
+            </record>
+
+            <record id="bonded_312" model="sku.bondedes">
+                <field name="name">ONYX, ROSE</field>
+                <field name="sku">ONX</field>
+                <field name="variable">RSE</field>
+            </record>
+
+            <record id="bonded_313" model="sku.bondedes">
+                <field name="name">ONYX, RUSTIC</field>
+                <field name="sku">ONX</field>
+                <field name="variable">RUST</field>
+            </record>
+
+            <record id="bonded_314" model="sku.bondedes">
+                <field name="name">ONYX, RUSTIC AQUA</field>
+                <field name="sku">ONX</field>
+                <field name="variable">RSTAQU</field>
+            </record>
+
+            <record id="bonded_315" model="sku.bondedes">
+                <field name="name">ONYX, WHITE SAND</field>
+                <field name="sku">ONX</field>
+                <field name="variable">WHTSND</field>
+            </record>
+
+            <record id="bonded_316" model="sku.bondedes">
+                <field name="name">OPAL</field>
+                <field name="sku">OPL</field>
+            </record>
+
+            <record id="bonded_317" model="sku.bondedes">
+                <field name="name">OPAL, GREEN</field>
+                <field name="sku">OPL</field>
+                <field name="variable">GRN</field>
+            </record>
+
+            <record id="bonded_318" model="sku.bondedes">
+                <field name="name">OPAL, MEXICAN FIRE</field>
+                <field name="sku">OPL</field>
+                <field name="variable">FIR</field>
+            </record>
+
+            <record id="bonded_319" model="sku.bondedes">
+                <field name="name">OPAL, PINK</field>
+                <field name="sku">OPL</field>
+                <field name="variable">PNK</field>
+            </record>
+
+            <record id="bonded_320" model="sku.bondedes">
+                <field name="name">OPAL, PINTADE</field>
+                <field name="sku">OPL</field>
+                <field name="variable">PNDE</field>
+            </record>
+
+            <record id="bonded_321" model="sku.bondedes">
+                <field name="name">OPAL, YELLOW</field>
+                <field name="sku">OPL</field>
+                <field name="variable">YLW</field>
+            </record>
+
+            <record id="bonded_322" model="sku.bondedes">
+                <field name="name">OPALITE</field>
+                <field name="sku">OPLT</field>
+            </record>
+
+            <record id="bonded_323" model="sku.bondedes">
+                <field name="name">ORE, PEACOCK</field>
+                <field name="sku">PCK</field>
+            </record>
+
+            <record id="bonded_324" model="sku.bondedes">
+                <field name="name">ORPIMENT</field>
+                <field name="sku">ORP</field>
+            </record>
+
+            <record id="bonded_325" model="sku.bondedes">
+                <field name="name">OSUMILITE</field>
+                <field name="sku">OSML</field>
+            </record>
+
+            <record id="bonded_326" model="sku.bondedes">
+                <field name="name">PEARL</field>
+                <field name="sku">PRL</field>
+            </record>
+
+            <record id="bonded_327" model="sku.bondedes">
+                <field name="name">PERIDOT</field>
+                <field name="sku">PER</field>
+            </record>
+
+            <record id="bonded_328" model="sku.bondedes">
+                <field name="name">PETALITE</field>
+                <field name="sku">PTA</field>
+            </record>
+
+            <record id="bonded_329" model="sku.bondedes">
+                <field name="name">PETALITE, PINK</field>
+                <field name="sku">PTA</field>
+                <field name="variable">PNK</field>
+            </record>
+
+            <record id="bonded_330" model="sku.bondedes">
+                <field name="name">PETRIFIED PALM ROOT</field>
+                <field name="sku">PET</field>
+                <field name="variable">PLM</field>
+            </record>
+
+            <record id="bonded_331" model="sku.bondedes">
+                <field name="name">PETRIFIED WOOD</field>
+                <field name="sku">PET</field>
+            </record>
+
+            <record id="bonded_332" model="sku.bondedes">
+                <field name="name">PETRIFIED WOOD, MADAGASCAR</field>
+                <field name="sku">PET</field>
+                <field name="variable">MADG</field>
+            </record>
+
+            <record id="bonded_333" model="sku.bondedes">
+                <field name="name">PETRIFIED WOOD, PINK</field>
+                <field name="sku">PTWD</field>
+                <field name="variable">PNK</field>
+            </record>
+
+            <record id="bonded_334" model="sku.bondedes">
+                <field name="name">PHENAKITE (PHENACITE)</field>
+                <field name="sku">PHN</field>
+            </record>
+
+            <record id="bonded_335" model="sku.bondedes">
+                <field name="name">PHOENIX</field>
+                <field name="sku">PHX</field>
+            </record>
+
+            <record id="bonded_336" model="sku.bondedes">
+                <field name="name">PIETERSITE</field>
+                <field name="sku">PRT</field>
+            </record>
+
+            <record id="bonded_337" model="sku.bondedes">
+                <field name="name">PIETERSITE, BLUE</field>
+                <field name="sku">PRT</field>
+                <field name="variable">BLU</field>
+            </record>
+
+            <record id="bonded_338" model="sku.bondedes">
+                <field name="name">PINOLITH</field>
+                <field name="sku">PINO</field>
+            </record>
+
+            <record id="bonded_339" model="sku.bondedes">
+                <field name="name">POCKET ANGEL</field>
+                <field name="sku">ANG</field>
+                <field name="variable">PCKT</field>
+            </record>
+
+            <record id="bonded_340" model="sku.bondedes">
+                <field name="name">PRASIOLITE</field>
+                <field name="sku">PRS</field>
+            </record>
+
+            <record id="bonded_341" model="sku.bondedes">
+                <field name="name">PRASIOLITE, YELLOW</field>
+                <field name="sku">PRS</field>
+                <field name="variable">YLW</field>
+            </record>
+
+            <record id="bonded_342" model="sku.bondedes">
+                <field name="name">PREHNITE</field>
+                <field name="sku">PRE</field>
+            </record>
+
+            <record id="bonded_343" model="sku.bondedes">
+                <field name="name">PREHNITE WITH EPIDOTE</field>
+                <field name="sku">PRE</field>
+                <field name="variable">EPD</field>
+            </record>
+
+            <record id="bonded_344" model="sku.bondedes">
+                <field name="name">PRESELI BLUESTONE</field>
+                <field name="sku">PRSBLU</field>
+            </record>
+
+            <record id="bonded_345" model="sku.bondedes">
+                <field name="name">PRESELI, STONEHENGE</field>
+                <field name="sku">PRS</field>
+                <field name="variable">STNH</field>
+            </record>
+
+            <record id="bonded_346" model="sku.bondedes">
+                <field name="name">PSILOMELANE</field>
+                <field name="sku">PSL</field>
+            </record>
+
+            <record id="bonded_347" model="sku.bondedes">
+                <field name="name">PYRITE</field>
+                <field name="sku">PYRT</field>
+            </record>
+
+            <record id="bonded_348" model="sku.bondedes">
+                <field name="name">QUANTUM OTTO</field>
+                <field name="sku">QNT</field>
+                <field name="variable">OTT</field>
+            </record>
+
+            <record id="bonded_349" model="sku.bondedes">
+                <field name="name">QUARTZ</field>
+                <field name="sku">QTZ</field>
+            </record>
+
+            <record id="bonded_350" model="sku.bondedes">
+                <field name="name">QUARTZ, AMPHIBOLE</field>
+                <field name="sku">QTZ</field>
+                <field name="variable">AMP</field>
+            </record>
+
+            <record id="bonded_351" model="sku.bondedes">
+                <field name="name">QUARTZ, AQUA AURA</field>
+                <field name="sku">QTZ</field>
+                <field name="variable">AQA</field>
+            </record>
+
+            <record id="bonded_352" model="sku.bondedes">
+                <field name="name">QUARTZ, AURA</field>
+                <field name="sku">QTZ</field>
+                <field name="variable">AURA</field>
+            </record>
+
+            <record id="bonded_353" model="sku.bondedes">
+                <field name="name">QUARTZ, BLUE</field>
+                <field name="sku">QTZ</field>
+                <field name="variable">BLU</field>
+            </record>
+
+            <record id="bonded_354" model="sku.bondedes">
+                <field name="name">QUARTZ, BLUE</field>
+                <field name="sku">QTZ</field>
+                <field name="variable">BLU</field>
+            </record>
+
+            <record id="bonded_355" model="sku.bondedes">
+                <field name="name">QUARTZ, BLUE SMOKE</field>
+                <field name="sku">QTZ</field>
+                <field name="variable">BLSMK</field>
+            </record>
+
+            <record id="bonded_356" model="sku.bondedes">
+                <field name="name">QUARTZ, CITRINE</field>
+                <field name="sku">QTZ</field>
+                <field name="variable">CIT</field>
+            </record>
+
+            <record id="bonded_357" model="sku.bondedes">
+                <field name="name">QUARTZ, CITRINE B</field>
+                <field name="sku">QTZ</field>
+                <field name="variable">CITB</field>
+            </record>
+
+            <record id="bonded_358" model="sku.bondedes">
+                <field name="name">QUARTZ, CLEAR</field>
+                <field name="sku">QTZ</field>
+                <field name="variable">CLR</field>
+            </record>
+
+            <record id="bonded_359" model="sku.bondedes">
+                <field name="name">QUARTZ, ELESTIAL</field>
+                <field name="sku">QTZ</field>
+                <field name="variable">ELE</field>
+            </record>
+
+            <record id="bonded_360" model="sku.bondedes">
+                <field name="name">QUARTZ, FADEN</field>
+                <field name="sku">QTZ</field>
+                <field name="variable">FAD</field>
+            </record>
+
+            <record id="bonded_361" model="sku.bondedes">
+                <field name="name">QUARTZ, FENSTER</field>
+                <field name="sku">QTZ</field>
+                <field name="variable">FEN</field>
+            </record>
+
+            <record id="bonded_362" model="sku.bondedes">
+                <field name="name">QUARTZ, FIRE ELESTIAL</field>
+                <field name="sku">QTZ</field>
+                <field name="variable">FIRELE</field>
+            </record>
+
+            <record id="bonded_363" model="sku.bondedes">
+                <field name="name">QUARTZ, GARDEN (SHAMAN'S DREAM STONE; LODOLITE)</field>
+                <field name="sku">QTZ</field>
+                <field name="variable">SHM</field>
+            </record>
+
+            <record id="bonded_364" model="sku.bondedes">
+                <field name="name">QUARTZ, GOLDEN HEALER</field>
+                <field name="sku">QTZ</field>
+                <field name="variable">GLDHLR</field>
+            </record>
+
+            <record id="bonded_365" model="sku.bondedes">
+                <field name="name">QUARTZ, GREEN</field>
+                <field name="sku">QTZ</field>
+                <field name="variable">GRN</field>
+            </record>
+
+            <record id="bonded_366" model="sku.bondedes">
+                <field name="name">QUARTZ, HEMATOID</field>
+                <field name="sku">QTZ</field>
+                <field name="variable">HEM</field>
+            </record>
+
+            <record id="bonded_367" model="sku.bondedes">
+                <field name="name">QUARTZ, HIMALAYAN </field>
+                <field name="sku">QTZ</field>
+                <field name="variable">HMLY</field>
+            </record>
+
+            <record id="bonded_368" model="sku.bondedes">
+                <field name="name">QUARTZ, LAVENDER ROSE</field>
+                <field name="sku">QTZ</field>
+                <field name="variable">LAVRSE</field>
+            </record>
+
+            <record id="bonded_369" model="sku.bondedes">
+                <field name="name">QUARTZ, LEMURIAN</field>
+                <field name="sku">QTZ</field>
+                <field name="variable">LEM</field>
+            </record>
+
+            <record id="bonded_370" model="sku.bondedes">
+                <field name="name">QUARTZ, LEMURIAN LIGHT</field>
+                <field name="sku">QTZ</field>
+                <field name="variable">LEMLIT</field>
+            </record>
+
+            <record id="bonded_371" model="sku.bondedes">
+                <field name="name">QUARTZ, LEMURIAN RED</field>
+                <field name="sku">QTZ</field>
+                <field name="variable">LEMRD</field>
+            </record>
+
+            <record id="bonded_372" model="sku.bondedes">
+                <field name="name">QUARTZ, LITHIUM</field>
+                <field name="sku">QTZ</field>
+                <field name="variable">LIT</field>
+            </record>
+
+            <record id="bonded_373" model="sku.bondedes">
+                <field name="name">QUARTZ, NIRVANA</field>
+                <field name="sku">QTZ</field>
+                <field name="variable">NRV</field>
+            </record>
+
+            <record id="bonded_374" model="sku.bondedes">
+                <field name="name">QUARTZ, OPAL AURA (ANGEL AURA)</field>
+                <field name="sku">QTZ</field>
+                <field name="variable">OPLAUR</field>
+            </record>
+
+            <record id="bonded_375" model="sku.bondedes">
+                <field name="name">QUARTZ, ORANGE OMBRE</field>
+                <field name="sku">QTZ</field>
+                <field name="variable">ORGOM</field>
+            </record>
+
+            <record id="bonded_376" model="sku.bondedes">
+                <field name="name">QUARTZ, PETROLEUM</field>
+                <field name="sku">QTZ</field>
+                <field name="variable">PETR</field>
+            </record>
+
+            <record id="bonded_377" model="sku.bondedes">
+                <field name="name">QUARTZ, PINK</field>
+                <field name="sku">QTZ</field>
+                <field name="variable">PNK</field>
+            </record>
+
+            <record id="bonded_378" model="sku.bondedes">
+                <field name="name">QUARTZ, RED HEMATOID</field>
+                <field name="sku">QTZ</field>
+                <field name="variable">REDHEM</field>
+            </record>
+
+            <record id="bonded_379" model="sku.bondedes">
+                <field name="name">QUARTZ, ROSE</field>
+                <field name="sku">QTZ</field>
+                <field name="variable">RSE</field>
+            </record>
+
+            <record id="bonded_380" model="sku.bondedes">
+                <field name="name">QUARTZ, RUTILATED</field>
+                <field name="sku">QTZ</field>
+                <field name="variable">RUT</field>
+            </record>
+
+            <record id="bonded_381" model="sku.bondedes">
+                <field name="name">QUARTZ, SATYALOKA</field>
+                <field name="sku">QTZ</field>
+                <field name="variable">SAT</field>
+            </record>
+
+            <record id="bonded_382" model="sku.bondedes">
+                <field name="name">QUARTZ, SCEPTER</field>
+                <field name="sku">QTZ</field>
+                <field name="variable">SPT</field>
+            </record>
+
+            <record id="bonded_383" model="sku.bondedes">
+                <field name="name">QUARTZ, SMOKY</field>
+                <field name="sku">QTZ</field>
+                <field name="variable">SMK</field>
+            </record>
+
+            <record id="bonded_384" model="sku.bondedes">
+                <field name="name">QUARTZ, STRAWBERRY</field>
+                <field name="sku">QTZ</field>
+                <field name="variable">STR</field>
+            </record>
+
+            <record id="bonded_385" model="sku.bondedes">
+                <field name="name">QUARTZ, SULFUR</field>
+                <field name="sku">QTZ</field>
+                <field name="variable">SLF</field>
+            </record>
+
+            <record id="bonded_386" model="sku.bondedes">
+                <field name="name">QUARTZ, SUNSET AURA</field>
+                <field name="sku">QTZ</field>
+                <field name="variable">SST-ARA</field>
+            </record>
+
+            <record id="bonded_387" model="sku.bondedes">
+                <field name="name">QUARTZ, TANGERINE</field>
+                <field name="sku">QTZ</field>
+                <field name="variable">TNG</field>
+            </record>
+
+            <record id="bonded_388" model="sku.bondedes">
+                <field name="name">QUARTZ, TIBETAN</field>
+                <field name="sku">QTZ</field>
+                <field name="variable">TBT</field>
+            </record>
+
+            <record id="bonded_389" model="sku.bondedes">
+                <field name="name">QUARTZ, TOURMALINATED</field>
+                <field name="sku">QTZ</field>
+                <field name="variable">TRM</field>
+            </record>
+
+            <record id="bonded_390" model="sku.bondedes">
+                <field name="name">QUARTZ, TOURMALINATED AURA</field>
+                <field name="sku">QTZ</field>
+                <field name="variable">TRM-ARA</field>
+            </record>
+
+            <record id="bonded_391" model="sku.bondedes">
+                <field name="name">QUARTZ, WATER</field>
+                <field name="sku">QTZ</field>
+                <field name="variable">WTR</field>
+            </record>
+
+            <record id="bonded_392" model="sku.bondedes">
+                <field name="name">QUARTZ, WHITE</field>
+                <field name="sku">QTZ</field>
+                <field name="variable">WHT</field>
+            </record>
+
+            <record id="bonded_393" model="sku.bondedes">
+                <field name="name">QUARTZ, YELLOW HEMATOID</field>
+                <field name="sku">QTZ</field>
+                <field name="variable">YLWHEM</field>
+            </record>
+
+            <record id="bonded_394" model="sku.bondedes">
+                <field name="name">QUE SERA</field>
+                <field name="sku">QSR</field>
+            </record>
+
+            <record id="bonded_395" model="sku.bondedes">
+                <field name="name">RHODOCHROSITE</field>
+                <field name="sku">RHO</field>
+            </record>
+
+            <record id="bonded_396" model="sku.bondedes">
+                <field name="name">RHODOCHROSITE, BROWN</field>
+                <field name="sku">RHO</field>
+                <field name="variable">BRN</field>
+            </record>
+
+            <record id="bonded_397" model="sku.bondedes">
+                <field name="name">RHODONITE</field>
+                <field name="sku">RHDN</field>
+            </record>
+
+            <record id="bonded_398" model="sku.bondedes">
+                <field name="name">RHODONITE, CANADA</field>
+                <field name="sku">RHDN</field>
+                <field name="variable">CAN</field>
+            </record>
+
+            <record id="bonded_399" model="sku.bondedes">
+                <field name="name">RHYOLITE</field>
+                <field name="sku">RHI</field>
+            </record>
+
+            <record id="bonded_400" model="sku.bondedes">
+                <field name="name">RHYOLITE, RAINFOREST</field>
+                <field name="sku">RHI</field>
+                <field name="variable">RAIN</field>
+            </record>
+
+            <record id="bonded_401" model="sku.bondedes">
+                <field name="name">ROCK CRYSTAL</field>
+                <field name="sku">RCK</field>
+            </record>
+
+            <record id="bonded_402" model="sku.bondedes">
+                <field name="name">ROSASITE </field>
+                <field name="sku">RSA</field>
+            </record>
+
+            <record id="bonded_403" model="sku.bondedes">
+                <field name="name">ROSEWOOD</field>
+                <field name="sku">RSWD</field>
+            </record>
+
+            <record id="bonded_404" model="sku.bondedes">
+                <field name="name">RUBELLITE</field>
+                <field name="sku">RBL</field>
+            </record>
+
+            <record id="bonded_405" model="sku.bondedes">
+                <field name="name">RUBY</field>
+                <field name="sku">RBY</field>
+            </record>
+
+            <record id="bonded_406" model="sku.bondedes">
+                <field name="name">RUBY, CORUNDUM</field>
+                <field name="sku">RBY</field>
+                <field name="variable">CRN</field>
+            </record>
+
+            <record id="bonded_407" model="sku.bondedes">
+                <field name="name">RUBY, FELDSPAR</field>
+                <field name="sku">RBY</field>
+                <field name="variable">FELD</field>
+            </record>
+
+            <record id="bonded_408" model="sku.bondedes">
+                <field name="name">RUBY, FUCHSITE</field>
+                <field name="sku">RBY</field>
+                <field name="variable">FUC</field>
+            </record>
+
+            <record id="bonded_409" model="sku.bondedes">
+                <field name="name">SANDSTONE, GOLD</field>
+                <field name="sku">SSTN</field>
+                <field name="variable">GLD</field>
+            </record>
+
+            <record id="bonded_410" model="sku.bondedes">
+                <field name="name">SAPPHIRE</field>
+                <field name="sku">SAP</field>
+            </record>
+
+            <record id="bonded_411" model="sku.bondedes">
+                <field name="name">SAPPHIRE, BLACK</field>
+                <field name="sku">SAP</field>
+                <field name="variable">BLK</field>
+            </record>
+
+            <record id="bonded_412" model="sku.bondedes">
+                <field name="name">SAPPHIRE, BLUE</field>
+                <field name="sku">SAP</field>
+                <field name="variable">BLU</field>
+            </record>
+
+            <record id="bonded_413" model="sku.bondedes">
+                <field name="name">SAPPHIRE, YELLOW</field>
+                <field name="sku">SAP</field>
+                <field name="variable">YLW</field>
+            </record>
+
+            <record id="bonded_414" model="sku.bondedes">
+                <field name="name">SARDONYX</field>
+                <field name="sku">SRD</field>
+            </record>
+
+            <record id="bonded_415" model="sku.bondedes">
+                <field name="name">SAUSSURITE </field>
+                <field name="sku">SAU</field>
+            </record>
+
+            <record id="bonded_416" model="sku.bondedes">
+                <field name="name">SCAPOLITE</field>
+                <field name="sku">SCA</field>
+            </record>
+
+            <record id="bonded_417" model="sku.bondedes">
+                <field name="name">SCAPOLITE, GOLDEN</field>
+                <field name="sku">SCA</field>
+                <field name="variable">GLD</field>
+            </record>
+
+            <record id="bonded_418" model="sku.bondedes">
+                <field name="name">SCAPOLITE, PURPLE</field>
+                <field name="sku">SCA</field>
+                <field name="variable">PUR</field>
+            </record>
+
+            <record id="bonded_419" model="sku.bondedes">
+                <field name="name">SCOLECITE</field>
+                <field name="sku">SCL</field>
+            </record>
+
+            <record id="bonded_420" model="sku.bondedes">
+                <field name="name">SELENITE</field>
+                <field name="sku">SEL</field>
+            </record>
+
+            <record id="bonded_421" model="sku.bondedes">
+                <field name="name">SELENITE, ORANGE</field>
+                <field name="sku">SEL</field>
+                <field name="variable">ONG</field>
+            </record>
+
+            <record id="bonded_422" model="sku.bondedes">
+                <field name="name">SEPTARIA</field>
+                <field name="sku">SEPT</field>
+            </record>
+
+            <record id="bonded_423" model="sku.bondedes">
+                <field name="name">SERAPHINITE</field>
+                <field name="sku">SRA</field>
+            </record>
+
+            <record id="bonded_424" model="sku.bondedes">
+                <field name="name">SERPENTINE</field>
+                <field name="sku">SRP</field>
+            </record>
+
+            <record id="bonded_425" model="sku.bondedes">
+                <field name="name">SERPENTINE, PINK</field>
+                <field name="sku">SRP</field>
+                <field name="variable">PNK</field>
+            </record>
+
+            <record id="bonded_426" model="sku.bondedes">
+                <field name="name">SHATTUCKITE</field>
+                <field name="sku">SHT</field>
+            </record>
+
+            <record id="bonded_427" model="sku.bondedes">
+                <field name="name">SHIVA LINGAM</field>
+                <field name="sku">SHV</field>
+                <field name="variable">LNG</field>
+            </record>
+
+            <record id="bonded_428" model="sku.bondedes">
+                <field name="name">SHRILING GLASS, GREEN</field>
+                <field name="sku">SHGLS</field>
+                <field name="variable">GRN</field>
+            </record>
+
+            <record id="bonded_429" model="sku.bondedes">
+                <field name="name">SHUNGITE</field>
+                <field name="sku">SNG</field>
+            </record>
+
+            <record id="bonded_430" model="sku.bondedes">
+                <field name="name">SHUNGITE, ELITE</field>
+                <field name="sku">SNG</field>
+                <field name="variable">ELT</field>
+            </record>
+
+            <record id="bonded_431" model="sku.bondedes">
+                <field name="name">SINGLE TERMINATE, WAND</field>
+                <field name="sku">STW</field>
+            </record>
+
+            <record id="bonded_432" model="sku.bondedes">
+                <field name="name">SMAMATITE</field>
+                <field name="sku">SHM</field>
+            </record>
+
+            <record id="bonded_433" model="sku.bondedes">
+                <field name="name">SMITHSONITE</field>
+                <field name="sku">SMT</field>
+            </record>
+
+            <record id="bonded_434" model="sku.bondedes">
+                <field name="name">SODALITE</field>
+                <field name="sku">SDA</field>
+            </record>
+
+            <record id="bonded_435" model="sku.bondedes">
+                <field name="name">SODALITE, SUNSET</field>
+                <field name="sku">SDA</field>
+                <field name="variable">SUN</field>
+            </record>
+
+            <record id="bonded_436" model="sku.bondedes">
+                <field name="name">SPHALERITE</field>
+                <field name="sku">SPH</field>
+            </record>
+
+            <record id="bonded_437" model="sku.bondedes">
+                <field name="name">SPHERE</field>
+                <field name="sku">SPHR</field>
+            </record>
+
+            <record id="bonded_438" model="sku.bondedes">
+                <field name="name">SPINEL</field>
+                <field name="sku">SPN</field>
+            </record>
+
+            <record id="bonded_439" model="sku.bondedes">
+                <field name="name">STICHTITE</field>
+                <field name="sku">STC</field>
+            </record>
+
+            <record id="bonded_440" model="sku.bondedes">
+                <field name="name">STILBITE</field>
+                <field name="sku">STB</field>
+            </record>
+
+            <record id="bonded_441" model="sku.bondedes">
+                <field name="name">STONE, GREEN SPOT</field>
+                <field name="sku">STN</field>
+                <field name="variable">GRSP</field>
+            </record>
+
+            <record id="bonded_442" model="sku.bondedes">
+                <field name="name">STONE, RED LINE</field>
+                <field name="sku">STN</field>
+                <field name="variable">RDLN</field>
+            </record>
+
+            <record id="bonded_443" model="sku.bondedes">
+                <field name="name">STROMATOLITE, CHINA</field>
+                <field name="sku">STRM</field>
+                <field name="variable">CHN</field>
+            </record>
+
+            <record id="bonded_444" model="sku.bondedes">
+                <field name="name">SUGILITE</field>
+                <field name="sku">SUG</field>
+            </record>
+
+            <record id="bonded_445" model="sku.bondedes">
+                <field name="name">SUNSTONE</field>
+                <field name="sku">SST</field>
+            </record>
+
+            <record id="bonded_446" model="sku.bondedes">
+                <field name="name">SUNSTONE, ILLUSION</field>
+                <field name="sku">SST</field>
+                <field name="variable">ILU</field>
+            </record>
+
+            <record id="bonded_447" model="sku.bondedes">
+                <field name="name">SUPER 7 (MELODY'S STONE)</field>
+                <field name="sku">SUP7</field>
+            </record>
+
+            <record id="bonded_448" model="sku.bondedes">
+                <field name="name">TANZANITE</field>
+                <field name="sku">TNZ</field>
+            </record>
+
+            <record id="bonded_449" model="sku.bondedes">
+                <field name="name">TEKTITE</field>
+                <field name="sku">TKT</field>
+            </record>
+
+            <record id="bonded_450" model="sku.bondedes">
+                <field name="name">TEKTITE, LIBYAN GOLD</field>
+                <field name="sku">TKT</field>
+                <field name="variable">LIB</field>
+            </record>
+
+            <record id="bonded_451" model="sku.bondedes">
+                <field name="name">TERAHERTZ</field>
+                <field name="sku">THRZ</field>
+            </record>
+
+            <record id="bonded_452" model="sku.bondedes">
+                <field name="name">TETRAHEDRON</field>
+                <field name="sku">TTHDRN</field>
+            </record>
+
+            <record id="bonded_453" model="sku.bondedes">
+                <field name="name">THULITE</field>
+                <field name="sku">THU</field>
+            </record>
+
+            <record id="bonded_454" model="sku.bondedes">
+                <field name="name">TIGER'S EYE</field>
+                <field name="sku">TGR</field>
+            </record>
+
+            <record id="bonded_455" model="sku.bondedes">
+                <field name="name">TIGER'S EYE, BLUE (HAWK EYE, FALCON EYE)</field>
+                <field name="sku">TGR</field>
+                <field name="variable">BLU</field>
+            </record>
+
+            <record id="bonded_456" model="sku.bondedes">
+                <field name="name">TIGER'S EYE, GOLD</field>
+                <field name="sku">TGR</field>
+                <field name="variable">GLD</field>
+            </record>
+
+            <record id="bonded_457" model="sku.bondedes">
+                <field name="name">TIGER'S EYE, GREEN</field>
+                <field name="sku">TGR</field>
+                <field name="variable">GRN</field>
+            </record>
+
+            <record id="bonded_458" model="sku.bondedes">
+                <field name="name">TIGER'S EYE, RED</field>
+                <field name="sku">TGR</field>
+                <field name="variable">RED</field>
+            </record>
+
+            <record id="bonded_459" model="sku.bondedes">
+                <field name="name">TIGRINA, STONE</field>
+                <field name="sku">TGST</field>
+            </record>
+
+            <record id="bonded_460" model="sku.bondedes">
+                <field name="name">TOPAZ</field>
+                <field name="sku">TPZ</field>
+            </record>
+
+            <record id="bonded_461" model="sku.bondedes">
+                <field name="name">TOPAZ, IMPERIAL</field>
+                <field name="sku">TPZ</field>
+                <field name="variable">IMP</field>
+            </record>
+
+            <record id="bonded_462" model="sku.bondedes">
+                <field name="name">TOURMALINE</field>
+                <field name="sku">TOUR</field>
+            </record>
+
+            <record id="bonded_463" model="sku.bondedes">
+                <field name="name">TOURMALINE, BLACK</field>
+                <field name="sku">TOUR</field>
+                <field name="variable">BLK</field>
+            </record>
+
+            <record id="bonded_464" model="sku.bondedes">
+                <field name="name">TOURMALINE, BLUE</field>
+                <field name="sku">TOUR</field>
+                <field name="variable">BLU</field>
+            </record>
+
+            <record id="bonded_465" model="sku.bondedes">
+                <field name="name">TOURMALINE, GREEN</field>
+                <field name="sku">TOUR</field>
+                <field name="variable">GRN</field>
+            </record>
+
+            <record id="bonded_466" model="sku.bondedes">
+                <field name="name">TOURMALINE, MIXED</field>
+                <field name="sku">TOUR</field>
+                <field name="variable">MXD</field>
+            </record>
+
+            <record id="bonded_467" model="sku.bondedes">
+                <field name="name">TOURMALINE, ORANGE</field>
+                <field name="sku">TOUR</field>
+                <field name="variable">ONG</field>
+            </record>
+
+            <record id="bonded_468" model="sku.bondedes">
+                <field name="name">TOURMALINE, PINK</field>
+                <field name="sku">TOUR</field>
+                <field name="variable">PNK</field>
+            </record>
+
+            <record id="bonded_469" model="sku.bondedes">
+                <field name="name">TOURMALINE, PINK LEPIDOLITE IN QTZ</field>
+                <field name="sku">TOUR</field>
+                <field name="variable">PNKL</field>
+            </record>
+
+            <record id="bonded_470" model="sku.bondedes">
+                <field name="name">TOURMALINE, WATERMELON</field>
+                <field name="sku">TOUR</field>
+                <field name="variable">WTRM</field>
+            </record>
+
+            <record id="bonded_471" model="sku.bondedes">
+                <field name="name">TREMOLITE</field>
+                <field name="sku">TRM</field>
+            </record>
+
+            <record id="bonded_472" model="sku.bondedes">
+                <field name="name">TRIPLITE</field>
+                <field name="sku">TRPL</field>
+            </record>
+
+            <record id="bonded_473" model="sku.bondedes">
+                <field name="name">TROLLEITE</field>
+                <field name="sku">TRLT</field>
+            </record>
+
+            <record id="bonded_474" model="sku.bondedes">
+                <field name="name">TURQUOISE</field>
+                <field name="sku">TRQ</field>
+            </record>
+
+            <record id="bonded_475" model="sku.bondedes">
+                <field name="name">UNAKITE</field>
+                <field name="sku">UNK</field>
+            </record>
+
+            <record id="bonded_476" model="sku.bondedes">
+                <field name="name">VANADINITE</field>
+                <field name="sku">VND</field>
+            </record>
+
+            <record id="bonded_477" model="sku.bondedes">
+                <field name="name">VARISCITE </field>
+                <field name="sku">VRS</field>
+            </record>
+
+            <record id="bonded_478" model="sku.bondedes">
+                <field name="name">VERDITE </field>
+                <field name="sku">VRD</field>
+            </record>
+
+            <record id="bonded_479" model="sku.bondedes">
+                <field name="name">VESUVIANITE</field>
+                <field name="sku">VES</field>
+            </record>
+
+            <record id="bonded_480" model="sku.bondedes">
+                <field name="name">VIVIANITE</field>
+                <field name="sku">VIV</field>
+            </record>
+
+            <record id="bonded_481" model="sku.bondedes">
+                <field name="name">WAGNERITE</field>
+                <field name="sku">WGNR</field>
+            </record>
+
+            <record id="bonded_482" model="sku.bondedes">
+                <field name="name">ZEBRADORITE</field>
+                <field name="sku">ZBR</field>
+            </record>
+
+            <record id="bonded_483" model="sku.bondedes">
+                <field name="name">ZEOLITES</field>
+                <field name="sku">ZEO</field>
+            </record>
+
+            <record id="bonded_484" model="sku.bondedes">
+                <field name="name">ZIRCON (JACINTH)</field>
+                <field name="sku">ZRC</field>
+            </record>
+
+            <record id="bonded_485" model="sku.bondedes">
+                <field name="name">ZOISITE, RUBY</field>
+                <field name="sku">ZOI</field>
+                <field name="variable">RBY</field>
+            </record>
+
+
+        </data>
+</odoo>

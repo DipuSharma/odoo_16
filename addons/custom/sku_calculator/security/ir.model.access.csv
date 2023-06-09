@@ -1,0 +1,9 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+"access_sku_categoryies","access.sku.categories","model_sku_categories",base.group_user,1,1,1,1
+"access_sku_countries","access.sku.countries","model_sku_countries",base.group_user,1,1,1,1
+"access_sku_bondedes","access.sku.bondedes","model_sku_bondedes",base.group_user,1,1,1,1
+"access_sku_shapes","access.sku.shapes","model_sku_shapes",base.group_user,1,1,1,1
+"access_sku_vendores","access.sku.vendores","model_sku_vendores",base.group_user,1,1,1,1
+"access_sku_volumes","access.sku.volumes","model_sku_volumes",base.group_user,1,1,1,1
+"access_sku_types","access.sku.types","model_sku_types",base.group_user,1,1,1,1
+

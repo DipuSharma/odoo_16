@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <menuitem id="shipping_tracking_id" name="Shipment Tracking" parent="purchase.menu_purchase_root" sequence="99" groups="purchase.group_purchase_manager">
+        <menuitem id="shipment_sub_menu_form_id" name="List Shipment" action="sg_shipment_tracking.shipment_tracking_tree_actions" sequence="99"/>
+        <menuitem id="shipment_sub_menu_tree_id" name="Create New Shipment" action="sg_shipment_tracking.shipment_tracking_form_actions" sequence="99"/>
+    </menuitem>
+</odoo>

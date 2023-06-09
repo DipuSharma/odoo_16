@@ -1,0 +1,10 @@
+<!--<?xml version="1.0" encoding="UTF-8" ?>-->
+<odoo>
+    <record id="sequence_of_shipment_tracking" model="ir.sequence">
+        <field name="name">Restaurant Staff Sequence Number</field>
+        <field name="code">shipment.track.sequence</field>
+        <field name="padding">4</field>
+        <field name="prefix">SHPTRK/</field>
+        <field name="company_id" eval="False"/>
+    </record>
+</odoo>

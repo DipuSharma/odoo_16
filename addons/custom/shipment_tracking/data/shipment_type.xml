@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="shipment_type_air" model="shipment.type">
+            <field name="name">Air</field>
+        </record>
+        <record id="shipment_type_ocean" model="shipment.type">
+            <field name="name">Ocean</field>
+        </record>
+        <record id="shipment_type_customer_clearance" model="shipment.type">
+            <field name="name">Customs Clearance</field>
+        </record>
+        <record id="shipment_type_truck" model="shipment.type">
+            <field name="name">Truck</field>
+        </record>
+        <record id="shipment_type_arrange_shipper" model="shipment.type">
+            <field name="name">Arranged by Shipper</field>
+        </record>
+    </data>
+</odoo>

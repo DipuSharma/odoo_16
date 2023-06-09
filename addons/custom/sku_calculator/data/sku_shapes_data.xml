@@ -1,0 +1,3731 @@
+<?xml version="1.0"?>
+<openerp>
+    <data noupdate="1">
+
+        <record id="shapes_1" model="sku.shapes">
+            <field name="name">3 STONE</field>
+            <field name="sku">3STN</field>
+        </record>
+
+        <record id="shapes_2" model="sku.shapes">
+            <field name="name">4 DIRECTIONS</field>
+            <field name="sku">4DRCTN</field>
+        </record>
+
+        <record id="shapes_3" model="sku.shapes">
+            <field name="name">8 SIDED</field>
+            <field name="sku">8SDD</field>
+        </record>
+
+        <record id="shapes_4" model="sku.shapes">
+            <field name="name">A</field>
+            <field name="sku">A</field>
+        </record>
+
+        <record id="shapes_5" model="sku.shapes">
+            <field name="name">A/A-</field>
+            <field name="sku">A/A-</field>
+        </record>
+
+        <record id="shapes_6" model="sku.shapes">
+            <field name="name">A/A+</field>
+            <field name="sku">A/A+</field>
+        </record>
+
+        <record id="shapes_7" model="sku.shapes">
+            <field name="name">A/B</field>
+            <field name="sku">A/B</field>
+        </record>
+
+        <record id="shapes_8" model="sku.shapes">
+            <field name="name">A+/AA</field>
+            <field name="sku">A+/AA</field>
+        </record>
+
+        <record id="shapes_9" model="sku.shapes">
+            <field name="name">ABUNDANTIA</field>
+            <field name="sku">ABNDTA</field>
+        </record>
+
+        <record id="shapes_10" model="sku.shapes">
+            <field name="name">ACCELERATED</field>
+            <field name="sku">ACCLR</field>
+        </record>
+
+        <record id="shapes_11" model="sku.shapes">
+            <field name="name">ACORN</field>
+            <field name="sku">ACRN</field>
+        </record>
+
+        <record id="shapes_12" model="sku.shapes">
+            <field name="name">ACRYLIC</field>
+            <field name="sku">ACRL</field>
+        </record>
+
+        <record id="shapes_13" model="sku.shapes">
+            <field name="name">AFFIRMATION</field>
+            <field name="sku">AFFRM</field>
+        </record>
+
+        <record id="shapes_14" model="sku.shapes">
+            <field name="name">AIR</field>
+            <field name="sku">AIR</field>
+        </record>
+
+        <record id="shapes_15" model="sku.shapes">
+            <field name="name">ALTAR</field>
+            <field name="sku">ALTR</field>
+        </record>
+
+        <record id="shapes_16" model="sku.shapes">
+            <field name="name">ALUMINUM MATERIAL</field>
+            <field name="sku">ALUM</field>
+        </record>
+
+        <record id="shapes_17" model="sku.shapes">
+            <field name="name">AMA</field>
+            <field name="sku">AMA</field>
+        </record>
+
+        <record id="shapes_18" model="sku.shapes">
+            <field name="name">ANGEL</field>
+            <field name="sku">ANGL</field>
+        </record>
+
+        <record id="shapes_19" model="sku.shapes">
+            <field name="name">ANGEL HEART</field>
+            <field name="sku">ANGLHRT</field>
+        </record>
+
+        <record id="shapes_20" model="sku.shapes">
+            <field name="name">ANGEL STAR</field>
+            <field name="sku">ANGLSTR</field>
+        </record>
+
+        <record id="shapes_21" model="sku.shapes">
+            <field name="name">ANGEL WINGS</field>
+            <field name="sku">ANGLWNGS</field>
+        </record>
+
+        <record id="shapes_22" model="sku.shapes">
+            <field name="name">ANGELOFOS CHARMS</field>
+            <field name="sku">ANGCHM</field>
+        </record>
+
+        <record id="shapes_23" model="sku.shapes">
+            <field name="name">ANIMAL</field>
+            <field name="sku">ANML</field>
+        </record>
+
+        <record id="shapes_24" model="sku.shapes">
+            <field name="name">ANNIVERSARY</field>
+            <field name="sku">ANNI</field>
+        </record>
+
+        <record id="shapes_25" model="sku.shapes">
+            <field name="name">APOLLO</field>
+            <field name="sku">APLL</field>
+        </record>
+
+        <record id="shapes_26" model="sku.shapes">
+            <field name="name">APRICOT</field>
+            <field name="sku">APRC</field>
+        </record>
+
+        <record id="shapes_27" model="sku.shapes">
+            <field name="name">APRIL</field>
+            <field name="sku">APR</field>
+        </record>
+
+        <record id="shapes_28" model="sku.shapes">
+            <field name="name">AQUA </field>
+            <field name="sku">AQUA</field>
+        </record>
+
+        <record id="shapes_29" model="sku.shapes">
+            <field name="name">AQUAMARINE SPARKLE</field>
+            <field name="sku">AQMRSPRKL</field>
+        </record>
+
+        <record id="shapes_30" model="sku.shapes">
+            <field name="name">AQUARIUS</field>
+            <field name="sku">AQU</field>
+        </record>
+
+        <record id="shapes_31" model="sku.shapes">
+            <field name="name">ARABIC</field>
+            <field name="sku">ARAB</field>
+        </record>
+
+        <record id="shapes_32" model="sku.shapes">
+            <field name="name">ARBOR VITAE</field>
+            <field name="sku">ARB-VTA</field>
+        </record>
+
+        <record id="shapes_33" model="sku.shapes">
+            <field name="name">ARES</field>
+            <field name="sku">ARS</field>
+        </record>
+
+        <record id="shapes_34" model="sku.shapes">
+            <field name="name">ARIES</field>
+            <field name="sku">ARI</field>
+        </record>
+
+        <record id="shapes_35" model="sku.shapes">
+            <field name="name">ARROWHEADS</field>
+            <field name="sku">ARRO</field>
+        </record>
+
+        <record id="shapes_36" model="sku.shapes">
+            <field name="name">ASTRAEUS</field>
+            <field name="sku">ASTR</field>
+        </record>
+
+        <record id="shapes_37" model="sku.shapes">
+            <field name="name">ATHAME</field>
+            <field name="sku">ATME</field>
+        </record>
+
+        <record id="shapes_38" model="sku.shapes">
+            <field name="name">ATHENAS FAVE OUD</field>
+            <field name="sku">AOUD</field>
+        </record>
+
+        <record id="shapes_39" model="sku.shapes">
+            <field name="name">ATHENAS REPLICA</field>
+            <field name="sku">ATHNA</field>
+        </record>
+
+        <record id="shapes_40" model="sku.shapes">
+            <field name="name">ATTRACT</field>
+            <field name="sku">ATTR</field>
+        </record>
+
+        <record id="shapes_41" model="sku.shapes">
+            <field name="name">AUGUST</field>
+            <field name="sku">AUG</field>
+        </record>
+
+        <record id="shapes_42" model="sku.shapes">
+            <field name="name">AURA</field>
+            <field name="sku">AURA</field>
+        </record>
+
+        <record id="shapes_43" model="sku.shapes">
+            <field name="name">AURA TREATED</field>
+            <field name="sku">AUR</field>
+        </record>
+
+        <record id="shapes_44" model="sku.shapes">
+            <field name="name">AURA TREATED, ANGEL</field>
+            <field name="sku">AAUR</field>
+        </record>
+
+        <record id="shapes_45" model="sku.shapes">
+            <field name="name">AURA TREATED, AQUA</field>
+            <field name="sku">AQAUR</field>
+        </record>
+
+        <record id="shapes_46" model="sku.shapes">
+            <field name="name">AURA TREATED, BLACK</field>
+            <field name="sku">BKAUR</field>
+        </record>
+
+        <record id="shapes_47" model="sku.shapes">
+            <field name="name">AURA TREATED, COPPER</field>
+            <field name="sku">CPRAUR</field>
+        </record>
+
+        <record id="shapes_48" model="sku.shapes">
+            <field name="name">AURA TREATED, DARK BLUE</field>
+            <field name="sku">DBLAUR</field>
+        </record>
+
+        <record id="shapes_49" model="sku.shapes">
+            <field name="name">AURA TREATED, LIGHT BLUE</field>
+            <field name="sku">LBLAUR</field>
+        </record>
+
+        <record id="shapes_50" model="sku.shapes">
+            <field name="name">AURA TREATED, ORANGE</field>
+            <field name="sku">ORAUR</field>
+        </record>
+
+        <record id="shapes_51" model="sku.shapes">
+            <field name="name">AURA TREATED, PINK</field>
+            <field name="sku">PKAUR</field>
+        </record>
+
+        <record id="shapes_52" model="sku.shapes">
+            <field name="name">AURA TREATED, PURPLE</field>
+            <field name="sku">PPAUR</field>
+        </record>
+
+        <record id="shapes_53" model="sku.shapes">
+            <field name="name">AURA TREATED, RAINBOW</field>
+            <field name="sku">RBAUR</field>
+        </record>
+
+        <record id="shapes_54" model="sku.shapes">
+            <field name="name">AURA TREATED, RED</field>
+            <field name="sku">RDAUR</field>
+        </record>
+
+        <record id="shapes_55" model="sku.shapes">
+            <field name="name">AURA TREATED, SUNSET</field>
+            <field name="sku">SAUR</field>
+        </record>
+
+        <record id="shapes_56" model="sku.shapes">
+            <field name="name">AURA TREATED, SUNSHINE</field>
+            <field name="sku">SHAUR</field>
+        </record>
+
+        <record id="shapes_57" model="sku.shapes">
+            <field name="name">AURA TREATED, TANGERINE</field>
+            <field name="sku">TAAUR</field>
+        </record>
+
+        <record id="shapes_58" model="sku.shapes">
+            <field name="name">AURA TREATED, TANZANITE</field>
+            <field name="sku">TNAUR</field>
+        </record>
+
+        <record id="shapes_59" model="sku.shapes">
+            <field name="name">AURA TREATED, TITANIUM</field>
+            <field name="sku">TIAUR</field>
+        </record>
+
+        <record id="shapes_60" model="sku.shapes">
+            <field name="name">AURA TREATED, YELLOW</field>
+            <field name="sku">YWAUR</field>
+        </record>
+
+        <record id="shapes_61" model="sku.shapes">
+            <field name="name">AUTUMN</field>
+            <field name="sku">ATMN</field>
+        </record>
+
+        <record id="shapes_62" model="sku.shapes">
+            <field name="name">BAMBOO</field>
+            <field name="sku">BMB</field>
+        </record>
+
+        <record id="shapes_63" model="sku.shapes">
+            <field name="name">BASE</field>
+            <field name="sku">BAS</field>
+        </record>
+
+        <record id="shapes_64" model="sku.shapes">
+            <field name="name">BEAD</field>
+            <field name="sku">BEAD</field>
+        </record>
+
+        <record id="shapes_65" model="sku.shapes">
+            <field name="name">BEAN</field>
+            <field name="sku">BEAN</field>
+        </record>
+
+        <record id="shapes_66" model="sku.shapes">
+            <field name="name">BEAUTY</field>
+            <field name="sku">BEAU</field>
+        </record>
+
+        <record id="shapes_67" model="sku.shapes">
+            <field name="name">BEE</field>
+            <field name="sku">BEE</field>
+        </record>
+
+        <record id="shapes_68" model="sku.shapes">
+            <field name="name">BEEBOP</field>
+            <field name="sku">BBOP</field>
+        </record>
+
+        <record id="shapes_69" model="sku.shapes">
+            <field name="name">BEE HIVE</field>
+            <field name="sku">BEHV</field>
+        </record>
+
+        <record id="shapes_70" model="sku.shapes">
+            <field name="name">BEGINNER</field>
+            <field name="sku">BGNR</field>
+        </record>
+
+        <record id="shapes_71" model="sku.shapes">
+            <field name="name">BELL, ALTER</field>
+            <field name="sku">ALTRBL</field>
+        </record>
+
+        <record id="shapes_72" model="sku.shapes">
+            <field name="name">BELLS</field>
+            <field name="sku">BELL</field>
+        </record>
+
+        <record id="shapes_73" model="sku.shapes">
+            <field name="name">BEZEL</field>
+            <field name="sku">BZEL</field>
+        </record>
+
+        <record id="shapes_74" model="sku.shapes">
+            <field name="name">BLACK</field>
+            <field name="sku">BLK</field>
+        </record>
+
+        <record id="shapes_75" model="sku.shapes">
+            <field name="name">BLACK CAP</field>
+            <field name="sku">BLKCAP</field>
+        </record>
+
+        <record id="shapes_76" model="sku.shapes">
+            <field name="name">BLACK CORD</field>
+            <field name="sku">BLKCRD</field>
+        </record>
+
+        <record id="shapes_77" model="sku.shapes">
+            <field name="name">BLENDING</field>
+            <field name="sku">BLDNG</field>
+        </record>
+
+        <record id="shapes_78" model="sku.shapes">
+            <field name="name">BLISS</field>
+            <field name="sku">BLISS</field>
+        </record>
+
+        <record id="shapes_79" model="sku.shapes">
+            <field name="name">BLUE</field>
+            <field name="sku">BLU</field>
+        </record>
+
+        <record id="shapes_80" model="sku.shapes">
+            <field name="name">BLUE, DARK</field>
+            <field name="sku">DKBLU</field>
+        </record>
+
+        <record id="shapes_81" model="sku.shapes">
+            <field name="name">BLUE, ELECTRIC</field>
+            <field name="sku">ELCBLU</field>
+        </record>
+
+        <record id="shapes_82" model="sku.shapes">
+            <field name="name">BLUSH ROSE GOLD</field>
+            <field name="sku">BLSHROSEGLD</field>
+        </record>
+
+        <record id="shapes_83" model="sku.shapes">
+            <field name="name">BONDED</field>
+            <field name="sku">BOND</field>
+        </record>
+
+        <record id="shapes_84" model="sku.shapes">
+            <field name="name">BORDEAUX</field>
+            <field name="sku">BRDX</field>
+        </record>
+
+        <record id="shapes_85" model="sku.shapes">
+            <field name="name">BOTTLE</field>
+            <field name="sku">BTL</field>
+        </record>
+
+        <record id="shapes_86" model="sku.shapes">
+            <field name="name">BOWL</field>
+            <field name="sku">BWL</field>
+        </record>
+
+        <record id="shapes_87" model="sku.shapes">
+            <field name="name">BOX WITH LOGO</field>
+            <field name="sku">BOXLOG</field>
+        </record>
+
+        <record id="shapes_88" model="sku.shapes">
+            <field name="name">BRA STONE</field>
+            <field name="sku">BRST</field>
+        </record>
+
+        <record id="shapes_89" model="sku.shapes">
+            <field name="name">BRACELET</field>
+            <field name="sku">BRAC</field>
+        </record>
+
+        <record id="shapes_90" model="sku.shapes">
+            <field name="name">BRAID, SWEETGRASS</field>
+            <field name="sku">SWTGR</field>
+        </record>
+
+        <record id="shapes_91" model="sku.shapes">
+            <field name="name">BRASS MATERIAL</field>
+            <field name="sku">BRSS</field>
+        </record>
+
+        <record id="shapes_92" model="sku.shapes">
+            <field name="name">BRICK RED</field>
+            <field name="sku">BRED</field>
+        </record>
+
+        <record id="shapes_93" model="sku.shapes">
+            <field name="name">BRONZE</field>
+            <field name="sku">BRZ</field>
+        </record>
+
+        <record id="shapes_94" model="sku.shapes">
+            <field name="name">BROWN</field>
+            <field name="sku">BWN</field>
+        </record>
+
+        <record id="shapes_95" model="sku.shapes">
+            <field name="name">BROWN CORD</field>
+            <field name="sku">BWNCRD</field>
+        </record>
+
+        <record id="shapes_96" model="sku.shapes">
+            <field name="name">BUBBLE GUM</field>
+            <field name="sku">BBLGM</field>
+        </record>
+
+        <record id="shapes_97" model="sku.shapes">
+            <field name="name">BUCK</field>
+            <field name="sku">BCK</field>
+        </record>
+
+        <record id="shapes_98" model="sku.shapes">
+            <field name="name">BUDDHA</field>
+            <field name="sku">BUDD</field>
+        </record>
+
+        <record id="shapes_99" model="sku.shapes">
+            <field name="name">BULLET</field>
+            <field name="sku">BLT</field>
+        </record>
+
+        <record id="shapes_100" model="sku.shapes">
+            <field name="name">BUNNY</field>
+            <field name="sku">BUN</field>
+        </record>
+
+        <record id="shapes_101" model="sku.shapes">
+            <field name="name">BURGUNDY</field>
+            <field name="sku">BUR</field>
+        </record>
+
+        <record id="shapes_102" model="sku.shapes">
+            <field name="name">BUTTERCUP</field>
+            <field name="sku">BTRCP</field>
+        </record>
+
+        <record id="shapes_103" model="sku.shapes">
+            <field name="name">BUTTERFLY</field>
+            <field name="sku">BTRFLY</field>
+        </record>
+
+        <record id="shapes_104" model="sku.shapes">
+            <field name="name">CABOCHON</field>
+            <field name="sku">CABO</field>
+        </record>
+
+        <record id="shapes_105" model="sku.shapes">
+            <field name="name">CACTUS</field>
+            <field name="sku">CCTS</field>
+        </record>
+
+        <record id="shapes_106" model="sku.shapes">
+            <field name="name">CALLIGRAPHY</field>
+            <field name="sku">CGRPHY</field>
+        </record>
+
+        <record id="shapes_107" model="sku.shapes">
+            <field name="name">CANCER</field>
+            <field name="sku">CAN</field>
+        </record>
+
+        <record id="shapes_108" model="sku.shapes">
+            <field name="name">CANDIES</field>
+            <field name="sku">CNDY</field>
+        </record>
+
+        <record id="shapes_109" model="sku.shapes">
+            <field name="name">CANDLE HOLDER</field>
+            <field name="sku">CDLHLD</field>
+        </record>
+
+        <record id="shapes_110" model="sku.shapes">
+            <field name="name">CANDLE, ROLLED</field>
+            <field name="sku">CNDRLD</field>
+        </record>
+
+        <record id="shapes_111" model="sku.shapes">
+            <field name="name">CAP </field>
+            <field name="sku">CAP</field>
+        </record>
+
+        <record id="shapes_112" model="sku.shapes">
+            <field name="name">CAPRICORN</field>
+            <field name="sku">CAP</field>
+        </record>
+
+        <record id="shapes_113" model="sku.shapes">
+            <field name="name">CASE</field>
+            <field name="sku">CASE</field>
+        </record>
+
+        <record id="shapes_114" model="sku.shapes">
+            <field name="name">CAT</field>
+            <field name="sku">CAT</field>
+        </record>
+
+        <record id="shapes_115" model="sku.shapes">
+            <field name="name">CAT HEAD</field>
+            <field name="sku">CATHD</field>
+        </record>
+
+        <record id="shapes_116" model="sku.shapes">
+            <field name="name">CATS EYE</field>
+            <field name="sku">CATEYE</field>
+        </record>
+
+        <record id="shapes_117" model="sku.shapes">
+            <field name="name">CELLULITE</field>
+            <field name="sku">CELLT</field>
+        </record>
+
+        <record id="shapes_118" model="sku.shapes">
+            <field name="name">CENTER</field>
+            <field name="sku">CNTR</field>
+        </record>
+
+        <record id="shapes_119" model="sku.shapes">
+            <field name="name">CERAMIC MATERIAL</field>
+            <field name="sku">CERA</field>
+        </record>
+
+        <record id="shapes_120" model="sku.shapes">
+            <field name="name">CHAKRA</field>
+            <field name="sku">CHK</field>
+        </record>
+
+        <record id="shapes_121" model="sku.shapes">
+            <field name="name">CHAKRA STONE DUO</field>
+            <field name="sku">CHKDUO</field>
+        </record>
+
+        <record id="shapes_122" model="sku.shapes">
+            <field name="name">CHAKRA, EARTH STAR</field>
+            <field name="sku">ERTCHK</field>
+        </record>
+
+        <record id="shapes_123" model="sku.shapes">
+            <field name="name">CHAKRA, ROOT</field>
+            <field name="sku">RTCHK</field>
+        </record>
+
+        <record id="shapes_124" model="sku.shapes">
+            <field name="name">CHAKRA, SACRAL</field>
+            <field name="sku">SCRCHK</field>
+        </record>
+
+        <record id="shapes_125" model="sku.shapes">
+            <field name="name">CHAKRA, SEVEN </field>
+            <field name="sku">7CHK</field>
+        </record>
+
+        <record id="shapes_126" model="sku.shapes">
+            <field name="name">CHAKRA, SOLAR PLEXUS</field>
+            <field name="sku">SLRCHK</field>
+        </record>
+
+        <record id="shapes_127" model="sku.shapes">
+            <field name="name">CHAKRA, SOUL STAR</field>
+            <field name="sku">SLSTCHK</field>
+        </record>
+
+        <record id="shapes_128" model="sku.shapes">
+            <field name="name">CHAKRA, THIRD EYE</field>
+            <field name="sku">3EYECHK</field>
+        </record>
+
+        <record id="shapes_129" model="sku.shapes">
+            <field name="name">CHAKRA, THROAT</field>
+            <field name="sku">THRCHK</field>
+        </record>
+
+        <record id="shapes_130" model="sku.shapes">
+            <field name="name">CHAMPAGNE</field>
+            <field name="sku">CHMPG</field>
+        </record>
+
+        <record id="shapes_131" model="sku.shapes">
+            <field name="name">CHARGE</field>
+            <field name="sku">CHRG</field>
+        </record>
+
+        <record id="shapes_132" model="sku.shapes">
+            <field name="name">CHARGING PLATE</field>
+            <field name="sku">CHG-PLT</field>
+        </record>
+
+        <record id="shapes_133" model="sku.shapes">
+            <field name="name">CHARM 1</field>
+            <field name="sku">CHRM1</field>
+        </record>
+
+        <record id="shapes_134" model="sku.shapes">
+            <field name="name">CHARM 2</field>
+            <field name="sku">CHRM2</field>
+        </record>
+
+        <record id="shapes_135" model="sku.shapes">
+            <field name="name">CHARM 3</field>
+            <field name="sku">CHRM3</field>
+        </record>
+
+        <record id="shapes_136" model="sku.shapes">
+            <field name="name">CHARM 4</field>
+            <field name="sku">CHRM4</field>
+        </record>
+
+        <record id="shapes_137" model="sku.shapes">
+            <field name="name">CHARTREUSE</field>
+            <field name="sku">CHRTRS</field>
+        </record>
+
+        <record id="shapes_138" model="sku.shapes">
+            <field name="name">CHERRY</field>
+            <field name="sku">CHRY</field>
+        </record>
+
+        <record id="shapes_139" model="sku.shapes">
+            <field name="name">CHINESE HOROSCOPE</field>
+            <field name="sku">CHHRSCP</field>
+        </record>
+
+        <record id="shapes_140" model="sku.shapes">
+            <field name="name">CHIP STONE</field>
+            <field name="sku">CHP</field>
+        </record>
+
+        <record id="shapes_141" model="sku.shapes">
+            <field name="name">CHIP STONE, 4 OZ JAR</field>
+            <field name="sku">CHP4OZ</field>
+        </record>
+
+        <record id="shapes_142" model="sku.shapes">
+            <field name="name">CHIPS </field>
+            <field name="sku">CHIP</field>
+        </record>
+
+        <record id="shapes_143" model="sku.shapes">
+            <field name="name">CHOCOLATE</field>
+            <field name="sku">CHOC</field>
+        </record>
+
+        <record id="shapes_144" model="sku.shapes">
+            <field name="name">CHUMPIS</field>
+            <field name="sku">CHUM</field>
+        </record>
+
+        <record id="shapes_145" model="sku.shapes">
+            <field name="name">CHUNK</field>
+            <field name="sku">CHNK</field>
+        </record>
+
+        <record id="shapes_146" model="sku.shapes">
+            <field name="name">CIGARRETTE HOLDER</field>
+            <field name="sku">CIGG</field>
+        </record>
+
+        <record id="shapes_147" model="sku.shapes">
+            <field name="name">CIRCLE</field>
+            <field name="sku">CRCL</field>
+        </record>
+
+        <record id="shapes_148" model="sku.shapes">
+            <field name="name">CITIPATI</field>
+            <field name="sku">CITIP</field>
+        </record>
+
+        <record id="shapes_149" model="sku.shapes">
+            <field name="name">CLAMP</field>
+            <field name="sku">CLAMP</field>
+        </record>
+
+        <record id="shapes_150" model="sku.shapes">
+            <field name="name">CLEAR</field>
+            <field name="sku">CLR</field>
+        </record>
+
+        <record id="shapes_151" model="sku.shapes">
+            <field name="name">CLEARING</field>
+            <field name="sku">CLEAR</field>
+        </record>
+
+        <record id="shapes_152" model="sku.shapes">
+            <field name="name">CLOCK</field>
+            <field name="sku">CLCK</field>
+        </record>
+
+        <record id="shapes_153" model="sku.shapes">
+            <field name="name">CLUSTER</field>
+            <field name="sku">CLS</field>
+        </record>
+
+        <record id="shapes_154" model="sku.shapes">
+            <field name="name">CLUSTER CARVING</field>
+            <field name="sku">CLSCRV</field>
+        </record>
+
+        <record id="shapes_155" model="sku.shapes">
+            <field name="name">COBRA</field>
+            <field name="sku">COBRA</field>
+        </record>
+
+        <record id="shapes_156" model="sku.shapes">
+            <field name="name">COFFIN</field>
+            <field name="sku">COFF</field>
+        </record>
+
+        <record id="shapes_157" model="sku.shapes">
+            <field name="name">CONSTELLATION</field>
+            <field name="sku">CONST</field>
+        </record>
+
+        <record id="shapes_158" model="sku.shapes">
+            <field name="name">COPAL</field>
+            <field name="sku">COPL</field>
+        </record>
+
+        <record id="shapes_159" model="sku.shapes">
+            <field name="name">COPPER MATERIAL</field>
+            <field name="sku">COPR</field>
+        </record>
+
+        <record id="shapes_160" model="sku.shapes">
+            <field name="name">CORAL</field>
+            <field name="sku">CRL</field>
+        </record>
+
+        <record id="shapes_161" model="sku.shapes">
+            <field name="name">CORD</field>
+            <field name="sku">CORD</field>
+        </record>
+
+        <record id="shapes_162" model="sku.shapes">
+            <field name="name">CORNOLINE</field>
+            <field name="sku">CORNO</field>
+        </record>
+
+        <record id="shapes_163" model="sku.shapes">
+            <field name="name">CORVID SKULL</field>
+            <field name="sku">CRVDSK</field>
+        </record>
+
+        <record id="shapes_164" model="sku.shapes">
+            <field name="name">COVELITE</field>
+            <field name="sku">CVLT</field>
+        </record>
+
+        <record id="shapes_165" model="sku.shapes">
+            <field name="name">ALIGNMENT</field>
+            <field name="sku">ALIGN</field>
+        </record>
+
+        <record id="shapes_166" model="sku.shapes">
+            <field name="name">CRANBERRY</field>
+            <field name="sku">CRNBRY</field>
+        </record>
+
+        <record id="shapes_167" model="sku.shapes">
+            <field name="name">CREATIVITY</field>
+            <field name="sku">CRTV</field>
+        </record>
+
+        <record id="shapes_168" model="sku.shapes">
+            <field name="name">CRESCENT MOON</field>
+            <field name="sku">CRESMN</field>
+        </record>
+
+        <record id="shapes_169" model="sku.shapes">
+            <field name="name">CROSS</field>
+            <field name="sku">CROS</field>
+        </record>
+
+        <record id="shapes_170" model="sku.shapes">
+            <field name="name">CROWN CHAKRA</field>
+            <field name="sku">CRWCHK</field>
+        </record>
+
+        <record id="shapes_171" model="sku.shapes">
+            <field name="name">CRYSTAL MASTER 2020</field>
+            <field name="sku">CM2020</field>
+        </record>
+
+        <record id="shapes_172" model="sku.shapes">
+            <field name="name">CRYSTAL MASTER 2021</field>
+            <field name="sku">CM2021</field>
+        </record>
+
+        <record id="shapes_173" model="sku.shapes">
+            <field name="name">CRYSTAL POINT</field>
+            <field name="sku">CYRSPT</field>
+        </record>
+
+        <record id="shapes_174" model="sku.shapes">
+            <field name="name">CRYSTAL STONE</field>
+            <field name="sku">CRYS-STN</field>
+        </record>
+
+        <record id="shapes_175" model="sku.shapes">
+            <field name="name">CRYSTAL</field>
+            <field name="sku">CRSTL</field>
+        </record>
+
+        <record id="shapes_176" model="sku.shapes">
+            <field name="name">CUBE</field>
+            <field name="sku">CBE</field>
+        </record>
+
+        <record id="shapes_177" model="sku.shapes">
+            <field name="name">CUFF</field>
+            <field name="sku">CFF</field>
+        </record>
+
+        <record id="shapes_178" model="sku.shapes">
+            <field name="name">CUP</field>
+            <field name="sku">CUP</field>
+        </record>
+
+        <record id="shapes_179" model="sku.shapes">
+            <field name="name">CUSTOM</field>
+            <field name="sku">CSTM</field>
+        </record>
+
+        <record id="shapes_180" model="sku.shapes">
+            <field name="name">CYAN</field>
+            <field name="sku">CYAN</field>
+        </record>
+
+        <record id="shapes_181" model="sku.shapes">
+            <field name="name">CYLINDER</field>
+            <field name="sku">CYL</field>
+        </record>
+
+        <record id="shapes_182" model="sku.shapes">
+            <field name="name">DAY OF THE DEAD</field>
+            <field name="sku">DOTD</field>
+        </record>
+
+        <record id="shapes_183" model="sku.shapes">
+            <field name="name">DEAD SEA</field>
+            <field name="sku">DSEA</field>
+        </record>
+
+        <record id="shapes_184" model="sku.shapes">
+            <field name="name">DECEMBER</field>
+            <field name="sku">DEC</field>
+        </record>
+
+        <record id="shapes_185" model="sku.shapes">
+            <field name="name">DEEPAK BURNER</field>
+            <field name="sku">DPKBRNR</field>
+        </record>
+
+        <record id="shapes_186" model="sku.shapes">
+            <field name="name">DELUX</field>
+            <field name="sku">DLUX</field>
+        </record>
+
+        <record id="shapes_187" model="sku.shapes">
+            <field name="name">DENDRITE</field>
+            <field name="sku">DNDT</field>
+        </record>
+
+        <record id="shapes_188" model="sku.shapes">
+            <field name="name">DESIGNS, 8</field>
+            <field name="sku">DSGN8</field>
+        </record>
+
+        <record id="shapes_189" model="sku.shapes">
+            <field name="name">DEWI SRI</field>
+            <field name="sku">DWISRI</field>
+        </record>
+
+        <record id="shapes_190" model="sku.shapes">
+            <field name="name">DIAL, SUN</field>
+            <field name="sku">SUNDIA</field>
+        </record>
+
+        <record id="shapes_191" model="sku.shapes">
+            <field name="name">DIAMOND</field>
+            <field name="sku">DMND</field>
+        </record>
+
+        <record id="shapes_192" model="sku.shapes">
+            <field name="name">DICE, DEITY</field>
+            <field name="sku">DEITDI</field>
+        </record>
+
+        <record id="shapes_193" model="sku.shapes">
+            <field name="name">DICE, RUNE</field>
+            <field name="sku">RUNEDI</field>
+        </record>
+
+        <record id="shapes_194" model="sku.shapes">
+            <field name="name">DIE</field>
+            <field name="sku">DIE</field>
+        </record>
+
+        <record id="shapes_195" model="sku.shapes">
+            <field name="name">DIFFUSER</field>
+            <field name="sku">DIFF</field>
+        </record>
+
+        <record id="shapes_196" model="sku.shapes">
+            <field name="name">DISK</field>
+            <field name="sku">DSK</field>
+        </record>
+
+        <record id="shapes_197" model="sku.shapes">
+            <field name="name">DODECAHEDRON</field>
+            <field name="sku">DDEC</field>
+        </record>
+
+        <record id="shapes_198" model="sku.shapes">
+            <field name="name">DOG TOOTH</field>
+            <field name="sku">DGTTH</field>
+        </record>
+
+        <record id="shapes_199" model="sku.shapes">
+            <field name="name">DOLPHIN</field>
+            <field name="sku">DLPN</field>
+        </record>
+
+        <record id="shapes_200" model="sku.shapes">
+            <field name="name">DOUBLE HEX</field>
+            <field name="sku">DBLHX</field>
+        </record>
+
+        <record id="shapes_201" model="sku.shapes">
+            <field name="name">DOUBLE SIDED POINT</field>
+            <field name="sku">DBL-SD-PNT</field>
+        </record>
+
+        <record id="shapes_202" model="sku.shapes">
+            <field name="name">DOUBLE TWIST</field>
+            <field name="sku">DTWIST</field>
+        </record>
+
+        <record id="shapes_203" model="sku.shapes">
+            <field name="name">DRAGON</field>
+            <field name="sku">DRAG</field>
+        </record>
+
+        <record id="shapes_204" model="sku.shapes">
+            <field name="name">DRAGONFLY</field>
+            <field name="sku">DRGFLY</field>
+        </record>
+
+        <record id="shapes_205" model="sku.shapes">
+            <field name="name">DRAGONSTONE</field>
+            <field name="sku">DGNSTN</field>
+        </record>
+
+        <record id="shapes_206" model="sku.shapes">
+            <field name="name">DREAM</field>
+            <field name="sku">DRM</field>
+        </record>
+
+        <record id="shapes_207" model="sku.shapes">
+            <field name="name">DREAM CATCHER </field>
+            <field name="sku">DRMCTH</field>
+        </record>
+
+        <record id="shapes_208" model="sku.shapes">
+            <field name="name">DROPPER</field>
+            <field name="sku">DRPPR</field>
+        </record>
+
+        <record id="shapes_209" model="sku.shapes">
+            <field name="name">DRUZY</field>
+            <field name="sku">DRZ</field>
+        </record>
+
+        <record id="shapes_210" model="sku.shapes">
+            <field name="name">DUO</field>
+            <field name="sku">DUO</field>
+        </record>
+
+        <record id="shapes_211" model="sku.shapes">
+            <field name="name">DUO SET</field>
+            <field name="sku">DSET</field>
+        </record>
+
+        <record id="shapes_212" model="sku.shapes">
+            <field name="name">DUST</field>
+            <field name="sku">DUST</field>
+        </record>
+
+        <record id="shapes_213" model="sku.shapes">
+            <field name="name">EARTH</field>
+            <field name="sku">ERTH</field>
+        </record>
+
+        <record id="shapes_214" model="sku.shapes">
+            <field name="name">EGG</field>
+            <field name="sku">EGGS</field>
+        </record>
+
+        <record id="shapes_215" model="sku.shapes">
+            <field name="name">EGYPTIAN FIRE</field>
+            <field name="sku">EGYFIRE</field>
+        </record>
+
+        <record id="shapes_216" model="sku.shapes">
+            <field name="name">ELECTRIC</field>
+            <field name="sku">ELCT</field>
+        </record>
+
+        <record id="shapes_217" model="sku.shapes">
+            <field name="name">ELEMENT</field>
+            <field name="sku">ELMNT</field>
+        </record>
+
+        <record id="shapes_218" model="sku.shapes">
+            <field name="name">ELVE(S)</field>
+            <field name="sku">ELV</field>
+        </record>
+
+        <record id="shapes_219" model="sku.shapes">
+            <field name="name">EMERALD</field>
+            <field name="sku">EMRD</field>
+        </record>
+
+        <record id="shapes_220" model="sku.shapes">
+            <field name="name">EMPRESS</field>
+            <field name="sku">EMPRSS</field>
+        </record>
+
+        <record id="shapes_221" model="sku.shapes">
+            <field name="name">EMBROIDERED</field>
+            <field name="sku">EMBRDED</field>
+        </record>
+
+        <record id="shapes_222" model="sku.shapes">
+            <field name="name">ENCIRCLED</field>
+            <field name="sku">ENCRC</field>
+        </record>
+
+        <record id="shapes_223" model="sku.shapes">
+            <field name="name">ENERGETIC EXTRACTOR</field>
+            <field name="sku">EEXT</field>
+        </record>
+
+        <record id="shapes_224" model="sku.shapes">
+            <field name="name">ENERGY</field>
+            <field name="sku">NRG</field>
+        </record>
+
+        <record id="shapes_225" model="sku.shapes">
+            <field name="name">ENGRAVED</field>
+            <field name="sku">ENGR</field>
+        </record>
+
+        <record id="shapes_226" model="sku.shapes">
+            <field name="name">ENTWINED</field>
+            <field name="sku">ENTW</field>
+        </record>
+
+        <record id="shapes_227" model="sku.shapes">
+            <field name="name">EPSOM SALT (MAGNESIUM SULFATE)</field>
+            <field name="sku">EPSOM</field>
+        </record>
+
+        <record id="shapes_228" model="sku.shapes">
+            <field name="name">ESSENTIAL HYDROSOLS</field>
+            <field name="sku">ESHYDRSLS</field>
+        </record>
+
+        <record id="shapes_229" model="sku.shapes">
+            <field name="name">ETCHED</field>
+            <field name="sku">ETCH</field>
+        </record>
+
+        <record id="shapes_230" model="sku.shapes">
+            <field name="name">ETHIOPIAN</field>
+            <field name="sku">ETH</field>
+        </record>
+
+        <record id="shapes_231" model="sku.shapes">
+            <field name="name">EUROPEAN SPA SALT</field>
+            <field name="sku">EUROSPA</field>
+        </record>
+
+        <record id="shapes_232" model="sku.shapes">
+            <field name="name">EUTHENIA</field>
+            <field name="sku">ETHNA</field>
+        </record>
+
+        <record id="shapes_233" model="sku.shapes">
+            <field name="name">EX</field>
+            <field name="sku">EX</field>
+        </record>
+
+        <record id="shapes_234" model="sku.shapes">
+            <field name="name">EYESHADOW</field>
+            <field name="sku">EYSHDW</field>
+        </record>
+
+        <record id="shapes_235" model="sku.shapes">
+            <field name="name">FACE</field>
+            <field name="sku">FC</field>
+        </record>
+
+        <record id="shapes_236" model="sku.shapes">
+            <field name="name">FACETED</field>
+            <field name="sku">FCTD</field>
+        </record>
+
+        <record id="shapes_237" model="sku.shapes">
+            <field name="name">FAIRY</field>
+            <field name="sku">FAIR</field>
+        </record>
+
+        <record id="shapes_238" model="sku.shapes">
+            <field name="name">FATIMA HAND</field>
+            <field name="sku">FTMAHND</field>
+        </record>
+
+        <record id="shapes_239" model="sku.shapes">
+            <field name="name">FEATHER</field>
+            <field name="sku">FTHR</field>
+        </record>
+
+        <record id="shapes_240" model="sku.shapes">
+            <field name="name">FEBRUARY</field>
+            <field name="sku">FEB</field>
+        </record>
+
+        <record id="shapes_241" model="sku.shapes">
+            <field name="name">FEHU</field>
+            <field name="sku">FEHU</field>
+        </record>
+
+        <record id="shapes_242" model="sku.shapes">
+            <field name="name">FEMININE FIRE</field>
+            <field name="sku">FEMFR</field>
+        </record>
+
+        <record id="shapes_243" model="sku.shapes">
+            <field name="name">FERRULE</field>
+            <field name="sku">FERR</field>
+        </record>
+
+        <record id="shapes_244" model="sku.shapes">
+            <field name="name">FIRE</field>
+            <field name="sku">FIRE</field>
+        </record>
+
+        <record id="shapes_245" model="sku.shapes">
+            <field name="name">FIZZY LEMONADE</field>
+            <field name="sku">FZLMN</field>
+        </record>
+
+        <record id="shapes_246" model="sku.shapes">
+            <field name="name">FLAME</field>
+            <field name="sku">FLME</field>
+        </record>
+
+        <record id="shapes_247" model="sku.shapes">
+            <field name="name">FLAP</field>
+            <field name="sku">FLP</field>
+        </record>
+
+        <record id="shapes_248" model="sku.shapes">
+            <field name="name">FLAT</field>
+            <field name="sku">FLT</field>
+        </record>
+
+        <record id="shapes_249" model="sku.shapes">
+            <field name="name">FLOWER</field>
+            <field name="sku">FLWR</field>
+        </record>
+
+        <record id="shapes_250" model="sku.shapes">
+            <field name="name">FLOWER OF LIFE</field>
+            <field name="sku">FLWRLF</field>
+        </record>
+
+        <record id="shapes_251" model="sku.shapes">
+            <field name="name">FLUORESCENT</field>
+            <field name="sku">FLSCT</field>
+        </record>
+
+        <record id="shapes_252" model="sku.shapes">
+            <field name="name">FLYING</field>
+            <field name="sku">FLYN</field>
+        </record>
+
+        <record id="shapes_253" model="sku.shapes">
+            <field name="name">FOCUS</field>
+            <field name="sku">FOC</field>
+        </record>
+
+        <record id="shapes_254" model="sku.shapes">
+            <field name="name">FRANKINCENSE</field>
+            <field name="sku">FRNK</field>
+        </record>
+
+        <record id="shapes_255" model="sku.shapes">
+            <field name="name">FREE FORM</field>
+            <field name="sku">FREFRM</field>
+        </record>
+
+        <record id="shapes_256" model="sku.shapes">
+            <field name="name">FRENCH</field>
+            <field name="sku">FR</field>
+        </record>
+
+        <record id="shapes_257" model="sku.shapes">
+            <field name="name">FRIDA</field>
+            <field name="sku">FRD</field>
+        </record>
+
+        <record id="shapes_258" model="sku.shapes">
+            <field name="name">FROSTED</field>
+            <field name="sku">FRSTD</field>
+        </record>
+
+        <record id="shapes_259" model="sku.shapes">
+            <field name="name">FUCHSIA, FIRED UP</field>
+            <field name="sku">FCHS</field>
+        </record>
+
+        <record id="shapes_260" model="sku.shapes">
+            <field name="name">FULL MOON</field>
+            <field name="sku">FLMN</field>
+        </record>
+
+        <record id="shapes_261" model="sku.shapes">
+            <field name="name">FUMITORY</field>
+            <field name="sku">FMTRY</field>
+        </record>
+
+        <record id="shapes_262" model="sku.shapes">
+            <field name="name">FUNKY TOWN</field>
+            <field name="sku">FNK-TWN</field>
+        </record>
+
+        <record id="shapes_263" model="sku.shapes">
+            <field name="name">GABBRO</field>
+            <field name="sku">GBBR</field>
+        </record>
+
+        <record id="shapes_264" model="sku.shapes">
+            <field name="name">GAME</field>
+            <field name="sku">GM</field>
+        </record>
+
+        <record id="shapes_265" model="sku.shapes">
+            <field name="name">GANESHA</field>
+            <field name="sku">GNSH</field>
+        </record>
+
+        <record id="shapes_266" model="sku.shapes">
+            <field name="name">GAZER</field>
+            <field name="sku">GZR</field>
+        </record>
+
+        <record id="shapes_267" model="sku.shapes">
+            <field name="name">GEMINI</field>
+            <field name="sku">GEM</field>
+        </record>
+
+        <record id="shapes_268" model="sku.shapes">
+            <field name="name">GEMSTONE</field>
+            <field name="sku">GEM</field>
+        </record>
+
+        <record id="shapes_269" model="sku.shapes">
+            <field name="name">GEMSTONE BOWL</field>
+            <field name="sku">GBOW</field>
+        </record>
+
+        <record id="shapes_270" model="sku.shapes">
+            <field name="name">GEMSTONE BOX</field>
+            <field name="sku">GBOX</field>
+        </record>
+
+        <record id="shapes_271" model="sku.shapes">
+            <field name="name">GEMSTONE CUPS</field>
+            <field name="sku">GCUP</field>
+        </record>
+
+        <record id="shapes_272" model="sku.shapes">
+            <field name="name">GEMSTONE INFUSED</field>
+            <field name="sku">GMSFUS</field>
+        </record>
+
+        <record id="shapes_273" model="sku.shapes">
+            <field name="name">GEMSTONE SET</field>
+            <field name="sku">GSTN</field>
+        </record>
+
+        <record id="shapes_274" model="sku.shapes">
+            <field name="name">GEMSTONE TEA LIGHT HOLDER</field>
+            <field name="sku">GTLGT</field>
+        </record>
+
+        <record id="shapes_275" model="sku.shapes">
+            <field name="name">GENERATOR</field>
+            <field name="sku">GEN</field>
+        </record>
+
+        <record id="shapes_276" model="sku.shapes">
+            <field name="name">GENERATOR, NATURAL-SIDED</field>
+            <field name="sku">NATGEN</field>
+        </record>
+
+        <record id="shapes_277" model="sku.shapes">
+            <field name="name">GEODE</field>
+            <field name="sku">GEO</field>
+        </record>
+
+        <record id="shapes_278" model="sku.shapes">
+            <field name="name">GHOST</field>
+            <field name="sku">GHST</field>
+        </record>
+
+        <record id="shapes_279" model="sku.shapes">
+            <field name="name">GLASS MATERIAL</field>
+            <field name="sku">GLSS</field>
+        </record>
+
+        <record id="shapes_280" model="sku.shapes">
+            <field name="name">GLASS/METAL MATERIAL</field>
+            <field name="sku">GLSMET</field>
+        </record>
+
+        <record id="shapes_281" model="sku.shapes">
+            <field name="name">GLITTER</field>
+            <field name="sku">GLTR</field>
+        </record>
+
+        <record id="shapes_282" model="sku.shapes">
+            <field name="name">GOD OF LUCK, BENZAITEN</field>
+            <field name="sku">BENZ</field>
+        </record>
+
+        <record id="shapes_283" model="sku.shapes">
+            <field name="name">GOD OF LUCK, BISHAMONTEN</field>
+            <field name="sku">BISH</field>
+        </record>
+
+        <record id="shapes_284" model="sku.shapes">
+            <field name="name">GOD OF LUCK, DAIKOKUTEN</field>
+            <field name="sku">DAIK</field>
+        </record>
+
+        <record id="shapes_285" model="sku.shapes">
+            <field name="name">GOD OF LUCK, HOTEI</field>
+            <field name="sku">HOTE</field>
+        </record>
+
+        <record id="shapes_286" model="sku.shapes">
+            <field name="name">GOD OF LUCK, JUROJIN</field>
+            <field name="sku">JURO</field>
+        </record>
+
+        <record id="shapes_287" model="sku.shapes">
+            <field name="name">GODDESS</field>
+            <field name="sku">GDDSS</field>
+        </record>
+
+        <record id="shapes_288" model="sku.shapes">
+            <field name="name">GODDESS LAKSHMI</field>
+            <field name="sku">GDSLKM</field>
+        </record>
+
+        <record id="shapes_289" model="sku.shapes">
+            <field name="name">GODDESS ORACLE</field>
+            <field name="sku">GDSORCL</field>
+        </record>
+
+        <record id="shapes_290" model="sku.shapes">
+            <field name="name">GOLD</field>
+            <field name="sku">GLD</field>
+        </record>
+
+        <record id="shapes_291" model="sku.shapes">
+            <field name="name">GOLD LEAF</field>
+            <field name="sku">GLF</field>
+        </record>
+
+        <record id="shapes_292" model="sku.shapes">
+            <field name="name">GOLDEN</field>
+            <field name="sku">GLDN</field>
+        </record>
+
+        <record id="shapes_293" model="sku.shapes">
+            <field name="name">GRACE</field>
+            <field name="sku">GRC</field>
+        </record>
+
+        <record id="shapes_294" model="sku.shapes">
+            <field name="name">GRANULATED</field>
+            <field name="sku">GRNL</field>
+        </record>
+
+        <record id="shapes_295" model="sku.shapes">
+            <field name="name">GRAPE</field>
+            <field name="sku">GRP</field>
+        </record>
+
+        <record id="shapes_296" model="sku.shapes">
+            <field name="name">GRAPE JELLY</field>
+            <field name="sku">GRPJL</field>
+        </record>
+
+        <record id="shapes_297" model="sku.shapes">
+            <field name="name">GREEN</field>
+            <field name="sku">GRN</field>
+        </record>
+
+        <record id="shapes_298" model="sku.shapes">
+            <field name="name">GREEN</field>
+            <field name="sku">GRN</field>
+        </record>
+
+        <record id="shapes_299" model="sku.shapes">
+            <field name="name">GREEN, EMERALD</field>
+            <field name="sku">EMGRN</field>
+        </record>
+
+        <record id="shapes_300" model="sku.shapes">
+            <field name="name">GREEN, FOREST</field>
+            <field name="sku">FRTGRN</field>
+        </record>
+
+        <record id="shapes_301" model="sku.shapes">
+            <field name="name">GREY CORD</field>
+            <field name="sku">GRYCRD</field>
+        </record>
+
+        <record id="shapes_302" model="sku.shapes">
+            <field name="name">GRID</field>
+            <field name="sku">GRD</field>
+        </record>
+
+        <record id="shapes_303" model="sku.shapes">
+            <field name="name">GROUND(ING)</field>
+            <field name="sku">GRND</field>
+        </record>
+
+        <record id="shapes_304" model="sku.shapes">
+            <field name="name">GUARDIAN</field>
+            <field name="sku">GRDIAN</field>
+        </record>
+
+        <record id="shapes_305" model="sku.shapes">
+            <field name="name">GUMMY BEAR</field>
+            <field name="sku">GMBR</field>
+        </record>
+
+        <record id="shapes_306" model="sku.shapes">
+            <field name="name">HAMSA</field>
+            <field name="sku">HMSA</field>
+        </record>
+
+        <record id="shapes_307" model="sku.shapes">
+            <field name="name">HAND PAINTED</field>
+            <field name="sku">HANPNT</field>
+        </record>
+
+        <record id="shapes_308" model="sku.shapes">
+            <field name="name">HARLEQUIN</field>
+            <field name="sku">HRLQN</field>
+        </record>
+
+        <record id="shapes_309" model="sku.shapes">
+            <field name="name">HAZY</field>
+            <field name="sku">HZY</field>
+        </record>
+
+        <record id="shapes_310" model="sku.shapes">
+            <field name="name">HEALING</field>
+            <field name="sku">HEAL</field>
+        </record>
+
+        <record id="shapes_311" model="sku.shapes">
+            <field name="name">HEALING</field>
+            <field name="sku">HEAL</field>
+        </record>
+
+        <record id="shapes_312" model="sku.shapes">
+            <field name="name">HEALTH</field>
+            <field name="sku">HLTH</field>
+        </record>
+
+        <record id="shapes_313" model="sku.shapes">
+            <field name="name">HEALTH</field>
+            <field name="sku">HLTH</field>
+        </record>
+
+        <record id="shapes_314" model="sku.shapes">
+            <field name="name">HEART</field>
+            <field name="sku">HRT</field>
+        </record>
+
+        <record id="shapes_315" model="sku.shapes">
+            <field name="name">HEART CHAKRA</field>
+            <field name="sku">HRTCHK</field>
+        </record>
+
+        <record id="shapes_316" model="sku.shapes">
+            <field name="name">HECATE</field>
+            <field name="sku">HEC</field>
+        </record>
+
+        <record id="shapes_317" model="sku.shapes">
+            <field name="name">HEMATITE</field>
+            <field name="sku">HEM</field>
+        </record>
+
+        <record id="shapes_318" model="sku.shapes">
+            <field name="name">HEXAGON</field>
+            <field name="sku">HEX</field>
+        </record>
+
+        <record id="shapes_319" model="sku.shapes">
+            <field name="name">HEXAGONAL</field>
+            <field name="sku">HEXG</field>
+        </record>
+
+        <record id="shapes_320" model="sku.shapes">
+            <field name="name">HIBAR</field>
+            <field name="sku">HBR</field>
+        </record>
+
+        <record id="shapes_321" model="sku.shapes">
+            <field name="name">HOLES, WITH</field>
+            <field name="sku">HOL</field>
+        </record>
+
+        <record id="shapes_322" model="sku.shapes">
+            <field name="name">HOLIDAY SEASON</field>
+            <field name="sku">HLDAY</field>
+        </record>
+
+        <record id="shapes_323" model="sku.shapes">
+            <field name="name">HORIZONTAL</field>
+            <field name="sku">HOR</field>
+        </record>
+
+        <record id="shapes_324" model="sku.shapes">
+            <field name="name">HOT</field>
+            <field name="sku">HOT</field>
+        </record>
+
+        <record id="shapes_325" model="sku.shapes">
+            <field name="name">HYMALAYAN SEA SALT</field>
+            <field name="sku">HYMLYN</field>
+        </record>
+
+        <record id="shapes_326" model="sku.shapes">
+            <field name="name">I INITIATE</field>
+            <field name="sku">INIT</field>
+        </record>
+
+        <record id="shapes_327" model="sku.shapes">
+            <field name="name">ICOSAHEDRON</field>
+            <field name="sku">ICOS</field>
+        </record>
+
+        <record id="shapes_328" model="sku.shapes">
+            <field name="name">INCENSE</field>
+            <field name="sku">INC</field>
+        </record>
+
+        <record id="shapes_329" model="sku.shapes">
+            <field name="name">INDIAN</field>
+            <field name="sku">INDN</field>
+        </record>
+
+        <record id="shapes_330" model="sku.shapes">
+            <field name="name">INK BLUE</field>
+            <field name="sku">INKBLU</field>
+        </record>
+
+        <record id="shapes_331" model="sku.shapes">
+            <field name="name">INTENTION</field>
+            <field name="sku">INT</field>
+        </record>
+
+        <record id="shapes_332" model="sku.shapes">
+            <field name="name">INTENTION GRID</field>
+            <field name="sku">INT-GRD</field>
+        </record>
+
+        <record id="shapes_333" model="sku.shapes">
+            <field name="name">INTO THE MYSTERY</field>
+            <field name="sku">MYSTRY</field>
+        </record>
+
+        <record id="shapes_334" model="sku.shapes">
+            <field name="name">INTUITIVE PICK</field>
+            <field name="sku">INTU</field>
+        </record>
+
+        <record id="shapes_335" model="sku.shapes">
+            <field name="name">IVORY</field>
+            <field name="sku">IVRY</field>
+        </record>
+
+        <record id="shapes_336" model="sku.shapes">
+            <field name="name">JANUARY</field>
+            <field name="sku">JAN</field>
+        </record>
+
+        <record id="shapes_337" model="sku.shapes">
+            <field name="name">JAR</field>
+            <field name="sku">JAR</field>
+        </record>
+
+        <record id="shapes_338" model="sku.shapes">
+            <field name="name">JET</field>
+            <field name="sku">JET</field>
+        </record>
+
+        <record id="shapes_339" model="sku.shapes">
+            <field name="name">JEWEL TONES</field>
+            <field name="sku">JEWLT</field>
+        </record>
+
+        <record id="shapes_340" model="sku.shapes">
+            <field name="name">JEWELRY BOX</field>
+            <field name="sku">JWLBX</field>
+        </record>
+
+        <record id="shapes_341" model="sku.shapes">
+            <field name="name">JOJOBA BEADS</field>
+            <field name="sku">JOJBA</field>
+        </record>
+
+        <record id="shapes_342" model="sku.shapes">
+            <field name="name">JONQUIL</field>
+            <field name="sku">JNQL</field>
+        </record>
+
+        <record id="shapes_343" model="sku.shapes">
+            <field name="name">JULY </field>
+            <field name="sku">JUL</field>
+        </record>
+
+        <record id="shapes_344" model="sku.shapes">
+            <field name="name">JUNE</field>
+            <field name="sku">JUN</field>
+        </record>
+
+        <record id="shapes_345" model="sku.shapes">
+            <field name="name">KAOLIN</field>
+            <field name="sku">KLN</field>
+        </record>
+
+        <record id="shapes_346" model="sku.shapes">
+            <field name="name">KERNEL</field>
+            <field name="sku">KRN</field>
+        </record>
+
+        <record id="shapes_347" model="sku.shapes">
+            <field name="name">KEY</field>
+            <field name="sku">KEY</field>
+        </record>
+
+        <record id="shapes_348" model="sku.shapes">
+            <field name="name">KISS</field>
+            <field name="sku">KSS</field>
+        </record>
+
+        <record id="shapes_349" model="sku.shapes">
+            <field name="name">KNIFE</field>
+            <field name="sku">KNF</field>
+        </record>
+
+        <record id="shapes_350" model="sku.shapes">
+            <field name="name">KUNZITE</field>
+            <field name="sku">KNZ</field>
+        </record>
+
+        <record id="shapes_351" model="sku.shapes">
+            <field name="name">LABDANUM</field>
+            <field name="sku">LABD</field>
+        </record>
+
+        <record id="shapes_352" model="sku.shapes">
+            <field name="name">LABRADORITE</field>
+            <field name="sku">LAB</field>
+        </record>
+
+        <record id="shapes_353" model="sku.shapes">
+            <field name="name">LAMP</field>
+            <field name="sku">LMP</field>
+        </record>
+
+        <record id="shapes_354" model="sku.shapes">
+            <field name="name">LAPIS</field>
+            <field name="sku">LAP</field>
+        </record>
+
+        <record id="shapes_355" model="sku.shapes">
+            <field name="name">LAVENDER</field>
+            <field name="sku">LVDR</field>
+        </record>
+
+        <record id="shapes_356" model="sku.shapes">
+            <field name="name">LEATHER</field>
+            <field name="sku">LTHR</field>
+        </record>
+
+        <record id="shapes_357" model="sku.shapes">
+            <field name="name">LEMON</field>
+            <field name="sku">LMN</field>
+        </record>
+
+        <record id="shapes_358" model="sku.shapes">
+            <field name="name">LEMON YELLOW</field>
+            <field name="sku">LMNYW</field>
+        </record>
+
+        <record id="shapes_359" model="sku.shapes">
+            <field name="name">LEO</field>
+            <field name="sku">LEO</field>
+        </record>
+
+        <record id="shapes_360" model="sku.shapes">
+            <field name="name">LIBRA</field>
+            <field name="sku">LIB</field>
+        </record>
+
+        <record id="shapes_361" model="sku.shapes">
+            <field name="name">LIBRA BALANCE</field>
+            <field name="sku">LIBBAL</field>
+        </record>
+
+        <record id="shapes_362" model="sku.shapes">
+            <field name="name">LID, BAMBOO</field>
+            <field name="sku">BMBLID</field>
+        </record>
+
+        <record id="shapes_363" model="sku.shapes">
+            <field name="name">LIGHT</field>
+            <field name="sku">LT</field>
+        </record>
+
+        <record id="shapes_364" model="sku.shapes">
+            <field name="name">LIGHT BLUE</field>
+            <field name="sku">LGBL</field>
+        </record>
+
+        <record id="shapes_365" model="sku.shapes">
+            <field name="name">LIGHT NATURAL</field>
+            <field name="sku">LGNAT</field>
+        </record>
+
+        <record id="shapes_366" model="sku.shapes">
+            <field name="name">LILAC SPARKLE</field>
+            <field name="sku">LLCSPRK</field>
+        </record>
+
+        <record id="shapes_367" model="sku.shapes">
+            <field name="name">LINGAM</field>
+            <field name="sku">LING</field>
+        </record>
+
+        <record id="shapes_368" model="sku.shapes">
+            <field name="name">LIP &amp; TAPE</field>
+            <field name="sku">L&amp;T</field>
+        </record>
+
+        <record id="shapes_369" model="sku.shapes">
+            <field name="name">LOOP NECK</field>
+            <field name="sku">LOOP</field>
+        </record>
+
+        <record id="shapes_370" model="sku.shapes">
+            <field name="name">LOG</field>
+            <field name="sku">LOG</field>
+        </record>
+
+        <record id="shapes_371" model="sku.shapes">
+            <field name="name">LORE</field>
+            <field name="sku">LOR</field>
+        </record>
+
+        <record id="shapes_372" model="sku.shapes">
+            <field name="name">LOTUS</field>
+            <field name="sku">LOT</field>
+        </record>
+
+        <record id="shapes_373" model="sku.shapes">
+            <field name="name">LOVE</field>
+            <field name="sku">LOV</field>
+        </record>
+
+        <record id="shapes_374" model="sku.shapes">
+            <field name="name">LOVE</field>
+            <field name="sku">LVE</field>
+        </record>
+
+        <record id="shapes_375" model="sku.shapes">
+            <field name="name">LOVERS</field>
+            <field name="sku">LVRS</field>
+        </record>
+
+        <record id="shapes_376" model="sku.shapes">
+            <field name="name">LX-16</field>
+            <field name="sku">LX-16</field>
+        </record>
+
+        <record id="shapes_377" model="sku.shapes">
+            <field name="name">LX-20</field>
+            <field name="sku">LX-20</field>
+        </record>
+
+        <record id="shapes_378" model="sku.shapes">
+            <field name="name">LX-22</field>
+            <field name="sku">LX-22</field>
+        </record>
+
+        <record id="shapes_379" model="sku.shapes">
+            <field name="name">MAGDALENE</field>
+            <field name="sku">MAG</field>
+        </record>
+
+        <record id="shapes_380" model="sku.shapes">
+            <field name="name">MAGIC</field>
+            <field name="sku">MAGC</field>
+        </record>
+
+        <record id="shapes_381" model="sku.shapes">
+            <field name="name">MAGICA NOCTA</field>
+            <field name="sku">MAGNCT</field>
+        </record>
+
+        <record id="shapes_382" model="sku.shapes">
+            <field name="name">MALA</field>
+            <field name="sku">MALA</field>
+        </record>
+
+        <record id="shapes_383" model="sku.shapes">
+            <field name="name">MALA, HEALER</field>
+            <field name="sku">HLMALA</field>
+        </record>
+
+        <record id="shapes_384" model="sku.shapes">
+            <field name="name">MALA, PEACE</field>
+            <field name="sku">PCMALA</field>
+        </record>
+
+        <record id="shapes_385" model="sku.shapes">
+            <field name="name">MANDALA</field>
+            <field name="sku">MNDL</field>
+        </record>
+
+        <record id="shapes_386" model="sku.shapes">
+            <field name="name">MANDRAKE</field>
+            <field name="sku">MNDRK</field>
+        </record>
+
+        <record id="shapes_387" model="sku.shapes">
+            <field name="name">MANIFESTATION</field>
+            <field name="sku">MANI</field>
+        </record>
+
+        <record id="shapes_388" model="sku.shapes">
+            <field name="name">MANIFESTATION</field>
+            <field name="sku">MFST</field>
+        </record>
+
+        <record id="shapes_389" model="sku.shapes">
+            <field name="name">MANIFESTATION</field>
+            <field name="sku">MNFST</field>
+        </record>
+
+        <record id="shapes_390" model="sku.shapes">
+            <field name="name">MARCH</field>
+            <field name="sku">MAR</field>
+        </record>
+
+        <record id="shapes_391" model="sku.shapes">
+            <field name="name">MARIGOLD</field>
+            <field name="sku">MRGLD</field>
+        </record>
+
+        <record id="shapes_392" model="sku.shapes">
+            <field name="name">MASSAGE</field>
+            <field name="sku">MSGE</field>
+        </record>
+
+        <record id="shapes_393" model="sku.shapes">
+            <field name="name">MATRILINIA</field>
+            <field name="sku">MTRIL</field>
+        </record>
+
+        <record id="shapes_394" model="sku.shapes">
+            <field name="name">MAY</field>
+            <field name="sku">MAY</field>
+        </record>
+
+        <record id="shapes_395" model="sku.shapes">
+            <field name="name">MEADOWFOAM SEED OIL</field>
+            <field name="sku">MDW</field>
+        </record>
+
+        <record id="shapes_396" model="sku.shapes">
+            <field name="name">MEDALLIONS</field>
+            <field name="sku">MEDA</field>
+        </record>
+
+        <record id="shapes_397" model="sku.shapes">
+            <field name="name">MEDICINE SPACE</field>
+            <field name="sku">MEDSP</field>
+        </record>
+
+        <record id="shapes_398" model="sku.shapes">
+            <field name="name">MEDITATION STONE</field>
+            <field name="sku">MEDS</field>
+        </record>
+
+        <record id="shapes_399" model="sku.shapes">
+            <field name="name">MEGAMONEY</field>
+            <field name="sku">MGAMNY</field>
+        </record>
+
+        <record id="shapes_400" model="sku.shapes">
+            <field name="name">MEGH SAMBARA</field>
+            <field name="sku">MEGHS</field>
+        </record>
+
+        <record id="shapes_401" model="sku.shapes">
+            <field name="name">MERKABA</field>
+            <field name="sku">MRK</field>
+        </record>
+
+        <record id="shapes_402" model="sku.shapes">
+            <field name="name">MERMAID</field>
+            <field name="sku">MER</field>
+        </record>
+
+        <record id="shapes_403" model="sku.shapes">
+            <field name="name">METAL MATERIAL</field>
+            <field name="sku">METL</field>
+        </record>
+
+        <record id="shapes_404" model="sku.shapes">
+            <field name="name">METALLIC</field>
+            <field name="sku">MTLC</field>
+        </record>
+
+        <record id="shapes_405" model="sku.shapes">
+            <field name="name">METATRON</field>
+            <field name="sku">META</field>
+        </record>
+
+        <record id="shapes_406" model="sku.shapes">
+            <field name="name">MIGRAINE</field>
+            <field name="sku">MIGR</field>
+        </record>
+
+        <record id="shapes_407" model="sku.shapes">
+            <field name="name">MINI</field>
+            <field name="sku">MINI</field>
+        </record>
+
+        <record id="shapes_408" model="sku.shapes">
+            <field name="name">MIRROR</field>
+            <field name="sku">MIR</field>
+        </record>
+
+        <record id="shapes_409" model="sku.shapes">
+            <field name="name">MOLD</field>
+            <field name="sku">MLD</field>
+        </record>
+
+        <record id="shapes_410" model="sku.shapes">
+            <field name="name">MONEY DRAW</field>
+            <field name="sku">MNYDRW</field>
+        </record>
+
+        <record id="shapes_411" model="sku.shapes">
+            <field name="name">MOON</field>
+            <field name="sku">MN</field>
+        </record>
+
+        <record id="shapes_412" model="sku.shapes">
+            <field name="name">MOON AND STAR</field>
+            <field name="sku">MNST</field>
+        </record>
+
+        <record id="shapes_413" model="sku.shapes">
+            <field name="name">MOON MAIDEN</field>
+            <field name="sku">MOONMD</field>
+        </record>
+
+        <record id="shapes_414" model="sku.shapes">
+            <field name="name">MORGANITE</field>
+            <field name="sku">MRGT</field>
+        </record>
+
+        <record id="shapes_415" model="sku.shapes">
+            <field name="name">MUD</field>
+            <field name="sku">MUD</field>
+        </record>
+
+        <record id="shapes_416" model="sku.shapes">
+            <field name="name">MULTICOLOR</field>
+            <field name="sku">MLTC</field>
+        </record>
+
+        <record id="shapes_417" model="sku.shapes">
+            <field name="name">MUSHROOM(S)</field>
+            <field name="sku">MSHRM</field>
+        </record>
+
+        <record id="shapes_418" model="sku.shapes">
+            <field name="name">MYRRH</field>
+            <field name="sku">MYRR</field>
+        </record>
+
+        <record id="shapes_419" model="sku.shapes">
+            <field name="name">MYRTH</field>
+            <field name="sku">MRTH</field>
+        </record>
+
+        <record id="shapes_420" model="sku.shapes">
+            <field name="name">NATURAL</field>
+            <field name="sku">NAT</field>
+        </record>
+
+        <record id="shapes_421" model="sku.shapes">
+            <field name="name">NATURAL CASTILE</field>
+            <field name="sku">NTRLCSTLE</field>
+        </record>
+
+        <record id="shapes_422" model="sku.shapes">
+            <field name="name">NATURAL FLORA</field>
+            <field name="sku">NFLOR</field>
+        </record>
+
+        <record id="shapes_423" model="sku.shapes">
+            <field name="name">NAVY BLUE</field>
+            <field name="sku">NVBLU</field>
+        </record>
+
+        <record id="shapes_424" model="sku.shapes">
+            <field name="name">NEEDLE</field>
+            <field name="sku">NDL</field>
+        </record>
+
+        <record id="shapes_425" model="sku.shapes">
+            <field name="name">NEROLI</field>
+            <field name="sku">NRLI</field>
+        </record>
+
+        <record id="shapes_426" model="sku.shapes">
+            <field name="name">NEW MOON</field>
+            <field name="sku">NWMN</field>
+        </record>
+
+        <record id="shapes_427" model="sku.shapes">
+            <field name="name">NEW MOON</field>
+            <field name="sku">NWMN</field>
+        </record>
+
+        <record id="shapes_428" model="sku.shapes">
+            <field name="name">NICKEL MATERIAL</field>
+            <field name="sku">NICKL</field>
+        </record>
+
+        <record id="shapes_429" model="sku.shapes">
+            <field name="name">NOVEMBER</field>
+            <field name="sku">NOV</field>
+        </record>
+
+        <record id="shapes_430" model="sku.shapes">
+            <field name="name">NUMMITE</field>
+            <field name="sku">NMMT</field>
+        </record>
+
+        <record id="shapes_431" model="sku.shapes">
+            <field name="name">NUNDOORITE</field>
+            <field name="sku">NUND</field>
+        </record>
+
+        <record id="shapes_432" model="sku.shapes">
+            <field name="name">NUT</field>
+            <field name="sku">NUT</field>
+        </record>
+
+        <record id="shapes_433" model="sku.shapes">
+            <field name="name">OBELISK</field>
+            <field name="sku">OBEL</field>
+        </record>
+
+        <record id="shapes_434" model="sku.shapes">
+            <field name="name">OCTAHEDRON</field>
+            <field name="sku">OCTA</field>
+        </record>
+
+        <record id="shapes_435" model="sku.shapes">
+            <field name="name">OCTOBER</field>
+            <field name="sku">OCT</field>
+        </record>
+
+        <record id="shapes_436" model="sku.shapes">
+            <field name="name">OFFERING</field>
+            <field name="sku">OFFER</field>
+        </record>
+
+        <record id="shapes_437" model="sku.shapes">
+            <field name="name">OIL</field>
+            <field name="sku">OIL</field>
+        </record>
+
+        <record id="shapes_438" model="sku.shapes">
+            <field name="name">OLIVE GREEN</field>
+            <field name="sku">OLVGRN</field>
+        </record>
+
+        <record id="shapes_439" model="sku.shapes">
+            <field name="name">OM SYMBOL</field>
+            <field name="sku">OM </field>
+        </record>
+
+        <record id="shapes_440" model="sku.shapes">
+            <field name="name">OMBRE</field>
+            <field name="sku">OMBR</field>
+        </record>
+
+        <record id="shapes_441" model="sku.shapes">
+            <field name="name">OMBRE BLUE</field>
+            <field name="sku">OMBRBL</field>
+        </record>
+
+        <record id="shapes_442" model="sku.shapes">
+            <field name="name">OPAQUE</field>
+            <field name="sku">OPQ</field>
+        </record>
+
+        <record id="shapes_443" model="sku.shapes">
+            <field name="name">OPOPONAX</field>
+            <field name="sku">OPOP</field>
+        </record>
+
+        <record id="shapes_444" model="sku.shapes">
+            <field name="name">ORACLE CARDS</field>
+            <field name="sku">ORCCRD</field>
+        </record>
+
+        <record id="shapes_445" model="sku.shapes">
+            <field name="name">ORANGE</field>
+            <field name="sku">ORG</field>
+        </record>
+
+        <record id="shapes_446" model="sku.shapes">
+            <field name="name">ORGANIC BAND</field>
+            <field name="sku">ORGBND</field>
+        </record>
+
+        <record id="shapes_447" model="sku.shapes">
+            <field name="name">ORGON</field>
+            <field name="sku">ORGN</field>
+        </record>
+
+        <record id="shapes_448" model="sku.shapes">
+            <field name="name">ORGONITE</field>
+            <field name="sku">ORGO</field>
+        </record>
+
+        <record id="shapes_449" model="sku.shapes">
+            <field name="name">ORNAMENT</field>
+            <field name="sku">ORNMT</field>
+        </record>
+
+        <record id="shapes_450" model="sku.shapes">
+            <field name="name">OUD</field>
+            <field name="sku">OUD</field>
+        </record>
+
+        <record id="shapes_451" model="sku.shapes">
+            <field name="name">OUROBOROS</field>
+            <field name="sku">OURO</field>
+        </record>
+
+        <record id="shapes_452" model="sku.shapes">
+            <field name="name">OVAL</field>
+            <field name="sku">OVL</field>
+        </record>
+
+        <record id="shapes_453" model="sku.shapes">
+            <field name="name">OWL</field>
+            <field name="sku">OWL</field>
+        </record>
+
+        <record id="shapes_454" model="sku.shapes">
+            <field name="name">PACHAMAMA PAPA</field>
+            <field name="sku">PACH</field>
+        </record>
+
+        <record id="shapes_455" model="sku.shapes">
+            <field name="name">PALM SHAPE</field>
+            <field name="sku">PLM</field>
+        </record>
+
+        <record id="shapes_456" model="sku.shapes">
+            <field name="name">PALM STONE</field>
+            <field name="sku">PLMS</field>
+        </record>
+
+        <record id="shapes_457" model="sku.shapes">
+            <field name="name">PALO SANTO</field>
+            <field name="sku">PALO</field>
+        </record>
+
+        <record id="shapes_458" model="sku.shapes">
+            <field name="name">PASSION(ATE)</field>
+            <field name="sku">PASS</field>
+        </record>
+
+        <record id="shapes_459" model="sku.shapes">
+            <field name="name">PEACE</field>
+            <field name="sku">PEAC</field>
+        </record>
+
+        <record id="shapes_460" model="sku.shapes">
+            <field name="name">PEACOCK</field>
+            <field name="sku">PCK</field>
+        </record>
+
+        <record id="shapes_461" model="sku.shapes">
+            <field name="name">PEDESTAL</field>
+            <field name="sku">PEDS</field>
+        </record>
+
+        <record id="shapes_462" model="sku.shapes">
+            <field name="name">PENS</field>
+            <field name="sku">PENS</field>
+        </record>
+
+        <record id="shapes_463" model="sku.shapes">
+            <field name="name">PENDANT</field>
+            <field name="sku">PNDT</field>
+        </record>
+
+        <record id="shapes_464" model="sku.shapes">
+            <field name="name">PENDULUM</field>
+            <field name="sku">PNDL</field>
+        </record>
+
+        <record id="shapes_465" model="sku.shapes">
+            <field name="name">PENDULUM BOARD</field>
+            <field name="sku">PNDLBD</field>
+        </record>
+
+        <record id="shapes_466" model="sku.shapes">
+            <field name="name">PENTAGRAM</field>
+            <field name="sku">PNTGM</field>
+        </record>
+
+        <record id="shapes_467" model="sku.shapes">
+            <field name="name">PERFUME</field>
+            <field name="sku">PERF</field>
+        </record>
+
+        <record id="shapes_468" model="sku.shapes">
+            <field name="name">PERIWINKLE</field>
+            <field name="sku">PWNKLE</field>
+        </record>
+
+        <record id="shapes_469" model="sku.shapes">
+            <field name="name">PERUVIAN</field>
+            <field name="sku">PERU</field>
+        </record>
+
+        <record id="shapes_470" model="sku.shapes">
+            <field name="name">PHANTOM</field>
+            <field name="sku">PHTM</field>
+        </record>
+
+        <record id="shapes_471" model="sku.shapes">
+            <field name="name">PHOENIX</field>
+            <field name="sku">PHNX</field>
+        </record>
+
+        <record id="shapes_472" model="sku.shapes">
+            <field name="name">PHOSPHOSIDERIDE</field>
+            <field name="sku">PHSRD</field>
+        </record>
+
+        <record id="shapes_473" model="sku.shapes">
+            <field name="name">PHYSICAL</field>
+            <field name="sku">PHYS</field>
+        </record>
+
+        <record id="shapes_474" model="sku.shapes">
+            <field name="name">PIG</field>
+            <field name="sku">PIG</field>
+        </record>
+
+        <record id="shapes_475" model="sku.shapes">
+            <field name="name">PILLAR</field>
+            <field name="sku">PILR</field>
+        </record>
+
+        <record id="shapes_476" model="sku.shapes">
+            <field name="name">PILLBOX</field>
+            <field name="sku">PILL</field>
+        </record>
+
+        <record id="shapes_477" model="sku.shapes">
+            <field name="name">PIMMEL</field>
+            <field name="sku">PIMM</field>
+        </record>
+
+        <record id="shapes_478" model="sku.shapes">
+            <field name="name">PINE, PINON</field>
+            <field name="sku">PINPN</field>
+        </record>
+
+        <record id="shapes_479" model="sku.shapes">
+            <field name="name">PINK</field>
+            <field name="sku">PNK</field>
+        </record>
+
+        <record id="shapes_480" model="sku.shapes">
+            <field name="name">PIPE</field>
+            <field name="sku">PIPE</field>
+        </record>
+
+        <record id="shapes_481" model="sku.shapes">
+            <field name="name">PISCES</field>
+            <field name="sku">PIS</field>
+        </record>
+
+        <record id="shapes_482" model="sku.shapes">
+            <field name="name">PIXIE</field>
+            <field name="sku">PXIE</field>
+        </record>
+
+        <record id="shapes_483" model="sku.shapes">
+            <field name="name">PLANT STICKS</field>
+            <field name="sku">PLSTK</field>
+        </record>
+
+        <record id="shapes_484" model="sku.shapes">
+            <field name="name">PLATE</field>
+            <field name="sku">PLT</field>
+        </record>
+
+        <record id="shapes_485" model="sku.shapes">
+            <field name="name">PLATED, GOLD</field>
+            <field name="sku">GLDPLTD</field>
+        </record>
+
+        <record id="shapes_486" model="sku.shapes">
+            <field name="name">PLATED, RAINBOW</field>
+            <field name="sku">RBOWPL</field>
+        </record>
+
+        <record id="shapes_487" model="sku.shapes">
+            <field name="name">PLEATHER</field>
+            <field name="sku">PLTH</field>
+        </record>
+
+        <record id="shapes_488" model="sku.shapes">
+            <field name="name">PLUM</field>
+            <field name="sku">PLM</field>
+        </record>
+
+        <record id="shapes_489" model="sku.shapes">
+            <field name="name">PLUM PURPLE</field>
+            <field name="sku">PLMPRPL</field>
+        </record>
+
+        <record id="shapes_490" model="sku.shapes">
+            <field name="name">POCKET</field>
+            <field name="sku">PCKT</field>
+        </record>
+
+        <record id="shapes_491" model="sku.shapes">
+            <field name="name">POCKET ANGEL</field>
+            <field name="sku">PCKTANGL</field>
+        </record>
+
+        <record id="shapes_492" model="sku.shapes">
+            <field name="name">POINT</field>
+            <field name="sku">PNT</field>
+        </record>
+
+        <record id="shapes_493" model="sku.shapes">
+            <field name="name">POINTED, TWELVE</field>
+            <field name="sku">12PNT</field>
+        </record>
+
+        <record id="shapes_494" model="sku.shapes">
+            <field name="name">POLISHED</field>
+            <field name="sku">PLSH</field>
+        </record>
+
+        <record id="shapes_495" model="sku.shapes">
+            <field name="name">POLISHED CHARGING PLATE</field>
+            <field name="sku">PCHRP</field>
+        </record>
+
+        <record id="shapes_496" model="sku.shapes">
+            <field name="name">POLISHED DOUBLE TERMINATED WAND</field>
+            <field name="sku">PWND</field>
+        </record>
+
+        <record id="shapes_497" model="sku.shapes">
+            <field name="name">POLISHED POINT</field>
+            <field name="sku">PPNT</field>
+        </record>
+
+        <record id="shapes_498" model="sku.shapes">
+            <field name="name">POLISHED SLAB</field>
+            <field name="sku">PSLB</field>
+        </record>
+
+        <record id="shapes_499" model="sku.shapes">
+            <field name="name">POLISHED TOP</field>
+            <field name="sku">POLTOP</field>
+        </record>
+
+        <record id="shapes_500" model="sku.shapes">
+            <field name="name">POLYCHROME</field>
+            <field name="sku">PLYCHRM</field>
+        </record>
+
+        <record id="shapes_501" model="sku.shapes">
+            <field name="name">POMOGRANATE</field>
+            <field name="sku">PMGT</field>
+        </record>
+
+        <record id="shapes_502" model="sku.shapes">
+            <field name="name">PORTAL</field>
+            <field name="sku">PRTL</field>
+        </record>
+
+        <record id="shapes_503" model="sku.shapes">
+            <field name="name">POT</field>
+            <field name="sku">POT</field>
+        </record>
+
+        <record id="shapes_504" model="sku.shapes">
+            <field name="name">POWER</field>
+            <field name="sku">POWR</field>
+        </record>
+
+        <record id="shapes_505" model="sku.shapes">
+            <field name="name">POWER STONE</field>
+            <field name="sku">PWS</field>
+        </record>
+
+        <record id="shapes_506" model="sku.shapes">
+            <field name="name">PRIESTESS</field>
+            <field name="sku">PRSTSS</field>
+        </record>
+
+        <record id="shapes_507" model="sku.shapes">
+            <field name="name">PRINTER RD435</field>
+            <field name="sku">PRNT</field>
+        </record>
+
+        <record id="shapes_508" model="sku.shapes">
+            <field name="name">PROPYLENE ROUND BOTTOM</field>
+            <field name="sku">RNDBTM</field>
+        </record>
+
+        <record id="shapes_509" model="sku.shapes">
+            <field name="name">PROSPERITY</field>
+            <field name="sku">PROS</field>
+        </record>
+
+        <record id="shapes_510" model="sku.shapes">
+            <field name="name">PROSPERTY</field>
+            <field name="sku">PRSP</field>
+        </record>
+
+        <record id="shapes_511" model="sku.shapes">
+            <field name="name">PROTECTION</field>
+            <field name="sku">PROT</field>
+        </record>
+
+        <record id="shapes_512" model="sku.shapes">
+            <field name="name">PROTECTION</field>
+            <field name="sku">PROT</field>
+        </record>
+
+        <record id="shapes_513" model="sku.shapes">
+            <field name="name">PUMICE SAND</field>
+            <field name="sku">PMCESND</field>
+        </record>
+
+        <record id="shapes_514" model="sku.shapes">
+            <field name="name">PUMP</field>
+            <field name="sku">PMP</field>
+        </record>
+
+        <record id="shapes_515" model="sku.shapes">
+            <field name="name">PUMPKIN SPICE</field>
+            <field name="sku">PMPKSP</field>
+        </record>
+
+        <record id="shapes_516" model="sku.shapes">
+            <field name="name">PURPLE</field>
+            <field name="sku">PRP</field>
+        </record>
+
+        <record id="shapes_517" model="sku.shapes">
+            <field name="name">PURPURITE</field>
+            <field name="sku">PURPT</field>
+        </record>
+
+        <record id="shapes_518" model="sku.shapes">
+            <field name="name">PYRAMID</field>
+            <field name="sku">PYR</field>
+        </record>
+
+        <record id="shapes_519" model="sku.shapes">
+            <field name="name">QUAD</field>
+            <field name="sku">QUAD</field>
+        </record>
+
+        <record id="shapes_520" model="sku.shapes">
+            <field name="name">QUAN YIN</field>
+            <field name="sku">QYIN</field>
+        </record>
+
+        <record id="shapes_521" model="sku.shapes">
+            <field name="name">QUEEN BEE META</field>
+            <field name="sku">QNBMETA</field>
+        </record>
+
+        <record id="shapes_522" model="sku.shapes">
+            <field name="name">QUEEN OF HEARTS</field>
+            <field name="sku">QNHRT</field>
+        </record>
+
+        <record id="shapes_523" model="sku.shapes">
+            <field name="name">RADHA KRISHNA</field>
+            <field name="sku">RADKRNA</field>
+        </record>
+
+        <record id="shapes_524" model="sku.shapes">
+            <field name="name">RAINBOW</field>
+            <field name="sku">RNBW</field>
+        </record>
+
+        <record id="shapes_525" model="sku.shapes">
+            <field name="name">RAINBOW</field>
+            <field name="sku">RNBW</field>
+        </record>
+
+        <record id="shapes_526" model="sku.shapes">
+            <field name="name">RAVEN</field>
+            <field name="sku">RVN</field>
+        </record>
+
+        <record id="shapes_527" model="sku.shapes">
+            <field name="name">RECORD KEEPER</field>
+            <field name="sku">RCRDKP</field>
+        </record>
+
+        <record id="shapes_528" model="sku.shapes">
+            <field name="name">RECTANGLE</field>
+            <field name="sku">RECT</field>
+        </record>
+
+        <record id="shapes_529" model="sku.shapes">
+            <field name="name">RECTANGULAR NECK</field>
+            <field name="sku">RCTG</field>
+        </record>
+
+        <record id="shapes_530" model="sku.shapes">
+            <field name="name">RED</field>
+            <field name="sku">RED</field>
+        </record>
+
+        <record id="shapes_531" model="sku.shapes">
+            <field name="name">REISHI MUSHROOM</field>
+            <field name="sku">MSHR</field>
+        </record>
+
+        <record id="shapes_532" model="sku.shapes">
+            <field name="name">RELIEF</field>
+            <field name="sku">RLF</field>
+        </record>
+
+        <record id="shapes_533" model="sku.shapes">
+            <field name="name">RESIN</field>
+            <field name="sku">RESN</field>
+        </record>
+
+        <record id="shapes_534" model="sku.shapes">
+            <field name="name">RHOMBUS</field>
+            <field name="sku">RHOM</field>
+        </record>
+
+        <record id="shapes_535" model="sku.shapes">
+            <field name="name">RIMMED EDGE</field>
+            <field name="sku">RIMM</field>
+        </record>
+
+        <record id="shapes_536" model="sku.shapes">
+            <field name="name">ROOT</field>
+            <field name="sku">ROOT</field>
+        </record>
+
+        <record id="shapes_537" model="sku.shapes">
+            <field name="name">ROSE</field>
+            <field name="sku">RSE</field>
+        </record>
+
+        <record id="shapes_538" model="sku.shapes">
+            <field name="name">ROSE</field>
+            <field name="sku">RSE</field>
+        </record>
+
+        <record id="shapes_539" model="sku.shapes">
+            <field name="name">ROSE GOLD </field>
+            <field name="sku">RSGLD</field>
+        </record>
+
+        <record id="shapes_540" model="sku.shapes">
+            <field name="name">ROSE PEDAL</field>
+            <field name="sku">RSEPDL</field>
+        </record>
+
+        <record id="shapes_541" model="sku.shapes">
+            <field name="name">ROSETTE</field>
+            <field name="sku">RSTE</field>
+        </record>
+
+        <record id="shapes_542" model="sku.shapes">
+            <field name="name">ROSITA</field>
+            <field name="sku">ROS</field>
+        </record>
+
+        <record id="shapes_543" model="sku.shapes">
+            <field name="name">ROUGH</field>
+            <field name="sku">RGH</field>
+        </record>
+
+        <record id="shapes_544" model="sku.shapes">
+            <field name="name">ROUND</field>
+            <field name="sku">RND</field>
+        </record>
+
+        <record id="shapes_545" model="sku.shapes">
+            <field name="name">ROYAL BLUE</field>
+            <field name="sku">ROYBL</field>
+        </record>
+
+        <record id="shapes_546" model="sku.shapes">
+            <field name="name">ROYAL BLUE</field>
+            <field name="sku">RYBLU</field>
+        </record>
+
+        <record id="shapes_547" model="sku.shapes">
+            <field name="name">RUBELLITE</field>
+            <field name="sku">RBLT</field>
+        </record>
+
+        <record id="shapes_548" model="sku.shapes">
+            <field name="name">RUBY</field>
+            <field name="sku">RUBY</field>
+        </record>
+
+        <record id="shapes_549" model="sku.shapes">
+            <field name="name">RUNES</field>
+            <field name="sku">RUNE</field>
+        </record>
+
+        <record id="shapes_550" model="sku.shapes">
+            <field name="name">SACRED</field>
+            <field name="sku">SACRD</field>
+        </record>
+
+        <record id="shapes_551" model="sku.shapes">
+            <field name="name">SACRED GEOMETRY</field>
+            <field name="sku">SCRDGEO</field>
+        </record>
+
+        <record id="shapes_552" model="sku.shapes">
+            <field name="name">SAGE GODDESS</field>
+            <field name="sku">SG</field>
+        </record>
+
+        <record id="shapes_553" model="sku.shapes">
+            <field name="name">SAGE, BLACK (MUGWORT)</field>
+            <field name="sku">MGWRT</field>
+        </record>
+
+        <record id="shapes_554" model="sku.shapes">
+            <field name="name">SAGE, CEDAR</field>
+            <field name="sku">CEDR</field>
+        </record>
+
+        <record id="shapes_555" model="sku.shapes">
+            <field name="name">SAGE, DESERT</field>
+            <field name="sku">DSRT</field>
+        </record>
+
+        <record id="shapes_556" model="sku.shapes">
+            <field name="name">SAGE, JUNIPER</field>
+            <field name="sku">JNPR</field>
+        </record>
+
+        <record id="shapes_557" model="sku.shapes">
+            <field name="name">SAGE, JUNIPER WHITE</field>
+            <field name="sku">JNPWHT</field>
+        </record>
+
+        <record id="shapes_558" model="sku.shapes">
+            <field name="name">SAGE, ROSEMARY</field>
+            <field name="sku">RSMRY</field>
+        </record>
+
+        <record id="shapes_559" model="sku.shapes">
+            <field name="name">SAGE, SHASTA</field>
+            <field name="sku">SHST</field>
+        </record>
+
+        <record id="shapes_560" model="sku.shapes">
+            <field name="name">SAGE, WHITE</field>
+            <field name="sku">WHTSG</field>
+        </record>
+
+        <record id="shapes_561" model="sku.shapes">
+            <field name="name">SAGE, WHITE &amp; CEDAR</field>
+            <field name="sku">WSCEDR</field>
+        </record>
+
+        <record id="shapes_562" model="sku.shapes">
+            <field name="name">SAGE, WHITE &amp; JUNIPER</field>
+            <field name="sku">WSJNPR</field>
+        </record>
+
+        <record id="shapes_563" model="sku.shapes">
+            <field name="name">SAGE, WHITE &amp; YERBA SANTA</field>
+            <field name="sku">WSGYER</field>
+        </record>
+
+        <record id="shapes_564" model="sku.shapes">
+            <field name="name">SAGITTARIUS</field>
+            <field name="sku">SAG</field>
+        </record>
+
+        <record id="shapes_565" model="sku.shapes">
+            <field name="name">SAHASRABHUJA AVALKITESWARA</field>
+            <field name="sku">SAHAS</field>
+        </record>
+
+        <record id="shapes_566" model="sku.shapes">
+            <field name="name">SAHUMERIO</field>
+            <field name="sku">SHMR</field>
+        </record>
+
+        <record id="shapes_567" model="sku.shapes">
+            <field name="name">SAMHAIN</field>
+            <field name="sku">SAMH</field>
+        </record>
+
+        <record id="shapes_568" model="sku.shapes">
+            <field name="name">SANDALWOOD</field>
+            <field name="sku">SAND</field>
+        </record>
+
+        <record id="shapes_569" model="sku.shapes">
+            <field name="name">SAPPHIRE</field>
+            <field name="sku">SPPHR</field>
+        </record>
+
+        <record id="shapes_570" model="sku.shapes">
+            <field name="name">SARI</field>
+            <field name="sku">SARI</field>
+        </record>
+
+        <record id="shapes_571" model="sku.shapes">
+            <field name="name">SATIN</field>
+            <field name="sku">STIN</field>
+        </record>
+
+        <record id="shapes_572" model="sku.shapes">
+            <field name="name">SCARAB</field>
+            <field name="sku">SCAR</field>
+        </record>
+
+        <record id="shapes_573" model="sku.shapes">
+            <field name="name">SCEPTER</field>
+            <field name="sku">SCPT</field>
+        </record>
+
+        <record id="shapes_574" model="sku.shapes">
+            <field name="name">SCHLEM BLEND</field>
+            <field name="sku">SCHMBLD</field>
+        </record>
+
+        <record id="shapes_575" model="sku.shapes">
+            <field name="name">SCORPIO</field>
+            <field name="sku">SCO</field>
+        </record>
+
+        <record id="shapes_576" model="sku.shapes">
+            <field name="name">SEASONAL</field>
+            <field name="sku">SSNL</field>
+        </record>
+
+        <record id="shapes_577" model="sku.shapes">
+            <field name="name">SEED OF LIFE</field>
+            <field name="sku">SOL</field>
+        </record>
+
+        <record id="shapes_578" model="sku.shapes">
+            <field name="name">SELENITE</field>
+            <field name="sku">SLNT</field>
+        </record>
+
+        <record id="shapes_579" model="sku.shapes">
+            <field name="name">SEPTEMBER</field>
+            <field name="sku">SEPT</field>
+        </record>
+
+        <record id="shapes_580" model="sku.shapes">
+            <field name="name">SEPTEMBER</field>
+            <field name="sku">SEP</field>
+        </record>
+
+        <record id="shapes_581" model="sku.shapes">
+            <field name="name">SERPENTINE</field>
+            <field name="sku">SRPTN</field>
+        </record>
+
+        <record id="shapes_582" model="sku.shapes">
+            <field name="name">SET</field>
+            <field name="sku">SET</field>
+        </record>
+
+        <record id="shapes_583" model="sku.shapes">
+            <field name="name">SEX</field>
+            <field name="sku">SEX</field>
+        </record>
+
+        <record id="shapes_584" model="sku.shapes">
+            <field name="name">SHADOW</field>
+            <field name="sku">SHDW</field>
+        </record>
+
+        <record id="shapes_585" model="sku.shapes">
+            <field name="name">SHADOW SEASON</field>
+            <field name="sku">SHDWS</field>
+        </record>
+
+        <record id="shapes_586" model="sku.shapes">
+            <field name="name">SHAKYAMUNI</field>
+            <field name="sku">SHAKY</field>
+        </record>
+
+        <record id="shapes_587" model="sku.shapes">
+            <field name="name">SHED</field>
+            <field name="sku">SHD</field>
+        </record>
+
+        <record id="shapes_588" model="sku.shapes">
+            <field name="name">SHIT BASKET</field>
+            <field name="sku">SHTBSKT</field>
+        </record>
+
+        <record id="shapes_589" model="sku.shapes">
+            <field name="name">SHIVA EYE</field>
+            <field name="sku">SHIV</field>
+        </record>
+
+        <record id="shapes_590" model="sku.shapes">
+            <field name="name">SHREE YANTRA</field>
+            <field name="sku">SHR-YNR</field>
+        </record>
+
+        <record id="shapes_591" model="sku.shapes">
+            <field name="name">SIGNATURE INTENTION</field>
+            <field name="sku">SIGINT</field>
+        </record>
+
+        <record id="shapes_592" model="sku.shapes">
+            <field name="name">SILVER</field>
+            <field name="sku">SLV</field>
+        </record>
+
+        <record id="shapes_593" model="sku.shapes">
+            <field name="name">SILVER .925</field>
+            <field name="sku" eval="925"/>
+        </record>
+
+        <record id="shapes_594" model="sku.shapes">
+            <field name="name">SILVER LEAF</field>
+            <field name="sku">SLF</field>
+        </record>
+
+        <record id="shapes_595" model="sku.shapes">
+            <field name="name">SILVER STANDS </field>
+            <field name="sku">SLVSTN</field>
+        </record>
+
+        <record id="shapes_596" model="sku.shapes">
+            <field name="name">SIRIUS</field>
+            <field name="sku">SIRI</field>
+        </record>
+
+        <record id="shapes_597" model="sku.shapes">
+            <field name="name">SKELETAL</field>
+            <field name="sku">SKEL</field>
+        </record>
+
+        <record id="shapes_598" model="sku.shapes">
+            <field name="name">SKELETON</field>
+            <field name="sku">SKLT</field>
+        </record>
+
+        <record id="shapes_599" model="sku.shapes">
+            <field name="name">SKULL</field>
+            <field name="sku">SKUL</field>
+        </record>
+
+        <record id="shapes_600" model="sku.shapes">
+            <field name="name">SKULL, RAVEN</field>
+            <field name="sku">RVNSKL</field>
+        </record>
+
+        <record id="shapes_601" model="sku.shapes">
+            <field name="name">BLUE, SKY</field>
+            <field name="sku">SKBLU</field>
+        </record>
+
+        <record id="shapes_602" model="sku.shapes">
+            <field name="name">SLICE</field>
+            <field name="sku">SLC</field>
+        </record>
+
+        <record id="shapes_603" model="sku.shapes">
+            <field name="name">SLIM</field>
+            <field name="sku">SLM</field>
+        </record>
+
+        <record id="shapes_604" model="sku.shapes">
+            <field name="name">SMOOTH</field>
+            <field name="sku">SMTH</field>
+        </record>
+
+        <record id="shapes_605" model="sku.shapes">
+            <field name="name">SMUDGE</field>
+            <field name="sku">SMDG</field>
+        </record>
+
+        <record id="shapes_606" model="sku.shapes">
+            <field name="name">SNAKE</field>
+            <field name="sku">SNK</field>
+        </record>
+
+        <record id="shapes_607" model="sku.shapes">
+            <field name="name">SNUFF BOTTLE</field>
+            <field name="sku">SNUFB</field>
+        </record>
+
+        <record id="shapes_608" model="sku.shapes">
+            <field name="name">SOAP</field>
+            <field name="sku">SOP</field>
+        </record>
+
+        <record id="shapes_609" model="sku.shapes">
+            <field name="name">SOAP CUTTER</field>
+            <field name="sku">SOAP-CTTR</field>
+        </record>
+
+        <record id="shapes_610" model="sku.shapes">
+            <field name="name">SONG OF</field>
+            <field name="sku">SONG</field>
+        </record>
+
+        <record id="shapes_611" model="sku.shapes">
+            <field name="name">SOUL SHIFT 2020</field>
+            <field name="sku">SS2020</field>
+        </record>
+
+        <record id="shapes_612" model="sku.shapes">
+            <field name="name">SOUL SHIFT 2021</field>
+            <field name="sku">SS2021</field>
+        </record>
+
+        <record id="shapes_613" model="sku.shapes">
+            <field name="name">SOULS</field>
+            <field name="sku">SLS</field>
+        </record>
+
+        <record id="shapes_614" model="sku.shapes">
+            <field name="name">SPACE</field>
+            <field name="sku">SPC</field>
+        </record>
+
+        <record id="shapes_615" model="sku.shapes">
+            <field name="name">SPARKLING</field>
+            <field name="sku">SPRK</field>
+        </record>
+
+        <record id="shapes_616" model="sku.shapes">
+            <field name="name">SPEARS</field>
+            <field name="sku">SPR</field>
+        </record>
+
+        <record id="shapes_617" model="sku.shapes">
+            <field name="name">SPECIMEN</field>
+            <field name="sku">SPEC</field>
+        </record>
+
+        <record id="shapes_618" model="sku.shapes">
+            <field name="name">SPECTROLITE</field>
+            <field name="sku">SPTRLTE</field>
+        </record>
+
+        <record id="shapes_619" model="sku.shapes">
+            <field name="name">SPESSARTITE</field>
+            <field name="sku">SPSST</field>
+        </record>
+
+        <record id="shapes_620" model="sku.shapes">
+            <field name="name">SPHERE</field>
+            <field name="sku">SPHR</field>
+        </record>
+
+        <record id="shapes_621" model="sku.shapes">
+            <field name="name">SPHERE STAND</field>
+            <field name="sku">SPHSTD</field>
+        </record>
+
+        <record id="shapes_622" model="sku.shapes">
+            <field name="name">SPHERE, GEODE</field>
+            <field name="sku">SPHGEO</field>
+        </record>
+
+        <record id="shapes_623" model="sku.shapes">
+            <field name="name">SPIDER</field>
+            <field name="sku">SPDR</field>
+        </record>
+
+        <record id="shapes_624" model="sku.shapes">
+            <field name="name">SPOT</field>
+            <field name="sku">SPT</field>
+        </record>
+
+        <record id="shapes_625" model="sku.shapes">
+            <field name="name">SPRAY</field>
+            <field name="sku">SPRY</field>
+        </record>
+
+        <record id="shapes_626" model="sku.shapes">
+            <field name="name">SPRAYER</field>
+            <field name="sku">SPRY</field>
+        </record>
+
+        <record id="shapes_627" model="sku.shapes">
+            <field name="name">SQUARE</field>
+            <field name="sku">SQU</field>
+        </record>
+
+        <record id="shapes_628" model="sku.shapes">
+            <field name="name">STAFF</field>
+            <field name="sku">STF</field>
+        </record>
+
+        <record id="shapes_629" model="sku.shapes">
+            <field name="name">STAFF OF HERMES</field>
+            <field name="sku">HERM</field>
+        </record>
+
+        <record id="shapes_630" model="sku.shapes">
+            <field name="name">STAINLESS STEEL MATERIAL</field>
+            <field name="sku">STNLS</field>
+        </record>
+
+        <record id="shapes_631" model="sku.shapes">
+            <field name="name">STAKE</field>
+            <field name="sku">STK</field>
+        </record>
+
+        <record id="shapes_632" model="sku.shapes">
+            <field name="name">STAND</field>
+            <field name="sku">STND</field>
+        </record>
+
+        <record id="shapes_633" model="sku.shapes">
+            <field name="name">STAR</field>
+            <field name="sku">STR</field>
+        </record>
+
+        <record id="shapes_634" model="sku.shapes">
+            <field name="name">STAR BOWL</field>
+            <field name="sku">STRB</field>
+        </record>
+
+        <record id="shapes_635" model="sku.shapes">
+            <field name="name">STARRY</field>
+            <field name="sku">STRY</field>
+        </record>
+
+        <record id="shapes_636" model="sku.shapes">
+            <field name="name">STEPHENSON ORGANIC</field>
+            <field name="sku">STEPNSOC</field>
+        </record>
+
+        <record id="shapes_637" model="sku.shapes">
+            <field name="name">STERLING SILVER</field>
+            <field name="sku">STRL</field>
+        </record>
+
+        <record id="shapes_638" model="sku.shapes">
+            <field name="name">STERLING SILVER WITH GOLD OVERLAY</field>
+            <field name="sku">SLVGLD</field>
+        </record>
+
+        <record id="shapes_639" model="sku.shapes">
+            <field name="name">STICK</field>
+            <field name="sku">STCK</field>
+        </record>
+
+        <record id="shapes_640" model="sku.shapes">
+            <field name="name">STONE</field>
+            <field name="sku">STN</field>
+        </record>
+
+        <record id="shapes_641" model="sku.shapes">
+            <field name="name">STONE DUO</field>
+            <field name="sku">SDUO</field>
+        </record>
+
+        <record id="shapes_642" model="sku.shapes">
+            <field name="name">STRAIGHT SIDED</field>
+            <field name="sku">STRTSD</field>
+        </record>
+
+        <record id="shapes_643" model="sku.shapes">
+            <field name="name">SUGAR</field>
+            <field name="sku">SGR</field>
+        </record>
+
+        <record id="shapes_644" model="sku.shapes">
+            <field name="name">SULPHER</field>
+            <field name="sku">SLPH</field>
+        </record>
+
+        <record id="shapes_645" model="sku.shapes">
+            <field name="name">SUN</field>
+            <field name="sku">SUN</field>
+        </record>
+
+        <record id="shapes_646" model="sku.shapes">
+            <field name="name">SUN FACE</field>
+            <field name="sku">SUNFC</field>
+        </record>
+
+        <record id="shapes_647" model="sku.shapes">
+            <field name="name">SUNSET</field>
+            <field name="sku">SUNST</field>
+        </record>
+
+        <record id="shapes_648" model="sku.shapes">
+            <field name="name">SWEETGRASS</field>
+            <field name="sku">SWTGRS</field>
+        </record>
+
+        <record id="shapes_649" model="sku.shapes">
+            <field name="name">SWORD</field>
+            <field name="sku">SWD</field>
+        </record>
+
+        <record id="shapes_650" model="sku.shapes">
+            <field name="name">TALL</field>
+            <field name="sku">TALL</field>
+        </record>
+
+        <record id="shapes_651" model="sku.shapes">
+            <field name="name">TAN</field>
+            <field name="sku">TAN</field>
+        </record>
+
+        <record id="shapes_652" model="sku.shapes">
+            <field name="name">TANGERINE</field>
+            <field name="sku">TNG</field>
+        </record>
+
+        <record id="shapes_653" model="sku.shapes">
+            <field name="name">TANTRA</field>
+            <field name="sku">TNTRA</field>
+        </record>
+
+        <record id="shapes_654" model="sku.shapes">
+            <field name="name">TARA</field>
+            <field name="sku">TARA</field>
+        </record>
+
+        <record id="shapes_655" model="sku.shapes">
+            <field name="name">TAURUS</field>
+            <field name="sku">TAU</field>
+        </record>
+
+        <record id="shapes_656" model="sku.shapes">
+            <field name="name">TEA CUP</field>
+            <field name="sku">TCUP</field>
+        </record>
+
+        <record id="shapes_657" model="sku.shapes">
+            <field name="name">TEA LIGHT HOLDER</field>
+            <field name="sku">TLHLDR</field>
+        </record>
+
+        <record id="shapes_658" model="sku.shapes">
+            <field name="name">TEAL</field>
+            <field name="sku">TL</field>
+        </record>
+
+        <record id="shapes_659" model="sku.shapes">
+            <field name="name">TEAR DROP</field>
+            <field name="sku">TEAR</field>
+        </record>
+
+        <record id="shapes_660" model="sku.shapes">
+            <field name="name">TEMPLE</field>
+            <field name="sku">TMPL</field>
+        </record>
+
+        <record id="shapes_661" model="sku.shapes">
+            <field name="name">TERMINATED</field>
+            <field name="sku">TER</field>
+        </record>
+
+        <record id="shapes_662" model="sku.shapes">
+            <field name="name">TERMINATED, DOUBLE</field>
+            <field name="sku">DTER</field>
+        </record>
+
+        <record id="shapes_663" model="sku.shapes">
+            <field name="name">TERMINATED, SINGLE</field>
+            <field name="sku">STER</field>
+        </record>
+
+        <record id="shapes_664" model="sku.shapes">
+            <field name="name">THE TWINS</field>
+            <field name="sku">TWIN</field>
+        </record>
+
+        <record id="shapes_665" model="sku.shapes">
+            <field name="name">THICK</field>
+            <field name="sku">THK</field>
+        </record>
+
+        <record id="shapes_666" model="sku.shapes">
+            <field name="name">THIN</field>
+            <field name="sku">THN</field>
+        </record>
+
+        <record id="shapes_667" model="sku.shapes">
+            <field name="name">THIRD EYE</field>
+            <field name="sku">3EYE</field>
+        </record>
+
+        <record id="shapes_668" model="sku.shapes">
+            <field name="name">THREE KINGS</field>
+            <field name="sku">3KING</field>
+        </record>
+
+        <record id="shapes_669" model="sku.shapes">
+            <field name="name">TIBETAN</field>
+            <field name="sku">TIBT</field>
+        </record>
+
+        <record id="shapes_670" model="sku.shapes">
+            <field name="name">TITANIUM</field>
+            <field name="sku">TTNM</field>
+        </record>
+
+        <record id="shapes_671" model="sku.shapes">
+            <field name="name">TOBACCO</field>
+            <field name="sku">TOB</field>
+        </record>
+
+        <record id="shapes_672" model="sku.shapes">
+            <field name="name">TOOLS</field>
+            <field name="sku">TLS</field>
+        </record>
+
+        <record id="shapes_673" model="sku.shapes">
+            <field name="name">TOWER</field>
+            <field name="sku">TWR</field>
+        </record>
+
+        <record id="shapes_674" model="sku.shapes">
+            <field name="name">TRANQUILITY</field>
+            <field name="sku">TRQLTY</field>
+        </record>
+
+        <record id="shapes_675" model="sku.shapes">
+            <field name="name">TRIANGLE</field>
+            <field name="sku">TRI</field>
+        </record>
+
+        <record id="shapes_676" model="sku.shapes">
+            <field name="name">TRIPLE MOON</field>
+            <field name="sku">TRPMN</field>
+        </record>
+
+        <record id="shapes_677" model="sku.shapes">
+            <field name="name">TUBE FITTING</field>
+            <field name="sku">TB-FTTNG</field>
+        </record>
+
+        <record id="shapes_678" model="sku.shapes">
+            <field name="name">TUMERIC</field>
+            <field name="sku">TUMR</field>
+        </record>
+
+        <record id="shapes_679" model="sku.shapes">
+            <field name="name">TURTLE</field>
+            <field name="sku">TRTL</field>
+        </record>
+
+        <record id="shapes_680" model="sku.shapes">
+            <field name="name">TWIG</field>
+            <field name="sku">TWIG</field>
+        </record>
+
+        <record id="shapes_681" model="sku.shapes">
+            <field name="name">TWISTED</field>
+            <field name="sku">TWST</field>
+        </record>
+
+        <record id="shapes_682" model="sku.shapes">
+            <field name="name">ULTIMATE</field>
+            <field name="sku">ULT</field>
+        </record>
+
+        <record id="shapes_683" model="sku.shapes">
+            <field name="name">UNICORN</field>
+            <field name="sku">UNIC</field>
+        </record>
+
+        <record id="shapes_684" model="sku.shapes">
+            <field name="name">VALHALLA</field>
+            <field name="sku">VLHLA</field>
+        </record>
+
+        <record id="shapes_685" model="sku.shapes">
+            <field name="name">VANILLA</field>
+            <field name="sku">VAN</field>
+        </record>
+
+        <record id="shapes_686" model="sku.shapes">
+            <field name="name">VASE</field>
+            <field name="sku">VASE</field>
+        </record>
+
+        <record id="shapes_687" model="sku.shapes">
+            <field name="name">VENUS</field>
+            <field name="sku">VNS</field>
+        </record>
+
+        <record id="shapes_688" model="sku.shapes">
+            <field name="name">VERTICAL</field>
+            <field name="sku">VERT</field>
+        </record>
+
+        <record id="shapes_689" model="sku.shapes">
+            <field name="name">VIA</field>
+            <field name="sku">VIA</field>
+        </record>
+
+        <record id="shapes_690" model="sku.shapes">
+            <field name="name">VICTORIOUS</field>
+            <field name="sku">VCTRS</field>
+        </record>
+
+        <record id="shapes_691" model="sku.shapes">
+            <field name="name">VINTAGE</field>
+            <field name="sku">VINT</field>
+        </record>
+
+        <record id="shapes_692" model="sku.shapes">
+            <field name="name">VIRGO</field>
+            <field name="sku">VIR</field>
+        </record>
+
+        <record id="shapes_693" model="sku.shapes">
+            <field name="name">VISICA</field>
+            <field name="sku">VISI</field>
+        </record>
+
+        <record id="shapes_694" model="sku.shapes">
+            <field name="name">VOGEL</field>
+            <field name="sku">VOGE</field>
+        </record>
+
+        <record id="shapes_695" model="sku.shapes">
+            <field name="name">VOTIVE</field>
+            <field name="sku">VOTI</field>
+        </record>
+
+        <record id="shapes_696" model="sku.shapes">
+            <field name="name">WAND</field>
+            <field name="sku">WND</field>
+        </record>
+
+        <record id="shapes_697" model="sku.shapes">
+            <field name="name">WAND, POCKET</field>
+            <field name="sku">PWND</field>
+        </record>
+
+        <record id="shapes_698" model="sku.shapes">
+            <field name="name">WAND, TRAVEL</field>
+            <field name="sku">TWND</field>
+        </record>
+
+        <record id="shapes_699" model="sku.shapes">
+            <field name="name">WANDLET</field>
+            <field name="sku">WNDLT</field>
+        </record>
+
+        <record id="shapes_700" model="sku.shapes">
+            <field name="name">WATERMELON</field>
+            <field name="sku">WTRMLN</field>
+        </record>
+
+        <record id="shapes_701" model="sku.shapes">
+            <field name="name">WEALTH</field>
+            <field name="sku">WLTH</field>
+        </record>
+
+        <record id="shapes_702" model="sku.shapes">
+            <field name="name">WEB</field>
+            <field name="sku">WEB</field>
+        </record>
+
+        <record id="shapes_703" model="sku.shapes">
+            <field name="name">WHA-WHA</field>
+            <field name="sku">WWHA</field>
+        </record>
+
+        <record id="shapes_704" model="sku.shapes">
+            <field name="name">WHITE</field>
+            <field name="sku">WHT</field>
+        </record>
+
+        <record id="shapes_705" model="sku.shapes">
+            <field name="name">WHOLE</field>
+            <field name="sku">WHLE</field>
+        </record>
+
+        <record id="shapes_706" model="sku.shapes">
+            <field name="name">WIDTH 1.5"</field>
+            <field name="sku">W1.5</field>
+        </record>
+
+        <record id="shapes_707" model="sku.shapes">
+            <field name="name">WIDTH 1.75"</field>
+            <field name="sku">W1.75</field>
+        </record>
+
+        <record id="shapes_708" model="sku.shapes">
+            <field name="name">WIDTH 1"</field>
+            <field name="sku">W1</field>
+        </record>
+
+        <record id="shapes_709" model="sku.shapes">
+            <field name="name">WIDTH 2"</field>
+            <field name="sku">W2</field>
+        </record>
+
+        <record id="shapes_710" model="sku.shapes">
+            <field name="name">WILD CRAFTED</field>
+            <field name="sku">WLDCR</field>
+        </record>
+
+        <record id="shapes_711" model="sku.shapes">
+            <field name="name">WINDOW</field>
+            <field name="sku">WNDW</field>
+        </record>
+
+        <record id="shapes_712" model="sku.shapes">
+            <field name="name">WINE</field>
+            <field name="sku">WNE</field>
+        </record>
+
+        <record id="shapes_713" model="sku.shapes">
+            <field name="name">WISHING</field>
+            <field name="sku">WISH</field>
+        </record>
+
+        <record id="shapes_714" model="sku.shapes">
+            <field name="name">WITCH</field>
+            <field name="sku">WTCH</field>
+        </record>
+
+        <record id="shapes_715" model="sku.shapes">
+            <field name="name">WOLF</field>
+            <field name="sku">WLF</field>
+        </record>
+
+        <record id="shapes_716" model="sku.shapes">
+            <field name="name">WOOD MATERIAL</field>
+            <field name="sku">WOOD</field>
+        </record>
+
+        <record id="shapes_717" model="sku.shapes">
+            <field name="name">WOODEN</field>
+            <field name="sku">WDN</field>
+        </record>
+
+        <record id="shapes_718" model="sku.shapes">
+            <field name="name">WOODEN TOWER</field>
+            <field name="sku">WDNTWR</field>
+        </record>
+
+        <record id="shapes_719" model="sku.shapes">
+            <field name="name">YEAR 2021</field>
+            <field name="sku" eval="2021"/>
+        </record>
+
+        <record id="shapes_720" model="sku.shapes">
+            <field name="name">YEAR 2022</field>
+            <field name="sku" eval="2022"/>
+        </record>
+
+        <record id="shapes_721" model="sku.shapes">
+            <field name="name">YELLOW</field>
+            <field name="sku">YLW</field>
+        </record>
+
+        <record id="shapes_722" model="sku.shapes">
+            <field name="name">YELLOW GREEN</field>
+            <field name="sku">YLWGR</field>
+        </record>
+
+        <record id="shapes_723" model="sku.shapes">
+            <field name="name">YERBA SANTA</field>
+            <field name="sku">YERB</field>
+        </record>
+
+        <record id="shapes_724" model="sku.shapes">
+            <field name="name">YOGA</field>
+            <field name="sku">YGA</field>
+        </record>
+
+        <record id="shapes_725" model="sku.shapes">
+            <field name="name">YONI</field>
+            <field name="sku">YONI</field>
+        </record>
+
+        <record id="shapes_726" model="sku.shapes">
+            <field name="name">ZODIAC</field>
+            <field name="sku">ZODC</field>
+        </record>
+
+        <record id="shapes_727" model="sku.shapes">
+            <field name="name">EZ POUR 2400</field>
+            <field name="sku">EZPR</field>
+        </record>
+
+        <record id="shapes_728" model="sku.shapes">
+            <field name="name">THERMO PUMP</field>
+            <field name="sku">THM-PMP</field>
+        </record>
+
+        <record id="shapes_729" model="sku.shapes">
+            <field name="name">NOZZLE</field>
+            <field name="sku">NOZZ</field>
+        </record>
+
+        <record id="shapes_730" model="sku.shapes">
+            <field name="name">PLASTIC BIN</field>
+            <field name="sku">PLAS-BIN</field>
+        </record>
+
+        <record id="shapes_731" model="sku.shapes">
+            <field name="name">BIN</field>
+            <field name="sku">BIN</field>
+        </record>
+
+        <record id="shapes_732" model="sku.shapes">
+            <field name="name">WHITE</field>
+            <field name="sku">WHT</field>
+        </record>
+
+        <record id="shapes_733" model="sku.shapes">
+            <field name="name">ROMAN</field>
+            <field name="sku">RMN</field>
+        </record>
+
+        <record id="shapes_734" model="sku.shapes">
+            <field name="name">HONEYSUCKLE</field>
+            <field name="sku">HNYSK</field>
+        </record>
+
+        <record id="shapes_735" model="sku.shapes">
+            <field name="name">APHRODITE</field>
+            <field name="sku">APHR</field>
+        </record>
+
+        <record id="shapes_736" model="sku.shapes">
+            <field name="name">KYPHI</field>
+            <field name="sku">KYPH</field>
+        </record>
+
+        <record id="shapes_737" model="sku.shapes">
+            <field name="name">CHARM</field>
+            <field name="sku">CHRM</field>
+        </record>
+
+        <record id="shapes_738" model="sku.shapes">
+            <field name="name">CORRESPONDENCE CARD</field>
+            <field name="sku">CRRSP</field>
+        </record>
+
+        <record id="shapes_739" model="sku.shapes">
+            <field name="name">DIVINATION CARD</field>
+            <field name="sku">DVNTN</field>
+        </record>
+
+        <record id="shapes_740" model="sku.shapes">
+            <field name="name">MIND MAGIC</field>
+            <field name="sku">MND-MGC</field>
+        </record>
+
+        <record id="shapes_741" model="sku.shapes">
+            <field name="name">PEN</field>
+            <field name="sku">PENS</field>
+        </record>
+
+        <record id="shapes_742" model="sku.shapes">
+            <field name="name">SWEET</field>
+            <field name="sku">SWT</field>
+        </record>
+
+        <record id="shapes_743" model="sku.shapes">
+            <field name="name">STICK</field>
+            <field name="sku">STCK</field>
+        </record>
+
+        <record id="shapes_744" model="sku.shapes">
+            <field name="name">OUTDOOR</field>
+            <field name="sku">OUTD</field>
+        </record>
+
+        <record id="shapes_745" model="sku.shapes">
+            <field name="name">SHAKTI</field>
+            <field name="sku">SHKT</field>
+        </record>
+
+    </data>
+</openerp>

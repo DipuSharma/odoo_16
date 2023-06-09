@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<!--    Sku Category View-->
+    <record id="sku_category_tree_id" model="ir.ui.view">
+        <field name="name">sku.categories.tree.id</field>
+        <field name="model">sku.categories</field>
+        <field name="arch" type="xml">
+            <tree string="Category">
+                <field name="name" string="Name"/>
+                <field name="sku" string="Sku code"/>
+            </tree>
+        </field>
+    </record>
+    <record id="sku_form" model="ir.ui.view">
+        <field name="name">sku.categories.form</field>
+        <field name="model">sku.categories</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name" string="Name"/>
+                        </group>
+                        <group>
+                            <field name="sku" string="Sku"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <record id="sku_action_category" model="ir.actions.act_window">
+        <field name="name">Categories</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">sku.categories</field>
+        <field name="view_mode">tree,kanban,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                create your sku!
+            </p>
+        </field>
+    </record>
+
+    <menuitem action="sku_action_category" id="menu_action_sku_categories_form" parent="sg_sku_calculator.sku_calculator_purchase_menu_root" sequence="1"/>
+    <menuitem action="sku_action_category" id="menu_action_stock_sku_categories_form" parent="sg_sku_calculator.sku_calculator_stock_menu_root" sequence="1"/>
+
+</odoo>
