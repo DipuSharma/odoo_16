@@ -1,13 +1,14 @@
 # sg_sku_calculator module creation
 {
     'name': 'Restaurant',
-    'version': '15.0.1.0.0',
+    'version': '15.0.1.0',
     'summary': 'Restaurant',
+    'description': """To manage restaurant""",
     'category': 'Inventory',
     'author': 'Restaurant',
     'maintainer': 'Sku-Calculator',
-    'company': 'DreamzTech Solutions',
-    'website': 'https://www.dreamztech.com',
+    'company': '',
+    'website': '',
     'depends': ['base', 'mail'],
     'data': [
         'security/ir.model.access.csv',
@@ -16,10 +17,13 @@
         'views/menu_views.xml',
         'reports/staff_report.xml'
     ],
-    # 'assets': {
-    #     'web.assets_backend': [
-    #         'sg_sku_calculator/static/src/js/sku_calculator.js',
-    #     ]},
+    'assets': {
+        'web.assets_backend': [
+            'restaurant/static/src/js/restaurant.js',
+        ],
+        'web.assets_qweb': [
+        	  'website_product_publish/static/src/xml/restaurant_widget.xml',
+    	],},
     'images': [],
     'license': 'AGPL-3',
     'installable': True,

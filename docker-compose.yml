@@ -1,6 +1,7 @@
 version: '3.1'
 services:
   web:
+    container_name: odoo16
     image: odoo:16.0
     user: root
     depends_on:
@@ -8,16 +9,20 @@ services:
     ports:
       - "10016:8069"
     environment:
-      - HOST=mydb
+      - HOST=postgres
       - USER=odoo
       - PASSWORD=odoo
     volumes:
       - ./config:/etc/odoo
       - ./addons:/mnt/extra-addons
+      - odoo_data:/var/lib/odoo
     restart: always             # run as a service
   mydb:
+    container_name: postgres15
     image: postgres:15
     user: root
+    ports:
+      - "5444:5432"
     environment:
       - POSTGRES_DB=postgres
       - POSTGRES_PASSWORD=odoo
@@ -26,4 +31,5 @@ services:
       - odoo-db-data:/var/lib/postgresql/data
     restart: always             # run as a service
 volumes:
+  odoo_data:
   odoo-db-data:

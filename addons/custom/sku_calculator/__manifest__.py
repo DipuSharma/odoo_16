@@ -12,7 +12,7 @@
     'maintainer': 'Sku-Calculator',
     'company': '',
     'website': '',
-    'depends': ['web', 'product'],
+    'depends': ['web', 'base' 'product'],
     'data': [
         # Assets
         # 'views/assets.xml',
