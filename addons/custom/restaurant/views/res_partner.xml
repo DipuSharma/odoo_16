@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <odoo>
-    <data noupdate="1">
-
+    <data>
         <record id="res_partner_list_view_inherit" model="ir.ui.view">
             <field name="name">res.partner.list.view.inherit</field>
             <field name="model">res.partner</field>
@@ -9,6 +8,17 @@
             <field name="arch" type="xml">
                 <xpath expr="//tree" position="attributes">
                     <attribute name="js_class">res_partner_list_view</attribute>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="res_partner_kanban_view_inherit" model="ir.ui.view">
+            <field name="name">res.partner.kanban.view.inherit</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.res_partner_kanban_view"/>
+            <field name="arch" type="xml">
+                <xpath expr="//kanban" position="attributes">
+                    <attribute name="js_class">res_partner_kanban_view</attribute>
                 </xpath>
             </field>
         </record>

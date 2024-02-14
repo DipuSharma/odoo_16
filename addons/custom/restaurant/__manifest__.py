@@ -21,6 +21,7 @@
         'web.assets_backend': [
             'restaurant/static/src/js/restaurant.js',
             'restaurant/static/src/components/*/*.js',
+            'restaurant/static/src/components/*/*.xml',
         ],
         'web.assets_qweb': [
         	  'website_product_publish/static/src/xml/restaurant_widget.xml',
